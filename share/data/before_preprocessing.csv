@@ -1,0 +1,1010 @@
+paper_id,models,link,title,year
+1,SLIM;WMF;MULTIVAE;MULTIDAE;CDAE,https://dl.acm.org/doi/pdf/10.1145/3336191.3371774,ADMM SLIM: Sparse Recommendations for Many Users,2020
+2,ITEMKNN;BPR;EALS;NCF;GNMF;GCMC;SPECTRALCF,https://arxiv.org/pdf/1808.10523.pdf,Spectral Collaborative Filtering,2018
+3,ITEMKNN;USERKNN;WRMF;BPRKNN;ITEMPROB;PURESVD;BPRMF;SLIM,https://www-users.cse.umn.edu/~ningx005/slides/ICDM2011_slides.pdf,SLIM: Sparse Linear Methods for Top-N Recommender Systems,2011
+4,NGCF;LIGHTGCN;MULTVAE;DNNSSL;SGLED,https://arxiv.org/pdf/2010.10783.pdf,Self-supervised Graph Learning for Recommendation,2010
+5,WARP;LAMBDANET;WMF;SLIM;CDAE;MULTDAE;MULTVAE;RACT;EASE;RECVAE,https://arxiv.org/pdf/1912.11160.pdf,RecVAE: a New Variational Autoencoder for Top-N Recommendations with Implicit Feedback,2019
+6,RACT;VAE;WARP;LAMBDARANK;EASE;VAE;CDAE;WMF;SLIM,https://openreview.net/pdf?id=HJxR7R4FvS,RACT: TOWARDS AMORTIZED RANKING-CRITICAL TRAINING FOR COLLABORATIVE FILTERING,2019
+7,ITEMPOP;ITEMKNN;BPR;NEUMF;NNCF,https://tbbaby.github.io/pub/CIKM.pdf,A Neural Collaborative Filtering Model with Interaction-based Neighborhood,2017
+8,MF;NEUMF;CMN;HOPREC;GCMC;PINSAGE;NGCF,https://arxiv.org/pdf/1905.08108.pdf,Neural Graph Collaborative Filtering∗,2019
+9,ITEMKNN;EALS;MLP;BPR;GMF;NEUMF,https://arxiv.org/pdf/1708.05031.pdf,Neural Collaborative Filtering∗,2017
+10,BPRMF;NEUMF;FISM;NGCF;MULTIGCCF;DGCF;LIGHTGCN;SGL;NCL,https://arxiv.org/pdf/2202.06200.pdf,Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning,2022
+11,POP;PLREC;PUREREC;WRMF;AUTOREC;CML;NCE,https://arxiv.org/pdf/1811.00697.pdf,Noise Contrastive Estimation for Scalable Linear Models for One-Class Collaborative Filtering,2018
+12,MF;MLP;FISM;NAIS,https://arxiv.org/pdf/1809.07053.pdf,NAIS: Neural Attentive Item Similarity Model for Recommendation,2018
+13,MULTVAE;MULTDAE;WMF;SLIM;CDAE,https://dl.acm.org/doi/pdf/10.1145/3178876.3186150,Variational Autoencoders for Collaborative Filtering,2018
+14,MULTVAE;MULTDAE;MACRIDVAE,https://proceedings.neurips.cc/paper/2019/file/a2186aa7c086b46ad4e8bf81e2a3a19b-Paper.pdf,Learning Disentangled Representations for Recommendation,2019
+16,NGCF;LIGHTGCN;MULTVAE;GRMF,https://arxiv.org/pdf/2002.02126.pdf,LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation,2020
+18,ITEMKNN;PURESVD;BPRKNN;BPRMF;SLIM;FISM,https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.714.8026&rep=rep1&type=pdf,FISM: Factored Item Similarity Models for Top-N Recommender Systems,2013
+19,MP;ITEMKNN;BPR;WMF;EXPOMF;GMF;NCF;CONVNCF,https://dl.acm.org/doi/pdf/10.1145/3373807,Efficient Neural Matrix Factorization without Sampling for Recommendation,2020
+20,MULTVAE;MULTDAE;WMF;SLIM;CDAE,https://arxiv.org/pdf/1905.03375.pdf,Embarrassingly Shallow Autoencoders for Sparse Data,2019
+21,ITEMPOP;ITEMKNN;EALS;NEUMF;DMF,https://www.ijcai.org/Proceedings/2017/0447.pdf,Deep Matrix Factorization Models for Recommender Systems∗,2017
+22,MF;GCMC;NGCF;DISENGCN;MACRIDVAE;DGCF,https://arxiv.org/pdf/2007.01764.pdf,Disentangled Graph Collaborative Filtering,2020
+23,ITEMPOP;MFBPR;MLP;JRL;NEUMF;CONVNCF,https://arxiv.org/pdf/1808.03912.pdf,Outer Product-based Neural Collaborative Filtering,2018
+24,POP;ITEMCF;MF;BPR;FISM;CDAE,https://www.datascienceassn.org/sites/default/files/Collaborative%20Denoising%20Auto-Encoders%20for%20Top-N%20Recommender%20Systems.pdf,Collaborative Denoising Auto-Encoders for Top-N Recommender Systems,2016
+25,BPRMF;BPRKNN;WRMF;SVD;ITEMKNN,https://arxiv.org/pdf/1205.2618.pdf,BPR: Bayesian Personalized Ranking from Implicit Feedback,2009
+26,POPREC;BPRMF;FMC;FPMC;HRM;PRME;TRANSREC,https://arxiv.org/pdf/1707.02410.pdf,Translation-based Recommendation,2017
+27,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN,https://ojs.aaai.org/index.php/AAAI/article/view/3804/3682,Session-Based Recommendation with Graph Neural Networks,2019
+28,GRU4REC;CASER;SASREC;MIND;MCPRN;SINE,https://arxiv.org/pdf/2102.09267.pdf,Sparse-Interest Network for Sequential Recommendation,2021
+29,TOP;BPR;FPMC;FOSSIL;HRM;SAN;SHAN,https://opus.lib.uts.edu.au/bitstream/10453/126040/1/ijcai2018_Yin.pdf,Sequential Recommender System based on Hierarchical Attention Network,2018
+30,POPREC;BPR;FMC;FPMC;TRANSREC;GRU4REC;CASER;SASREC,https://arxiv.org/pdf/1808.09781.pdf,Self-Attentive Sequential Recommendation,2018
+31,POPREC;FM;AUTOINT;GRU4REC;CASER;SASREC;BERT4REC;HGN;FDSA;S3REC,https://arxiv.org/pdf/2008.07873.pdf,S 3 -Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization,2020
+32,POP;SPOP;ITEMKNN;BPRMF;FPMC;PDP;GRU4REC;NARM;REPEATNET,https://ojs.aaai.org/index.php/AAAI/article/view/4408/4286,Repeatnet: A repeat aware neural recommendation machine for session-based recommendation,2019
+33,SLIM;BPR;NEUCF;NPE,https://arxiv.org/pdf/1805.06563.pdf,NPE: Neural Personalized Embedding for Collaborative Filtering,2018
+34,MOSTPOP;GRU4REC;CASER;NEXTITNET,https://arxiv.org/pdf/1808.05163.pdf,A Simple Convolutional Generative Network for Next Item Recommendation,2018
+35,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM,https://arxiv.org/pdf/1711.04725.pdf,Neural Aentive Session-based Recommendation,2017
+36,TOP;MC;NMF;FPMC;HRM,https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/SIGIR2015_NextBasketRec.pdf,Learning Hierarchical Representation Model for Next Basket Recommendation,2015
+37,BPRMF;GRU4REC;NEXTITREC;CASER;SASREC;HGN,https://arxiv.org/pdf/1906.09217.pdf,Hierarchical Gating Networks for Sequential Recommendation,2019
+39,POP;BPRMF;IKNN;FPMC;GRU4REC;STAMP;SRGNN;GCSAN,https://www.ijcai.org/proceedings/2019/0547.pdf,Graph Contextualized Self-Attention Network for Session-based Recommendation,2019
+40,SBPRFPMC;SBPRFMC;SBPRMF,https://www.ra.ethz.ch/cdstore/www2010/www/p811.pdf,Factorizing Personalized Markov Chains for Next-Basket Recommendation,2010
+41,POP;BPRMF;FISM;FMC;FPMC;FOSSIL,https://arxiv.org/pdf/1609.09152.pdf,Fusing Similarity Models with Markov Chains for Sparse Sequential Recommendation,2016
+42,POPREC;BPR;FPMC;TRANSREC;GRU4REC;CSAN;SASREC;CFSA;FDSA,https://www.ijcai.org/proceedings/2019/0600.pdf,Feature-level Deeper Self-Attention Network for Sequential Recommendation,2019
+43,LR;BASEMODEL;WIDEDEEP;PNN;DEEPFM;DIN,https://arxiv.org/pdf/1706.06978.pdf,Deep Interest Network for Click-Through Rate Prediction,2017
+44,FPMC;GRU4REC;NARM;SRGNN;NISER;LESSR;SGNNHN;SASREC;GCSAN;CL4REC;CORE,https://arxiv.org/pdf/2204.11067.pdf,CORE: Simple and Effective Session-based Recommendation within Consistent Representation Space,2022
+45,POP;BPRMF;NCF;FPMC;GRU4REC;CASER;SASREC;BERT4REC,https://arxiv.org/pdf/1904.06690.pdf,BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer,2019
+46,BPR;BPRHFT;VBPR;TRANSREC;DEEPCONN;CKE;JRL;ECFKG,https://www.mdpi.com/1999-4893/11/9/137/pdf,Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation,2018
+47,LR;FM;FNN;CCPM;IPNN;OPNN;PNN,https://arxiv.org/pdf/1611.00144.pdf,Product-based Neural Networks for User Response Prediction,2016
+48,LR;FM;DNN;DCN;WIDEDEEP;PNN;DEEPFM;XDEEPFM,https://arxiv.org/pdf/1803.05170.pdf,Wide & Deep Learning for Recommender Systems,2016
+49,BPRMF;PRP;PER;LIBFM;CKE,https://www.kdd.org/kdd2016/papers/files/adf0066-zhangA.pdf,Collaborative Knowledge Base Embedding for Recommender Systems,2016
+50,FM;NFM;CKE;CFKG;MCREC;RIPPLENET;GCMC;KGAT,https://arxiv.org/pdf/1905.07854.pdf,KGAT: Knowledge Graph Attention Network for Recommendation,2019
+51,SVD;LIBFM;PER;CKE;RIPPLENET;KGCN,https://arxiv.org/pdf/1904.12575.pdf,Knowledge Graph Convolutional Networks for Recommender Systems,2019
+52,SVD;LIBFM;PER;CKE;RIPPLENET;KGNN,https://arxiv.org/pdf/1905.04413.pdf,Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems,2019
+53,FM;BPRMF;CFKG;CKE;COFM;TUP;KTUP,https://arxiv.org/pdf/1902.06236.pdf,Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences,2019
+54,PER;CKE;DKN;RIPPLENET;LIBFM;WIDEDEEP;MKR,https://arxiv.org/pdf/1901.08907.pdf,Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation,2019
+55,RIPPLENET;CKE;SHINE;DKN;PER;LIBFM;WIDEDEEP,https://arxiv.org/pdf/1803.03467.pdf,RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems,2018
+56,LIBFM;HOFM;WIDEDEEP;DEEPCROSS;AFM,https://arxiv.org/pdf/1708.04617.pdf,Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks,2017
+57,LR;FM;AFM;DEEPCROSSING;NFM;CROSSNET;CIN;HOFM;AUTOINT,https://arxiv.org/pdf/1810.11921.pdf,AutoInt: Automatic Feature Interaction Learning via Self-Attentive Neural Networks,2019
+64,LR;POLY2;FM;FFM;FWFM,https://dl.acm.org/doi/pdf/10.1145/3178876.3186040,Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising,2018
+66,LIBFM;HOFM;WIDEDEEP;DEEPCROSS;NFM,https://arxiv.org/pdf/1708.05027&ie=utf-8&sc_us=6917339300733978278.pdf,Neural Factorization Machines for Sparse Predictive Analytics,2017
+67,BPR;LSTM;CNN;NCF;ATRANK;THACIL;ALPINE;MTIN;DMR,https://arxiv.org/pdf/2110.03902.pdf,Multi-trends Enhanced Dynamic Micro-video Recommendation,2021
+68,NCF;DIN;LIGHTGCN;CASER;GRU4REC;DIEN;SASREC;SURGE;SLIREC;CLSR,https://dl.acm.org/doi/pdf/10.1145/3485447.3512098,Disentangling Long and Short-Term Interests for Recommendation,2022
+69,POP;YDNN;GRU4REC;MIND;COMISA;COMIDR;CAUSEITEM;CAUSEH;CAUSEIN,https://arxiv.org/pdf/2109.05261.pdf,CauseRec: Counterfactual User Sequence Synthesis for Sequential Recommendation,2021
+70,GRU4REC;COMIREC;MIND;MIMN;HPMN;SASREC;LIMAREC,https://arxiv.org/pdf/2105.14060.pdf,Rethinking Lifelong Sequential Recommendation with Incremental Multi-Interest Attention,2021
+71,GRU4REC;NARM;SRGNN;LESSR;DATMDI;RIB;SBR,https://arxiv.org/pdf/2112.15328.pdf,Temporal aware Multi-Interest Graph Neural Network For Session-based Recommendation,2021
+72,FPMC;NARM;NPE;TRANREC;HRM;SASREC;DIN;TWOSTAGE;ADVERSARIAL;CORR,https://arxiv.org/pdf/2206.14649.pdf,Cooperative Retriever and Ranker in Deep Recommenders,2022
+73,BIASMF;DMF;NCF;AUTOREC;CDAE;CFNADE;CFUICA;STGCN;NGCF;NMTR;DIPN;MATN,https://arxiv.org/pdf/2110.04002.pdf,Multiplex Behavioral Relation Learning for Recommendation via Memory Augmented Transformer Network,2021
+74,BPR;FISM;NARM;SASREC;TISASREC;TRANSFM;CHORUS;RCF;KDA,https://chenchongthu.github.io/files/TOIS-KDA-wcy.pdf,Toward Dynamic User Intention: Temporal Evolutionary Effects of Item Relations in Sequential Recommendation,2020
+75,BPR;FM;GRU4REC;SASREC;BERT4REC;FDSA;S3REC;CHORUS;KDA;CRBIANET,https://2022.eswc-conferences.org/wp-content/uploads/2022/05/paper_28_Wu_et_al.pdf,Enhancing Sequential Recommendation via Decoupled Knowledge Graphs,2022
+77,XGBOOST;DEEPFM;RECONEMBED;GRAPHEMBED;SAGCN;SALIGHTGCN;HAN;HETGNN;GRIP,http://fi.ee.tsinghua.edu.cn/public/publications/b19b8ee6-d647-11eb-b8ab-0242ac120003.pdf,User Consumption Intention Prediction in Meituan,2021
+78,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN;FGNN;GCSAN;SASREC;POSREC,https://arxiv.org/pdf/2107.00846.pdf,Exploiting Positional Information for Session-based Recommendation,2021
+79,BPR;GMF;TENSOR;GRU4REC;NARM;CFKG;SLRC;CHORUS,http://www.thuir.cn/group/~mzhang/publications/SIGIR2020Wangcy.pdf,Make It a Chorus: Knowledge- and Time-aware Item Modeling for Sequential Recommendation,2020
+80,GRU4REC;NARM;CASER;SASREC;BERT4REC;NCR;NANAS;MANAS,https://arxiv.org/pdf/2208.11083.pdf,Learn Basic Skills and Reuse: Modularized Adaptive Neural Architecture Search (MANAS),2022
+81,SASREC;BERT4REC;SSEPT,https://arxiv.org/pdf/2208.04116.pdf,UFNRec: Utilizing False Negative Samples for Sequential Recommendation,2022
+83,GRU4REC;NARRE;MCREC;NFM;CHORUS;S3REC;TMER,https://arxiv.org/pdf/2111.12262.pdf,Reinforcement Learning based Path Exploration for Sequential Explainable Recommendation,2021
+84,DPVAE;KNN;SVD;LIGHTFM;VAE;DPMF;DPAE,https://i.cs.hku.hk/~cwu/papers/lfang-kbs22.pdf,Differentially private recommender system with variational autoencoders,2022
+85,BPR;GRU4REC;RECHORUS;NCF;SASREC;CASER;TAHK,https://downloads.hindawi.com/journals/sp/2022/6101045.pdf,User Dynamic Preference Construction Method Based on Behavior Sequence,2022
+86,SVD;YOUTUBENET;PNN;GRU4REC;CASER;ATRANK;DIEN;UBCRUA;TOPOLSTM;DIB;IBGRUA;TIEN;CAEN,https://arxiv.org/pdf/2208.13480.pdf,CAEN: A Hierarchically Attentive Evolution Network for Item-Attribute-Change-Aware Recommendation in the Growing E-commerce Environment,2022
+87,SASREC;GRU4REC;BERT4REC;TISASREC;STACKREC;CLREC;CL4SREC;CT4REC,https://arxiv.org/pdf/2112.06668.pdf,C 2 -Rec: An Effective Consistency Constraint for Sequential Recommendation,2021
+88,BPR;NCF;DEEPFM;GRU4REC;CASER;NARM;SASREC;BERT4REC;CHORUS;HYREC;MAGNN;SRGNN;GCGNN;MGNN;HGT;NMTR;MATN;MBGCN;TGT,https://arxiv.org/pdf/2206.02687.pdf,Multi-Behavior Sequential Recommendation with Temporal Graph Transformer,2022
+89,GU4REC;TAGNN;COTREC;CSRM;ISCON,https://arxiv.org/pdf/2208.09076.pdf,Implicit Session Contexts for Next-Item Recommendations,2022
+90,FPMC;GRU4REC;SASREC;KERLF;MFGAN;NOVABERT;MARIS,https://web.archive.org/web/20220711180705id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3532022,Multi-Agent RL-based Information Selection Framework for Sequential Recommendation,2022
+91,FPMC;GRU4REC;NARM;STAMP;SRGNN;FGNN;GCEGNN;MTD;S2DHCN;MGIR,https://web.archive.org/web/20220712010400id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3532024,Multi-Faceted Global Item Relation Learning for Session-Based Recommendation,2022
+92,CBCF;STAN;GRU4REC;SASREC;SRGNN;SGNNHN;STAMP,https://arxiv.org/pdf/2205.06058.pdf,"Positive, Negative and Neutral: Modeling Implicit Feedback in Session-based News Recommendation",2022
+93,TOPPOPULAR;TOPPERSONAL;NMF;SVD;IALS;EASE;SLIM;MULTIVAE;MACRIDVAE;RECVAE;GRU4REC;SASREC;BERT4REC;REPEATNET;ITEMKNN;TIFUKNN,https://arxiv.org/pdf/2110.05589.pdf,TTRS: Tinkoff Transactions Recommender System Benchmark,2021
+94,MOSTPOP;BPRMF;NEUMF;CKE;FMG;MCREC;HAN;RKGE;KPRN;KGAT;HAKG,https://arxiv.org/pdf/1910.08288.pdf,Hierarchical Attentive Knowledge Graph Embedding for Personalized Recommendation,2021
+95,POP;BPRMF;ITEMKNN;NCF;CONET;GRU4REC;HRNN;NARM;STAMP;SRGNN;KSR;MIFN,https://arxiv.org/pdf/2012.00485.pdf,Mixed Information Flow for Cross-domain Sequential Recommendations,2020
+96,MF;CKE;UGREC;KGNN;KGAT;CKAN;KGIN;HYPERKNOW;LKGR;HAKG,https://arxiv.org/pdf/2204.04959.pdf,HAKG: Hierarchy-Aware Knowledge Gated Network for Recommendation,2022
+97,GRU4REC;YOUTUBEDNN;MIND;COMERIC;PIMI,https://arxiv.org/pdf/2106.04415.pdf,Exploring Periodicity and Interactivity in Multi-Interest Framework for Sequential Recommendation,2021
+99,GLOBALPOP;SEQPOP;GRU4REC;BERT4REC;M3R;RNNMTL;FMGAN;CSRM;ICMSR;COCOREC,http://140.122.184.128/presentation/21-12-07/Category-aware%20Collaborative%20Sequential%20Recommendation.pdf,Category-aware Collaborative Sequential Recommendation,2021
+101,MF;CKE;KGAT;KGNNLS;CKAN;TGCN;KGIN3,https://dl.acm.org/doi/pdf/10.1145/3442381.3450133,Learning Intents behind Interactions with Knowledge Graph for Recommendation,2021
+102,POP;BPRMF;NCF;GRU4REC;SASREC;GCSAN;S3REC;CL4SREC,https://arxiv.org/pdf/2010.14395.pdf,Contrastive Learning for Sequential Recommendation,2020
+104,MOSTPOP;GRU4REC;CASER;NEXTITNET;CPREC,https://arxiv.org/pdf/2004.13139.pdf,A Generic Network Compression Framework for Sequential Recommender Systems,2020
+106,MLP;GRAPHSAGE;GCN;GAT;JKNET;DAGNN;APPNP,https://dl.acm.org/doi/pdf/10.1145/3404835.3462971,Should Graph Convolution Trust Neighbors? A Simple Causal Inference Method,2021
+108,BPRMF;WRMF;VAECF;TRANSCF;CML;LRML;SML;NGCF;LIGHTGCN;HAE;HVAE;HGCF,https://joeycheng.me/assets/pdf/www2021_hgcf.pdf,HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering,2021
+110,MF;IPS;DR;CAUSE;KDLABEL;AUTODEBIAS,https://arxiv.org/pdf/2105.04170.pdf,AutoDebias: Learning to Debias for Recommendation,2021
+111,DUIF;DROPOUTNET;MTPR;CB2CF;HEATER;CLCREC,https://dl.acm.org/doi/pdf/10.1145/3474085.3475665,Contrastive Learning for Cold-Start Recommendation,2021
+113,NCF;GRAPHSAGE;GAT;FASTGCN;FBNE;LIGHTGCN,https://arxiv.org/pdf/2012.07064.pdf,Pre-Training Graph Neural Networks for Cold-Start Users and Items Representation,2020
+114,BPRMF;LIGHTGCN;SASREC;BERT4REC;ITEMCOR;ASREP,https://dl.acm.org/doi/pdf/10.1145/3404835.3463036,Augmenting Sequential Recommendation with Pseudo-Prior Items via Reversely Pre-training Transformer,2021
+115,SPOP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;CSRM;SRGNN;SRIEM,https://arxiv.org/pdf/2005.04456.pdf,Rethinking Item Importance in Session-based Recommendation,2020
+117,NEUMF;CSE;HOPREC;GCMC;NGCF;LIGHTGCN;IMPGCN,https://arxiv.org/pdf/2102.10044.pdf,Interest-aware Message-Passing GCN for Recommendation,2021
+118,GRAPHSAGE;MMGCN;NGCF;DISENGCN;GAT;GRCN,https://weiyinwei.github.io/papers/GRCN.pdf,Graph-Refined Convolutional Network for Multimedia Recommendation with Implicit Feedback,2020
+119,MFBPR;GCN;NGCF;DAM;BGCN,https://arxiv.org/pdf/2005.03475.pdf,Bundle Recommendation with Graph Convolutional Networks,2020
+120,GMF;NEUMF;CDAE,https://dl.acm.org/doi/pdf/10.1145/3437963.3441800,Denoising Implicit Feedback for Recommendation,2021
+121,RANDOM;BPR;SBPR;IFBPR;DIFFNET;RSGAN;LIGHTGCN;ESRF,https://arxiv.org/pdf/2004.02340.pdf,Enhancing Social Recommendation with Adversarial Graph Convolutional Networks,2020
+122,CMF;EMCDR;CDLFM;DFM;RDMF;ANR,https://arxiv.org/pdf/2005.10549.pdf,CATN: Cross-Domain Recommendation for Cold-Start Users via Aspect Transfer Network,2020
+123,FPITF;GHN;MF;VBPR;NGCF;HFGN,https://arxiv.org/pdf/2005.12566.pdf,Hierarchical Fashion Graph Network for Personalized Outfit Recommendation,2020
+124,MOSTPOP;BPRMF;XQUAD;DICE;PD,https://arxiv.org/pdf/2105.06067.pdf,Causal Intervention for Leveraging Popularity Bias in Recommendation,2021
+125,FULLRETRAIN;FINETUNE;SRMF;GRU4REC;CASER;SML,https://arxiv.org/pdf/2005.13258.pdf,How to Retrain Recommender System? A Sequential Meta-Learning Method∗,2020
+126,GRAPHREC;BPR;SBPR;DIFFNET;DHCF;LIGHTGCN;MHCN;S2MHCN,https://arxiv.org/pdf/2101.06448.pdf,Self-Supervised Multi-Channel Hypergraph Convolutional Network for Social Recommendation,2021
+128,MFBPR;NCF;GRAPHSAGE;NGCF;MCBPR;NMTR;NGCF;RGCN;MBGCN,http://staff.ustc.edu.cn/~hexn/papers/sigir20-MBGCN.pdf,Multi-behavior Recommendation with Graph Convolutional Networks,2020
+132,BPRMF;NEUMF;GCMC;HOPREC;GINE;NGCF;LIGHTGCN,http://yusanlin.com/files/papers/sigir21_structure.pdf,Structured Graph Convolutional Networks with Stochastic Masks for Recommender Systems,2021
+133,MF;PMF;LIBFM;NFM;AFM;TRANSFM;DEEPFM;GMLFM,https://arxiv.org/pdf/2006.11600.pdf,Enhancing Factorization Machines with Generalized Metric Learning,2020
+134,BPR;NEUMF;LIGHTGCN,https://arxiv.org/pdf/2106.08700.pdf,Topology Distillation for Recommender System,2021
+135,MF;NCF;NGCF;SOCIALMF;DIFFNET;AGREE;SIGT;GBMF;GBGCN,https://arxiv.org/pdf/2010.06848.pdf,Group-Buying Recommendation for Social E-Commerce,2020
+136,POPULAR;NEUMF;AGREE;MOSAN;SIGR;GROUPIM;HHGR;S2HHGR,https://arxiv.org/pdf/2109.04200.pdf,Double-Scale Self-Supervised Hypergraph Learning for Group Recommendation,2021
+137,PMF;LIGHTGCN;ESAPN;AUTOEMB;DLRMCE;LIGHTREC;RULE,https://arxiv.org/pdf/2106.02223.pdf,Learning Elastic Embeddings for Customizing On-Device Recommenders,2021
+138,ITEMPOP;ITEMKNN;CDAE;BPR;GMF;MLP;NEUMF;LIGHTGCN,https://arxiv.org/pdf/2109.02444.pdf,Top-N Recommendation with Counterfactual User Preference Simulation,2021
+139,SVD;NFM;CMN;MMCF;NGCF;LRGCCF;POINCAREEMB;HNCR;ENCR,https://arxiv.org/pdf/2104.07414.pdf,Hyperbolic Neural Collaborative Recommender,2021
+142,LR;FM;AUTOINT;DEEPFM;PNN;DIN;DIEN;GIN;FIGNN;DGENN,https://arxiv.org/pdf/2106.00314.pdf,Dual Graph enhanced Embedding Neural Network for CTR Prediction,2021
+143,POP;NCF;BPRMF;PIT;COM;AGREE;SIGR;GROUPSA;GROUPIM;HYPERGROUP,https://arxiv.org/pdf/2103.13506.pdf,Hierarchical Hyperedge Embedding-based Representation Learning for Group Recommendation,2021
+144,MFBPR;CML;ENMF;DEEPWALK;LINE;NODE2VEC;NGCF;NLAGCN;LRGCCF;LIGHTGCN;DGCF;ULTRAGCN,https://arxiv.org/pdf/2110.15114.pdf,UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation,2021
+145,BPR;AORBPR;WARP;CML;DNS;IGRAN;SA;SDGAR,https://proceedings.neurips.cc/paper/2020/file/ff42b03a06a1bed4e936f0e04958e168-Paper.pdf,Sampling-Decomposable Generative Adversarial Recommender,2020
+146,SVD;NCF;DEEPFM;SRMGCNN;NGCF;DMGCF,http://smiles-xjtu.com/html/Our%20Paper/Dynamic%20evolution%20of%20multi-graph%20based%20collaborative%20filtering%20for%20recommendation%20systems.pdf,Dynamic evolution of multi-graph based collaborative filtering for recommendation systems,2021
+147,HGN;SASREC;HAM;MAGNN;HGAN;GCMC;IGMC;RETAGNN,https://arxiv.org/pdf/2101.12457.pdf,RetaGNN: Relational Temporal Attentive Graph Neural Networks for Holistic Sequential Recommendation,2021
+148,ITEMKNN;GRU4REC;BARN;SRGNN;LESSR;GCEGNN;HRNN;APGNN,https://arxiv.org/pdf/2107.03813.pdf,Heterogeneous Global Graph Neural Networks for Personalized Session-based Recommendation,2021
+150,MF;LIGHTGCN;FM;NFM;XDEEPFM;GIN;GCM,https://arxiv.org/pdf/2001.11402.pdf,Graph Convolution Machine for Context-aware Recommender System,2020
+151,MF;DMF;GCN;GCMC;PINSAGE;NGCF;LRGCCF;LIGHTGCN,https://arxiv.org/pdf/2101.01317.pdf,Contrastive Learning for Recommender System,2021
+152,LIGHTGCN;NGCF;PINSAGE;RNS;DNS;IRGAN;ADVIR;MCNS,http://keg.cs.tsinghua.edu.cn/yuxiao/papers/KDD21-Huang-et-al-MixGCF.pdf,MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems,2021
+153,BIASMF;DMF;NCF;AUTOREC;CDAE;NADE;CFUICA;STGCN;NGCF;NMTR;DIPN;NGCF;MBGCN;MATN;MBGMN,https://arxiv.org/pdf/2110.03969.pdf,Graph Meta Network for Multi-Behavior Recommendation,2021
+154,NDCF;DIN;LIGHTGCN;CASER;GRU4REC;DIEN;SLIREC;SURGE,https://arxiv.org/pdf/2106.14226.pdf,Sequential Recommendation with Graph Neural Networks,2021
+155,MF;NEUMF;CMN;HOPREC;GCMC;PINSAGE;MULTVAE;GRMF;NGCF;LRGCCF;LIGHTGCN;LTOCF,https://arxiv.org/pdf/2108.06208.pdf,LT-OCF: Learnable-Time ODE-based Collaborative Filtering,2021
+156,NEUMF;LIGHTGCN;CML;LRML;CFKG;KTUP;UGREC,https://arxiv.org/pdf/2105.04183.pdf,UGRec: Modeling Directed and Undirected Relations for Recommendation,2021
+157,BPR;POPSAMPLING;AOBPR;CLIMF;DEEPSETRANK;SET2SETRANK;LRGCCF,https://arxiv.org/pdf/2105.07377.pdf,Set2setRank: Collaborative Set to Set Ranking for Implicit Feedback based Recommendation,2021
+158,WRMF;NCF;LGTHGCN,https://dl.acm.org/doi/pdf/10.1145/3447548.3467233,Data Poisoning Attack against Recommender System Using Incomplete and Perturbed Data,2021
+159,WRMF;VAECF;TRANSCF;CML;LRML;SML;NGCF;LIGHTGCN;HAE;HAVE;HGCF;HRCF,https://arxiv.org/pdf/2204.08176.pdf,HRCF: Enhancing Collaborative Filtering via Hyperbolic Geometric Regularization,2022
+160,BPR;WMF;LIGHTGCN,https://dl.acm.org/doi/pdf/10.1145/3485447.3511997,Recommendation Unlearning,2022
+161,HIRE;CVAE;SSLIM;MF;NGCF;LIGHTGCN;NCF,https://arxiv.org/pdf/2107.03936.pdf,Graph Neural Pre-training for Enhancing Recommendations using Side Information,2021
+162,POP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;SRGNN;TAGNN;DISENGNN,https://arxiv.org/pdf/2201.03482.pdf,Disentangled Graph Neural Networks for Session-based Recommendation,2022
+163,MF;NGCF;LRGCCF;LIGHTGCN;SLIGHTGCN;MULTVAE;SGL,https://arxiv.org/pdf/2109.00217.pdf,Multi-Sample based Contrastive Loss for Top-k Recommendation,2021
+164,FPMC;FOSSIL;GRU4REC;NARM;SASREC;STAMP;SRGNN;GCSAN;FGNN;LESSR;HCGR,https://arxiv.org/pdf/2107.05366.pdf,HCGR: Hyperbolic Contrastive Graph Representation Learning for Session-based Recommendation,2021
+165,WMF;BPR;EXMF;FAWMF;LIGHTGCN;SBPR;SERECBO;SOEXBMF;SAMWALKER,https://arxiv.org/pdf/2011.07734.pdf,SamWalker++: recommendation with informative sampling strategy,2020
+166,BPR;NEUMF;LIGHTGCN;SASREC,https://arxiv.org/pdf/2010.11060.pdf,A Critical Study on Data Leakage in Recommender System Offline Evaluation,2020
+167,BERTCF;ITEMCF;DEEPWALK;GRAPHSAGE;DSSM;AUTOINT;YOUTUBEATTFM;GRAPHSAGE;GAT;FHGAT,https://arxiv.org/pdf/2102.03787.pdf,Improving Accuracy and Diversity in Matching of Recommendation with Diversified Preference Network,2021
+168,MF;BPR;NCF;IRGAN;NGCF,https://arxiv.org/pdf/2011.07739.pdf,CoSam: An Efficient Collaborative Adaptive Sampler for Recommendation,2020
+169,BPR;CBPR;VBPR;AMR;MTPR,http://data-science.ustc.edu.cn/_upload/article/files/c4/4f/10f4da284171a6275429698edccf/8188ec5c-e33d-466a-be18-f18c0a4d3aa7.pdf,How to Learn Item Representation for Cold-Start Multimedia Recommendation?,2020
+170,MF;FMC;FPMC;GRU4REC;CASER;LIGHTGCN;NGCF;SRGNN;DGSR,https://arxiv.org/pdf/2105.07585.pdf,Leveraging Two Types of Global Graph for Sequential Fashion Recommendation,2021
+171,MOSTPOP;NFM;CASER;GRU4REC;NETITNET,https://arxiv.org/pdf/2012.07598.pdf,StackRec: Efficient Training of Very Deep Sequential Recommender Models by Iterative Stacking,2020
+172,BPR;LRML;HYPERBPR;HYPERML;FM;NMF;GRAPHREC;SOCIALGCN;LIGHTGCN;HYPERSOREC,http://home.ustc.edu.cn/~wanghao3/papers/haowang_TOIS2021.pdf,HyperSoRec: Exploiting Hyperbolic User and Item Representations with Multiple Aspects for Social-aware Recommendation,2021
+173,POP;BPR;MULTIVAE;EHCF;NGCF;LRGCCF;LIGHTGCN,https://arxiv.org/pdf/2107.03019.pdf,SelfCF: A Simple Framework for Self-supervised Collaborative Filtering,2021
+174,BIASMF;NCF;AUTOR;GCMC;PINSAGE;NGCF;STGCN;LIGHTGCN;GCCF;DGCF;HYREC;DHCF;MHCN;SLREC;SGL;GCCF,https://arxiv.org/pdf/2204.12200.pdf,Hypergraph Contrastive Collaborative Filtering,2022
+175,BPR;PINSAGE;NGCF;LIGHTGCN;SGL;HGT;HECO;NMTR;MBGCN;MATN;KHGT;EHCF;CML,https://arxiv.org/pdf/2202.08523.pdf,Contrastive Meta Learning with Behavior Multiplicity for Recommendation,2022
+176,GRU4REC;CASER;SASREC;TISASREC;ARNPP;LESSR;RRN;DEEMS;SCORE;DRLREC,https://arxiv.org/pdf/2109.11790.pdf,Learning Dual Dynamic Representations on Time-Sliced User-Item Interaction Graphs for Sequential Recommendation,2021
+177,SCP;MCTF;CROSSMAP;SAGCN;LIGHTGCN;HAN;DHCF;MHCN;HWNN;DISENHCN,https://arxiv.org/pdf/2208.06794.pdf,DisenHCN: Disentangled Hypergraph Convolutional Networks for Spatiotemporal Activity Prediction,2022
+178,MF;NCF;NGCF;LIGHTGCN;DGCF;RS10,http://shichuan.org/doc/125.pdf,Profiling the Design Space for Graph Neural Networks based Collaborative Filtering,2022
+179,BPR;PFMC;CASER;SASREC;FMBPR;ANAM;HARNN;CFSA;SNR,https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_1031.pdf,Modeling Multi-factor and Multi-faceted Preferences over Sequential Networks for Next Item Recommendation,2021
+180,BPRMF;NMF;NEUMF;CML;TRANSCF;LRML;SML;HYPERML;NGCF;LIGHTGCN;HGCF;CMLF;AMF;AGCN;TAXOREC,https://www.cs.emory.edu/~jyang71/files/taxorec.pdf,Enhancing Recommendation with Automated Tag Taxonomy Construction in Hyperbolic Space,2022
+181,BERT4REC;LIGHTGCN;MRIG;MBGCN;MBGMN;MGNN;MMR;MMCLR,https://arxiv.org/pdf/2203.10576.pdf,Multi-view Multi-behavior Contrastive Learning in Recommendation,2022
+182,NCF;GCNRS;LIGTHGCN;GATRS,https://arxiv.org/pdf/2106.03415.pdf,Leveraging Tripartite Interaction Information from Live Stream E-Commerce for Improving Product Recommendation,2021
+183,WRMF;BPR;MFT;LBSN2VEC;FPMC;PRME;TRIBEFLOW;STRNN;STGN;FLASHBACK,https://lilicoding.github.io/papers/wang2021timeaware.pdf,Time-aware User Modeling with Check-in Time Prediction for Next POI Recommendation,2021
+184,RANDOM;POP;ITEMKNN;BMF;BPR;MLP;FISM;NAID;FLA;DEEPICF,https://arxiv.org/pdf/2102.10745.pdf,Feature-level Attentive ICF for Recommendation,2021
+185,NGCF;MULTVAE;ENMF;LIGHTGCN;DREGNCF,https://arxiv.org/pdf/2101.07481.pdf,Density-Ratio Based Personalised Ranking from Implicit Feedback,2021
+186,DEEPWALK;LINE;NODE2VEC;SOREC;GATNE;GRAPHREC;HANREC,https://arxiv.org/pdf/2103.05749.pdf,Connecting Latent ReLationships over Heterogeneous Attributed Network for Recommendation,2021
+187,BPR;EXPOMF;NCF;CMF;MCBPR;NMTR;EHCF;ARGO,https://arxiv.org/pdf/2109.05789.pdf,ARGO: Modeling Heterogeneity in E-commerce Recommendation,2021
+188,GCN;GRAPHSAGE;GAT;RGCN;NMTR;EHCF;HMGCR,https://arxiv.org/pdf/2109.02859.pdf,Hyper Meta-Path Contrastive Learning for Multi-Behavior Recommendation,2021
+189,FEAE;PINSAGE;IGMC;MC;IMC;GMC;GRALS;SRGCNN;GCMC;NMTR;IMCGAE,https://arxiv.org/pdf/2108.11124.pdf,Inductive Matrix Completion Using Graph Autoencoder,2021
+190,LR;BPR;SRGNN;MGNNSPRED;GCEGNN;EATNN;GRAPHREC;DIFFNET;INFNET,https://arxiv.org/pdf/2112.14446.pdf,How Powerful are Interest Diffusion on Purchasing Prediction: A Case Study of Taocode,2021
+191,RNN;LSTM;BILSTM;GRU;SERM;DRCF;DEEPMOVE;FLASHBACK;LIGHTMOVE,https://arxiv.org/pdf/2108.04993.pdf,LightMove: A Lightweight Next-POI Recommendation for Taxicab Rooftop Advertising,2021
+193,BPR;WRMF;NGCF;LRGCCF;LIGHTGCN;HMLET,https://arxiv.org/pdf/2111.07265.pdf,"Linear, or Non-Linear, That is the Question!",2021
+194,LIGHTGCN;TIMELSTM;RRN;DEEPCPEVP;VE;JODIE;COPE,http://recmind.cn/papers/CoPE_cikm21.pdf,CoPE: Modeling Continuous Propagation and Evolution on Interaction Graph,2021
+195,UBCF;IBCF;NCF;2IPS;NAIS;NGCF;KTUP;HEREC;GRAPHREC;WRMF;CML;IML;CRML;SML;MML,https://arxiv.org/pdf/2205.09670.pdf,A Unified Collaborative Representation Learning for Neural-Network based Recommender Systems,2022
+196,GRU4REC;CASER;SPMF;SMLMF;LIGHTGCN;CILIGHTGCN,https://arxiv.org/pdf/2108.06889.pdf,Causal Incremental Graph Convolution for Recommender System Retraining,2021
+197,NEUMF;CGCMC;NGCF;LIGHTGCN;IFBPR;MCREC;NEUACF;MACRIDVAE;DGCF;DICE;CADSI,https://arxiv.org/pdf/2202.02576.pdf,Causal Disentanglement for Semantics-Aware Intent Learning in Recommendation,2022
+198,LGCN;CMF;CONET;JSCN;PCREC,https://arxiv.org/pdf/2111.08268.pdf,Pre-training Graph Neural Network for Cross Domain Recommendation,2021
+199,BPRMF;LIGHTGCN;CML;SML;TRANSREC;CASER;SASREC;DT4SR;BERT4REC;STOSA,https://arxiv.org/pdf/2201.06035.pdf,Sequential Recommendation via Stochastic Self-Attention,2022
+200,MLP;GCN;GRAPHSAGE;GAT;RGCN;RSHN;HAN;HETSANN;HGT;RHGNN,https://arxiv.org/pdf/2105.11122.pdf,Heterogeneous Graph Representation Learning with Relation Awareness,2021
+201,NCF;VBPR;CER;NAR;CAR;CNR,https://arxiv.org/pdf/2110.14844.pdf,From Intrinsic to Counterfactual: On the Explainability of Contextualized Recommender Systems,2021
+202,BPRMF;CRMF;PINSAGE;GAT;NGCF;NIAGCN;LIGHTGCN;DGCF;NGAT4REC,https://arxiv.org/pdf/2010.12256.pdf,NGAT4Rec: Neighbor-Aware Graph Attention Network For Recommendation,2020
+203,BPR;LAMGDAFM;IRGAN;LIGHTGCN;RRN;GCMCRNN;DEEPCOEVOLVE;JODIE;SRMF;INCCTR;SML;IGCN,http://recmind.cn/papers/IGCN_cikm21.pdf,Incremental Graph Convolutional Network for Collaborative Filtering,2021
+204,GRAPHSAGE;CTDNE;DYNGEM;DYSAT;JODIE;DEEPCOEVOLVE;TGAT;TGNS;TDIGMPNN;TCL,https://arxiv.org/pdf/2105.07944.pdf,TCL: Transformer-based Dynamic Graph Modelling via Contrastive Learning,2021
+205,BPRMF;LIGHTGCN;SASREC;BERT4REC;RTASREP;ASREP;RTBICAT,https://arxiv.org/pdf/2112.06460.pdf,Self-Knowledge Distillation with Bidirectional Chronological Augmentation of Transformer for Sequential Recommendation,2021
+206,NFM;GCMC;GRAPHREC;NGCF;IGCNCF,https://assets.researchsquare.com/files/rs-1737751/v1_covered.pdf?c=1655311105,An Improved Recommendation Based on Graph Convolutional Network,2022
+207,TOPPOP;NEUCF;LIGHTGCN;NMRN;MBNMRN,https://sigir-ecom.github.io/ecom22Papers/paper_366.pdf,Trends-enhanced Attention & Memory Networks for E-commerce Recommendation,2022
+209,BPRMF;NGCF;LIGHTGCN;HVAE;HGCF;LGCF,https://arxiv.org/pdf/2108.04607.pdf,Fully Hyperbolic Graph Convolution Network for Recommendation,2021
+210,NEUMF;SLIMELASTIC;NGCF;LINE;DGCF;LIGTHGCN;BUIR;SGL;DUAL,https://arxiv.org/pdf/2203.03982.pdf,Predictive and Contrastive: Dual-Auxiliary Learning for Recommendation,2022
+211,MF;DMF;GCMC;NGCF;LRGCCF;DGCF;LIGTHGCN;LGCACF,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9361663,Light Graph Convolutional Collaborative Filtering With Multi-Aspect Information,2021
+212,BPR;LIGHTGCN;BUIR;VBPR;MMGCN;GRCN;DUALGNN;LATTICE;BM3,https://arxiv.org/pdf/2207.05969.pdf,Bootstrap Latent Representations for Multi-modal Recommendation,2022
+213,BPR;MULTVAE;CAUSE;RELMF;UBPR;DICE;CPR,https://arxiv.org/pdf/2204.12176.pdf,Cross Pairwise Ranking for Unbiased Item Recommendation,2022
+214,FM;NFM;BERT4REC;GRU4REC;JODIE;KGAT;ECFKG;RETE,https://arxiv.org/pdf/2202.06129.pdf,RETE: Retrieval-Enhanced Temporal Event Forecasting on Unified Query Product Evolutionary Graph,2022
+215,MLP;GCN;GRAPHSAGE;SIGN;SAGN;GAMLP,https://arxiv.org/pdf/2112.04319.pdf,SCR: Training Graph Neural Networks with Consistency Regularization,2021
+216,BERTNET;BERTFT;GCNCONV;GATCONV;DNACONV;GCNICONV;SMGCN;KDHR,https://www.researchgate.net/profile/Yun-Yang-33/publication/356102798_Multi-layer_information_fusion_based_on_graph_convolutional_network_for_knowledge-driven_herb_recommendation/links/618bd47407be5f31b762aa6f/Multi-layer-information-fusion-based-on-graph-convolutional-network-for-knowledge-driven-herb-recommendation.pdf,Multi-layer information fusion based on graph convolutional network for knowledge-driven herb recommendation,2021
+217,BPR;FM;NCF;NGCF;LIGHTGCN;HGT;HAN;HEREC;LGREC;MCREC;PFHIN;GCC;GRAPHBERT;MTREC;CHEST,https://arxiv.org/pdf/2106.06722.pdf,Curriculum Pre-Training Heterogeneous Subgraph Transformer for Top-𝑁 Recommendation,2021
+222,NEUMF;HOPREC;GCMC;NGCF;LIGTHGCN;QGCN,https://arxiv.org/pdf/2111.10536.pdf,Quaternion-Based Graph Convolution Network for Recommendation,2021
+223,KNN;LINMAP;XDEEPFM;CDL;GROUPUTNET;HEATER;PINSAGE;PFD;STUDENT;PGD,https://arxiv.org/pdf/2105.14975.pdf,Privileged Graph Distillation for Cold Start Recommendation,2021
+224,NCF;PINSAGE;GCMC;NGCF;LIGTHGCN,https://arxiv.org/pdf/2112.02275.pdf,A Multi-Strategy based Pre-Training Method for Cold-Start Recommendation,2021
+225,TAHIN;HAN;HETGNN;IPE;NEUMF;LGREC;MCREC;NEM;GF;MF;DEEPFM;ITEMKNN;USERKNN;GRAPHHINGE,https://arxiv.org/pdf/2011.12683.pdf,GraphHINGE: Learning Interaction Models of Structured Neighborhood on Heterogeneous Information Network,2020
+226,BPR;SBPR;NGCF;DIFFNET;SGL;LIGTHGCN;S2MHCN;MOTIFSRES,https://arxiv.org/pdf/2109.00676.pdf,Cross-motif Matching and Hierarchical Contrastive Learning for Recommendation,2021
+228,BRPMF;GCMC;PINSAGE;NGCF;RESGCN;MACRIDVAE;DGCF;LIGHTGCN;DGCNHN,https://dlp-kdd.github.io/assets/pdf/DLP-KDD_2021_paper_1.pdf,Deep Graph Convolutional Networks with Hybrid Normalization for Accurate and Diverse Recommendation,2021
+229,NETMF;PRONE;VAECF;MACRIDVAE;SDRL,https://arxiv.org/pdf/2010.13282.pdf,Semi-Disentangled Representation Learning in Recommendation System,2020
+230,CML;BPRMF;NGCF;CONET;STAR;PPGN;EMCDR;SSCDR;TMCDR;SAVAE;VBGE;CDRIB,https://arxiv.org/pdf/2203.16863.pdf,Cross-Domain Recommendation to Cold-Start Users via Variational Information Bottleneck,2022
+231,POP;ITEMKNN;FPMC;GRU4REC;NARM;SRGNN;DSAN,https://web.archive.org/web/20220709004227id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3531806,Why do Semantically Unrelated Categories Appear in the Same Session? A Demand-aware Method,2022
+232,NCF;POP;COM;ULALL;AGR;SOAGREE;HCR,https://shiruipan.github.io/publication/icdm-21-jia/icdm-21-jia.pdf,Hypergraph Convolutional Network for Group Recommendation,2021
+233,WRMF;VAECF;TRANSCF;CML;LRML;SML;NGCF;LIGHTGCN;HAE;HAVE;HGCF;HICF,https://arxiv.org/pdf/2207.09051.pdf,HICF: Hyperbolic Informative Collaborative Filtering,2022
+234,BPRMF;AMF;CDAE;ADT;NGCF;DGCF;LIGHTGCN;SGCN;SGL;RGCF,https://web.archive.org/web/20220711184125id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3531889,Learning to Denoise Unreliable Interactions for Graph Collaborative Filtering,2022
+235,POP;GRU4REC;SASREC;COMIREC;GCSAN;D3REC;CL4SREC;DUOREC;MCLSR,https://arxiv.org/pdf/2208.13007.pdf,Multi-level Contrastive Learning Framework for Sequential Recommendation,2022
+236,BPRMF;LIGHTGCN,https://arxiv.org/pdf/2204.12326.pdf,Investigating Accuracy-Novelty Performance for Graph-based Collaborative Filtering,2022
+238,LIGHTGCN;NGCF;SGGCN;IAGCN,https://arxiv.org/pdf/2204.03827.pdf,IA-GCN: Interactive Graph Convolutional Network for Recommendation,2022
+239,BPR;EASE;LCFN;GFCF;ELGN;LIGHTGCN;SGLED;GDE,https://arxiv.org/pdf/2204.11346.pdf,Less is More: Reweighting Important Spectral Graph Features for Recommendation,2022
+240,DEEPWALK;NODE2VEC;LINE;GCN;GRAPHSAGE;HAN;MAGNN;RGCN;GATNE;HYBRIDGNN,https://arxiv.org/pdf/2208.02068.pdf,HybridGNN: Learning Hybrid Representation for Recommendation in Multiplex Heterogeneous Networks,2022
+241,POP;BIASONLY;MF;NEUMF;LIGHTGCN;EASE;MULTIVAE,https://arxiv.org/pdf/2206.02626.pdf,Infinite Recommendation Networks: A Data-Centric Approach,2022
+242,LIGTHGCN;DGCF;NGAT4REC;RNGCF,https://ksiresearch.org/seke/seke21paper/paper015.pdf,Recurrent Neural Graph Collaborative Filtering,2021
+243,LIGHTGCN;SGL;SIMGCL;XSIMGCL;NCL;BUIR;DNNSSL;MIXGCF,https://arxiv.org/pdf/2209.02544.pdf,XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation,2022
+245,ITEMKNN;BPRMF;NEUMF;LIGHTGCN;VUIKNN;NCFMLP;CONET;GRU4REC;HGRU4REC;NAIS;PSJNET;DAGCN;ISNRL;RLISN,https://arxiv.org/pdf/2206.08088.pdf,Reinforcement Learning-enhanced Shared-account Cross-domain Sequential Recommendation,2022
+246,POP;SPOP;FPMC;SKNN;STAN;NARM;STAMP;CSRM;COSAN;SRGNN;GCSAN;TAGNN;FLCSP;DISENGNN;GCEGNN;S2DHCN;GSNIAS,https://arxiv.org/pdf/2202.09502.pdf,Graph Spring Network and Informative Anchor Selection for Session-based Recommendation,2022
+247,NEUMF;CDAE;NGCF;LIGHTGCN,https://arxiv.org/pdf/2204.06832.pdf,Self-Guided Learning to Denoise for Robust Recommendation,2022
+248,BIASMF;DMF;AUTOREC;STGCN;NGCF;DGCF;KGAT;NMTR;DIPN;MATN;NGCF;LIGHTGCN;MBGCN;KHGT;CKML,https://arxiv.org/pdf/2208.01849.pdf,Coarse-to-Fine Knowledge-Enhanced Multi-Interest Learning Framework for Multi-Behavior Recommendation,2022
+249,MF;UAE;IAE;RELMF;AT;PD;MACR;CJMF;BISER,https://storage.googleapis.com/pub-tools-public-publication-data/pdf/19aa4a5bdf271d97dfc64d036c9f013c35b7a781.pdf,Bilateral Self-unbiased Learning from Biased Implicit Feedback,2022
+250,BPR;NFM;GRU4REC;SASREC;LIGHTGCN,https://arxiv.org/pdf/2204.02027.pdf,A Survey on Dropout Methods and Experimental Verification in Recommendation,2022
+251,NMF;SVD;PMF;AUTOREC;WIDEDEEP;DMF;GCMC;PINSAGE;IGMC;MCCF;CFNADE;GAREC,https://arxiv.org/pdf/2201.05499.pdf,Attention-Based Recommendation On Graphs,2022
+252,GEBE;MHPBNE;MHSBNE;BINE;BIGI;DEEPWALK;NODE2VEC;LINE;NRP;BPR;NCF;NGCF;LIGHTGCN;GCMC;CSE;LCFN;LRGCCF;SCF,https://dl.acm.org/doi/pdf/10.1145/3514221.3517838,Scalable and Effective Bipartite Network Embedding,2022
+253,POP;YDNN;GRU4REC;MIND;COMIREC;RE4,https://web.archive.org/web/20220519081247id_/https://dl.acm.org/doi/pdf/10.1145/3485447.3512094,"Re4: Learning to Re-contrast, Re-attend, Re-construct for Multi-interest Recommendation",2022
+254,POP;MFNS;BPR;JRL;NCF;NEUMF;GEMRS;PINSAGE;NGCF;HYSAGE,https://arxiv.org/pdf/2208.09586.pdf,HySAGE: A Hybrid Static and Adaptive Graph Embedding Network for Context-Drifting Recommendations,2022
+255,WMF;CTR;NEUMF;DEEPMF;LIGHTGCN;CDL;CVAE;DCBVN;DCCAN,https://bigdata.ustc.edu.cn/paper_pdf/2021/Chao-Wang-TOIS.pdf,Personalized and Explainable Employee Training Course Recommendations: A Bayesian Variational Approach,2021
+256,BPR;EXPOMF;NCF;ENMF;LIGHTGCN;CMF;MCBPR;NMTR;MATN;MBGCN;EHCF;GHCF;MFCHCF;GMFCHCF,https://arxiv.org/pdf/2105.11876.pdf,Criterion-based Heterogeneous Collaborative Filtering for Multi-behavior Implicit Recommendation,2021
+258,GMF;NEUMF;CDAE;LIGHTGCN;NORMAL;WBPR;TCE;ENSEMBLE;DECA,https://arxiv.org/pdf/2105.09605.pdf,Learning Robust Recommenders through Cross-Model Agreement,2021
+259,MFBPR;FM;NFM;FISM;CKE;LIGHTGCN;KGPOLICY;RCF;RAMGNN,https://arxiv.org/pdf/2111.14036.pdf,Pre-training Recommender Systems via Reinforced Attentive Multi-relational Graph Neural Network,2021
+260,NEUMF;CAUSPREF;IPS;CAUSE;LIGHTGCN;CAUSPREF,https://dl.acm.org/doi/pdf/10.1145/3485447.3511969,CausPref: Causal Preference Learning for Out-of-Distribution Recommendation,2022
+261,MF;AUTOREC;NEUMF;DSSM;DHA;ASDAE;HIRE;DEEPCF;INPNCF,https://arxiv.org/pdf/2203.07463.pdf,Simultaneous Learning of the Inputs and Parameters in Neural Collaborative Filtering,2022
+262,NCF;DEEPMUSIC;METAEMB;DROPOUTNET;HEATER;GARCF;LIGHTGCN;GARGNN,https://web.archive.org/web/20220709064127id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3531897,Generative Adversarial Framework for Cold-Start Item Recommendation,2022
+263,POP;BPR;FPMC;TRANSREC;CASER;SASREC;DSS;VSAN;EGDGNN,https://arxiv.org/pdf/2111.10539.pdf,Edge-Enhanced Global Disentangled Graph Neural Network for Sequential Recommendation,2021
+264,POP;BPRMF;NEUMF;GCMC;PINSAGE;NGCF;LIGHTGCN;STAM,https://dl.acm.org/doi/pdf/10.1145/3485447.3512041,STAM: A Spatiotemporal Aggregation Method for Graph Neural Network-based Recommendation,2022
+265,MF;MFBPR;LIGHTGCN;DEEPICF;CDAE;MCBPR;IPR,https://web.archive.org/web/20220712185745id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3531777,IPR: Interaction-level Preference Ranking for Explicit Feedback,2022
+266,NGCF;LIGHTGCN;SGLED;CMPPSP,https://www.aaai.org/AAAI22Papers/SA-00160-ChengZ.pdf,Learning Contrastive Multi-View Graphs for Recommendation,2022
+267,BPR;LIGHTGCN;NFM;IFM;GFCF;RRN;DEEPCOEVOLVE;JODIE;SPMF;INCCTR;SML;FIRE,https://web.archive.org/web/20220428072906id_/https://dl.acm.org/doi/pdf/10.1145/3485447.3512108,FIRE: Fast Incremental Recommendation with Graph Signal Processing,2022
+268,ITEMPOP;DMF;ANR;CASER;SASREC;LINEARUCB;DKNN;TRGIR,https://dl.acm.org/doi/pdf/10.1145/3522596,A Text-based Deep Reinforcement Learning Framework Using Self-supervised Graph Representation for Interactive Recommendation,2022
+269,RANDOM;CLIP;MMGCN;GPTGNN;GRAPHBERT;PMGT;GCNP,https://web.archive.org/web/20220703132743id_/https://dl.acm.org/doi/pdf/10.1145/3512527.3531378,Multi-Modal Contrastive Pre-training for Recommendation,2022
+270,BPR;NCF;GCMC;LIGHTGCN;SGL;CKE;RIPPLENET;KGCN;KGAT;KGIN;CKAN;MVIN;KGCL,https://arxiv.org/pdf/2205.00976.pdf,Knowledge Graph Contrastive Learning for Recommendation,2022
+271,BIASMF;NCF;AUTOR;GCMC;PINSAGE;NGCF;STGCN;LIGHTGCN;GCCF;DGCF;HYREC;DHCF;MHCN;SLREC;SGL;SHT,https://arxiv.org/pdf/2207.14338.pdf,Self-Supervised Hypergraph Transformer for Recommender Systems,2022
+273,NCF;NGCF;LIGHTGCN;GRAPHREC;SAMN;DIFFNET;FUSEREC;DANSER,https://lihui.info/doc/TOIS22.pdf,SPEX: A Generic Framework for Enhancing Neural Social Recommendation,2021
+275,CKE;CFKG;KGAT;RIPPLENET;KGCN;LIGHTERKGCN,https://jit.ndhu.edu.tw/article/viewFile/2707/2729,LighterKGCN: A Recommender System Model Based on Bi-layer Graph Convolutional Networks,2022
+276,MARKOV;LIGTHGCN;GRU4REC;DEEPMOVE;SASREC;TISASREC;STAN;MEMO,https://arxiv.org/pdf/2204.12288.pdf,Empowering Next POI Recommendation with Multi-Relational Modeling,2022
+277,BPRMF;NEUMF;NGCF;LRGCCF;LIGHTGCN;SGCN;SIREN,https://arxiv.org/pdf/2108.08735.pdf,SiReN: Sign-Aware Recommendation Using Graph Neural Networks,2021
+278,FM;COPYFM;MIXFM;SMFM;NFM;AFM;DCN;DEEPFM;MAXFM;MAXNFM;LIGHTGCN;DAE;MULTVAE,https://arxiv.org/pdf/2206.08661.pdf,Boosting Factorization Machines via Saliency-Guided Mixup,2022
+279,SVAE;ACVAE;S3REC;CL4REC;LIGHTGCN;BPRMF;BERT4REC;SASREC;STOSA;DT4SR;CONTRASTVAE,https://arxiv.org/pdf/2209.00456.pdf,ContrastVAE: Contrastive Variational AutoEncoder for Sequential Recommendation,2022
+280,BPRMF;NCF;LIGHTGCN;LFRR;PJFNN;BPJFNN;APJFNN;LGCN;IPJF;PJFFF;DPGNN,https://arxiv.org/pdf/2208.08612.pdf,Modeling Two-Way Selection Preference for Person-Job Fit,2022
+281,MF;NEUMF;NGCF;MULTVAE;GRMFL;LIGHTGCN;SBB;TSA,https://arxiv.org/pdf/2110.03665.pdf,REVISITING SVD TO GENERATE POWERFUL NODE EMBEDDINGS FOR RECOMMENDATION SYSTEMS,2021
+282,BPRMF;CKE;KGAT;KGIN;KMPN;NRMSBERT;CKMPN,https://arxiv.org/pdf/2204.00849.pdf,Transformer-Empowered Content-Aware Collaborative Filtering,2022
+283,NEUMF;MULTVAE;NGCF;IMCGAE;IDCFLGCN;MFBPR;INMOMF;LIGTHGCN;INMOLGCN,https://arxiv.org/pdf/2107.05247.pdf,INMO: A Model-Agnostic and Scalable Module for Inductive Collaborative Filtering,2021
+284,POP;SPOP;ITEMKNN;FPMC;BPRMF;GRU4REC;NARM;STAMP;GACOFOREC;SRGNN;AUTOMATE;WGIN,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9274330,WGIN: A Session-Based Recommendation Model Considering the Repeated Link Effect,2020
+285,BPRMF;HYPERML;NGCF;LIGHTGCN;GGCF,https://arxiv.org/pdf/2208.01250.pdf,Geometric Interaction Augmented Graph Collaborative Filtering,2022
+286,PNN;DIN;DIEN;TIEN;NGCF;LIGHTGCN;DSGL,https://arxiv.org/pdf/2109.12541.pdf,Dynamic Sequential Graph Learning for Click-Through Rate Prediction,2021
+287,SVD;NCF;DEEPCONN;NARRE;DAML;SDNET;TRANSNETS;GCMC;RMG;SSG;RG;RGCL,https://arxiv.org/pdf/2204.12063.pdf,A Review-aware Graph Contrastive Learning Framework for Recommendation,2022
+288,BPR;FM;TRUSTMF;NGCF;LIGHTGCN;GCSR,https://assets.researchsquare.com/files/rs-1735145/v1_covered.pdf?c=1656347139,Graph Convolution Network for Social Recommendation,2022
+289,LR;FM;FWFM;DEEPFM;AUTOINT;PNN;DIN;DIEN;DSIN;GIN;FIGNN;DGENN;HIEN,https://arxiv.org/pdf/2206.00510.pdf,HIEN: Hierarchical Intention Embedding Network for Click-Through Rate Prediction,2022
+290,MF;NGCF;LIGHTGCN;GCC;ADAPTD;ADAPTJ,https://arxiv.org/pdf/2112.07191.pdf,An Adaptive Graph Pre-training Framework for Localized Collaborative Filtering,2021
+291,BPRMF;NEUMF;NGCF;LIGHTGCN;ULTRAGCN;MIXGCF;SGL;MLPCGREC,https://web.archive.org/web/20220711190834id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3531874,An MLP-based Algorithm for Efficient Contrastive Graph Recommendations,2022
+294,MF;NEUMF;NGCF;GRAPHSAINT;LIGHTGCN;MELU;METAHIN;CLCREC;TMAG,https://arxiv.org/pdf/2208.05716.pdf,Task Aligned Meta-learning based Augmented Graph for Cold-Start Recommendation,2022
+295,NEURCF;NGCF;DGCF;LIGHTGCN;BIGEAR,https://arxiv.org/pdf/2206.02115.pdf,Learning Binarized Graph Representations with Multi-faceted antization Reinforcement for Top-K Recommendation,2022
+296,CASER;HPMN;GRU4REC;SASREC;BERT4REC;SRGNN;GCSAN;HYPERREC;SURGE;BERT4RECMB;MBGCN;MNTR;MBGMN;MBHT,https://arxiv.org/pdf/2207.05584.pdf,Multi-Behavior Hypergraph-Enhanced Transformer for Sequential Recommendation,2022
+297,GCMC;NGCF;LIGHTGCN;MMGCN;SAGITTARIUS,https://arxiv.org/pdf/2106.15402.pdf,A Behavior-aware Graph Convolution Network Model for Video Recommendation,2021
+298,SOREG;SOCIALMF;DIFFNET;NGCF;LIGHTGCN;DHCF;MHCN;SEPT;DHHGCN,https://web.archive.org/web/20220711223854id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3531828,DH-HGCN: Dual Homogeneity Hypergraph Convolutional Network for Multiple Social Recommendations,2022
+299,MOSTPOP;BPRMF;STRNN;ATSTLSTM;MCARNN;IMTL;SASREC;LIGHTGCN;SGREC;MCMG,https://arxiv.org/pdf/2209.00472.pdf,A Multi-Channel Next POI Recommendation Framework with Multi-Granularity Check-in Signals,2022
+300,DEEPWALK;METAPATH2VEC;GRAPHSAGE;LIGHTGCN;GAT;GIN;NGCF;GATNE,https://arxiv.org/pdf/2112.01035.pdf,Graph4Rec: A Universal Toolkit with Graph Neural Networks for Recommender Systems,2021
+301,MFBPR;LIGHTGCN;RGCN;NMTR;MBGCN;GNMR;CRGCN,https://arxiv.org/pdf/2205.13128.pdf,Cascading Residual Graph Convolutional Network for Multi-Behavior Recommendation,2022
+302,FPMC;GRU4REC;NARM;STAMP;SRGNN;GCSAN;DISENGNN;GCEGNN;TIEDGNN,https://arxiv.org/pdf/2204.02119.pdf,Transition Information Enhanced Disentangled Graph Neural Networks for Session-based Recommendation,2022
+303,VBPR;ACF;GRAPHCAR;GRAPHSAGE;NGCF;LIHGTGCN;MMGCN;DUALGNN;GRCN;HUIGN;MGAT;MGCF,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9772486,A Multimedia Graph Collaborative Filter,2022
+304,MF;GRAPHREC;NGCF;LRGCCF;DIFFNET;LIGHTGCN;DESIGN,https://web.archive.org/web/20220504182923id_/https://dl.acm.org/doi/pdf/10.1145/3485447.3512003,Revisiting Graph based Social Recommendation: A Distillation Enhanced Social Graph Network,2022
+305,PMF;NEUMF;MULTIVAE;RECVAE;CAUSE;CVIBMF;CVIBNCF;MACRMF;DECRS;GRAPHREC;NGCF;LIHGTGCN;REST,https://arxiv.org/pdf/2201.04952.pdf,REST: Debiased Social Recommendation via Reconstructing Exposure Strategies,2022
+306,BPR;SBPR;SOREC;SOCIALMF;DIFFNET;NGCF;LIGHTGCN;SGL;MHCN;SEPT;DCREC,https://arxiv.org/pdf/2208.08723.pdf,Disentangled Contrastive Learning for Social Recommendation,2022
+310,MF;BPR;FPMC;DREAM;RUM,https://dl.acm.org/doi/pdf/10.1145/3159652.3159668,Sequential Recommendation with User Memory Networks,2018
+315,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN;FGNN,https://arxiv.org/pdf/1911.11942.pdf,Rethinking the Item Order in Session-based Recommendation with Graph Neural Networks,2021
+316,POP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;CSRM;SRGNN;FGNN;GCEGNN,https://arxiv.org/pdf/2106.05081.pdf,Global Context Enhanced Graph Neural Networks for Session-based Recommendation,2021
+318,POP;BPRMF;ITEMKNN;WOR2VEC;RIB,https://dl.acm.org/doi/pdf/10.1145/3159652.3159671,Micro Behaviors: A New Perspective in E-commerce Recommender Systems,2018
+319,MF;BPR;GEOBPF;STELLAR;NUEMF;DRCF;CARA,https://eprints.gla.ac.uk/160908/7/160908.pdf,A Contextual Attention Recurrent Architecture for Context-Aware Venue Recommendation,2018
+320,POP;SPOP;BPRMF;HRNN;GRU4REC;NARM,https://drive.google.com/file/d/19fGCgjWe_3BWY8Ra5ojWFWWadTrQMlQj/view,Streaming Session-based Recommendation,2019
+321,BPR;MLP;FM;FISM;GRU;NAIS;NASR;HRL,https://ojs.aaai.org/index.php/AAAI/article/view/3815/3693,Hierarchical Reinforcement Learning for Course Recommendation in MOOCs,2019
+322,WIDE;WIDEDEPP;DSSM;CNNMAX;DUPN,https://arxiv.org/pdf/1805.10727.pdf,Perceive Your Users in Depth: Learning Universal User Representations from Multiple E-commerce Tasks,2018
+324,MF;RNN;BPR;DREAM;NEUMF;GRMF;MLRP;DRCF,https://eprints.gla.ac.uk/147487/7/147487.pdf,A Deep Recurrent Collaborative Filtering Framework for Venue Recommendation,2017
+325,POP;BPR;RVAE;FPMC;CASER;MVAE;SVAE,https://arxiv.org/pdf/1811.09975.pdf,Sequential Variational Autoencoders for Collaborative Filtering,2018
+326,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN;FGNN,https://arxiv.org/pdf/2107.00852.pdf,Exploiting Cross-Session Information for Session-based Recommendation with Graph Neural Networks,2021
+327,ITEMKNN;MOSTRECENT;MOSTPOP;RNN;IIRNNAP,https://arxiv.org/pdf/1706.07506.pdf,Inter-Session Modeling for Session-Based Recommendation,2017
+328,POP;ITEMKNN;GRU4REC;NARM;STAMP;SRGNN;GCSAN;HETGNN;RDAN;COATT;MRIG,https://arxiv.org/pdf/2002.07993.pdf,Beyond Clicks: Modeling Multi-Relational Item Graph for Session-Based Target Behavior Prediction,2021
+329,MOSTPOP;CASER;GRU4REC;NETITNET;GREC,https://arxiv.org/pdf/1906.04473.pdf,Future Data Helps Training: Modeling Future Contexts for Session-based Recommendation,2020
+330,MF;GCMC;NGCF;SCF;CGMC;LCFN,http://proceedings.mlr.press/v119/yu20e/yu20e.pdf,Graph Convolutional Network for Recommendation with Low-pass Collaborative Filters,2020
+331,POP;BPRMF;ITEMKNN;WORD2VEC;WORD2VECAVG;RIB;TIMELSTM;SHRNN;HUP,https://guyulongcs.github.io/files/WSDM2020_HUP.pdf,Hierarchical User Profiling for E-commerce Recommender Systems,2020
+332,POP;ITEMKNN;BPRMF;VUIKNN;NCF;CONET;GRU4REC;HGUR4REC;PINET,https://www.researchgate.net/profile/Pengjie-Ren/publication/334579816_p-Net_A_Parallel_Information-sharing_Network_for_Shared-account_Cross-domain_Sequential_Recommendations/links/5e3d339d92851c7f7f238455/p-Net-A-Parallel-Information-sharing-Network-for-Shared-account-Cross-domain-Sequential-Recommendations.pdf,π-Net: A Parallel Information-sharing Network for Shared-account Cross-domain Sequential Recommendations,2019
+333,BPRMF;FPMC;ITEMKNN;SKNN;GRU4REC;STAMP;NARM;SASREC;CSRM;COSAN,https://www.ijcai.org/Proceedings/2020/0359.pdf,Collaborative Self-Attention Network for Session-based Recommendation,2020
+334,ITEMCF;USERCF;TAGCF;BIASEDMF;IAUTOREC;DNN;BOWTRSDL;TRSDL,https://www.mdpi.com/2076-3417/8/5/799/pdf,TRSDL: Tag-Aware Recommender System Based on Deep Learning–Intelligent Computing Systems,2018
+335,ITEMCF;YOTUBEDNN;HSM;TDM;DNN;JTM,https://proceedings.neurips.cc/paper/2019/file/1c6a0198177bfcc9bd93f6aab94aad3c-Paper.pdf,Joint Optimization of Tree-based Index and Deep Model for Recommender Systems,2019
+336,POP;ITEMKNN;BPRMF;HRNN;NARM;DAINN,https://link.springer.com/content/pdf/10.1007/s10994-018-05777-9.pdf,Dynamic attention-integrated neural network for session-based news recommendation,2019
+338,PMF;FPMC;TRANSREC;REAM;DIN;RMTP;TOPLSTM;RRN;DEEMSRNN,https://qitianwu.github.io/assets/Dual%20Sequential.pdf,Dual Sequential Prediction Models Linking Sequential Recommendation and Information Dissemination,2019
+339,POP;ITEMKNN;FPMC;SKNN;VSKNN;GRU4REC;SRGNN;HRNN;HIERTCN;APGNN,https://arxiv.org/pdf/1910.08887.pdf,Personalized Graph Neural Networks with Attention Mechanism for Session-Aware Recommendation,2021
+341,ITEMKNN;FPMC;MEM;FGMSI;HKANN,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8486952,Heterogeneous Knowledge-Based Attentive Neural Networks for Short-Term Music Recommendations,2018
+342,POP;SPOP;TEMKNN;FPMC;BPRMF;GRU4REC;NARM;STAMP;REPEATNET;SRGNN;TAINET,https://arxiv.org/pdf/2007.12329.pdf,Long-tail Session-based Recommendation,2020
+343,ITEMPOP;FPMC;GRU45REC;NARM;STAMP;HRNN;SHAN;DCNSR,https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/chen-2019-dynamic.pdf,A Dynamic Co-attention Network for Session-based Recommendation,2019
+345,POP;SPOP;ITEMKNN;BPRMF;LSTM4REC;GRU4REC;NARM;STAMP;HCRNN,https://ojs.aaai.org/index.php/AAAI/article/view/4429/4307,Hierarchical Context Enabled Recurrent Neural Network for Recommendation,2019
+346,TIMPOP;DMF;TDCN;TIMELSTM;CLSTM,https://arxiv.org/ftp/arxiv/papers/2008/2008.10849.pdf,LSTM Networks for Online Cross-Network Recommendations,2018
+347,PROD2VEC;RCFVEC;GRUTOP1;HRM;RCF,https://www.math.pku.edu.cn/teachers/ZhangRuixun%20/paper/2018_IJCAI_recommender.pdf,Recurrent Collaborative Filtering for Unifying General and Sequential Recommender,2018
+348,GRU;ATTENTIONGRU;TIMELSTM;SECCIONRNN;LIBFM;ATTENTIONGRU3M,https://arxiv.org/pdf/1805.08958.pdf,A Brand-level Ranking System with the Customized Attention-GRU Model,2018
+350,GRU4REC;BPRMF;CASER;HGRU4REC;POSADAP,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8752213,Neural Session-Aware Recommendation,2019
+351,GMF;NCF;RRN;TIMESVD;USERSAR;ITEMSAR;PRNN;RRLC,https://dl.acm.org/doi/pdf/10.1145/3289600.3291024,Recurrent Recommendation with Local Coherence,2019
+352,MF;PER;FMC;FPMC;HRM;DREAM;TRANSREC;UGREC,http://yongfeng.me/attach/wang-sigir2019a.pdf,Unified Collaborative Filtering over Graph Embeddings,2019
+353,FDE;MDE;DPQ;NIS;;MGQE;AUTOEMB;RAS;AUTODIM,https://arxiv.org/pdf/2006.14827.pdf,Memory-efficient Embedding for Recommendations,2020
+354,POP;ITEMKNN;GRUREC;NARM;STAMP;ISLF,https://www.researchgate.net/profile/Zijing-Ou/publication/334844168_ISLF_Interest_Shift_and_Latent_Factors_Combination_Model_for_Session-based_Recommendation/links/5d6c8541299bf1808d5eaab4/ISLF-Interest-Shift-and-Latent-Factors-Combination-Model-for-Session-based-Recommendation.pdf,ISLF: Interest Shift and Latent Factors Combination Model for Session-based Recommendation,2019
+356,POP;FOSSIL;GRNN;GRU4REC;NARM;STAMP;SHAN;BINN,https://opus.lib.uts.edu.au/bitstream/10453/139919/1/What%20Can%20History%20Tell%20Us%20Identifying%20Relevant%20Sessions%20for%20next-Item%20Recommendation_Published%20version.pdf,What Can History Tell Us? Identifying Relevant Sessions for Next-Item Recommendation,2019
+357,BPRMF;FISM;FPMC;FOSSIL;GRU4REC;CASER;SASREC;CAR;FISSA,https://csse.szu.edu.cn/staff/panwk/publications/Conference-RecSys-20-FISSA.pdf,FISSA: Fusing Item Similarity Models with Self-Attention Networks for Sequential Recommendation,2020
+358,POP;BPRMF;FPMC;GRU4REC;NARM;STAMP;SANSR,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8781815,Self-Attention Network for Session-Based Recommendation With Streaming Data Input,2019
+359,RNN;GRU4REC;SASREC;CPSA;SGS,https://dl.acm.org/doi/pdf/10.1145/3397271.3401330,Sentiment-guided Sequential Recommendation,2020
+360,ITEMKNN;GRU4REC;SKNN;SSKNN;CT;MAN;NARM,https://arxiv.org/pdf/2005.01573.pdf,Memory Augmented Neural Model for Incremental Session-based Recommendation,2020
+361,GRU4REC;NARM;CASER;STAMP;SASREC;SRGNN,https://ojs.aaai.org/index.php/AAAI/article/view/16601/16408,Cold-start Sequential Recommendation via Meta Learner,2021
+362,MF;BPR;STAMP;SHAN;SRGNN;TISASREC;RRLC;ADARM,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9430133,Deep Sequential Model for Anchor Recommendation on Live Streaming Platforms,2021
+363,POP;ITEMKNN;SKNN;FPMC;BPRMF;GRU4REC;NARM;STAMP;KNNRNN;CSRM;SRGNN;DGTN,https://arxiv.org/pdf/2009.10002.pdf,DGTN: Dual-channel Graph Transition Network for Session-based Recommendation,2020
+364,FPMC;GRU4REC;NARM;STAMP;SRGNN;GCEGNN;S2DHCN;COTREC,https://arxiv.org/pdf/2108.10560.pdf,Self-Supervised Graph Co-Training for Session-based Recommendation,2021
+365,SPOP;MF;FPMC;KNN;GRU4REC;NARM;STAMP;RPNET;SRGNN;SHARE,https://epubs.siam.org/doi/pdf/10.1137/1.9781611976700.10,Session-based Recommendation with Hypergraph Attention Networks,2021
+366,BPRMF;GRU4REC;ITEMKNN;SRGNN;NARM;GACOFOREC,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8807147,GACOforRec: Session-Based Graph Convolutional Neural Networks Recommendation Model,2019
+367,MF;ECM;LCM;NEUMF;ENCM;LNCM;SLCM,https://arxiv.org/pdf/1909.03999.pdf,Deep Context-Aware Recommender System Utilizing Sequential Latent Context,2020
+369,POP;SPOP;ITEMKNN;BPRMF;GRU4REC;NARM;STAMP;SRGNN;ESRM,https://drive.google.com/file/d/1gRRoutnbRj_IcXfkdl8UbloANgM7LgJf/view,Keywords Generation Improves E-Commerce Session-based Recommendation,2020
+370,TOPPOP;RP3;ALS;SLIM;ENSFM;LIGHTGCN;LCE,https://arxiv.org/pdf/2202.02427.pdf,Lightweight Compositional Embeddings for Incremental Streaming Recommendation,2022
+372,NEUMF;NGCF;DGCF;MVAE;IFBPR;MCREC;SEDLR,https://www.researchgate.net/profile/Dianer-Yu/publication/359222586_Semantics-Guided_Disentangled_Learning_for_Recommendation/links/622fcc0b435ec5645a11fc46/Semantics-Guided-Disentangled-Learning-for-Recommendation.pdf,Semantics-Guided Disentangled Learning for Recommendation,2022
+373,MF;NGCF;JKNET;DROPEDGE;APPNP;LIGHTGCN;ULTRAGCN;HETEROMGDCF;HOMOMGDCF,https://arxiv.org/pdf/2204.02338.pdf,MGDCF: Distance Learning via Markov Graph Diffusion for Neural Collaborative Filtering,2022
+374,BPR;NGCF;DGCF;LINE;MULTIDAE;LIGHTGCN,https://www.e3s-conferences.org/articles/e3sconf/pdf/2021/44/e3sconf_vesep2020_01061.pdf,Open-source project recommendation model,2021
+375,MF;NGCF;MULTVAE;GRMF;GCN;LIGHTGCN;CFLGCNU,https://arxiv.org/pdf/2102.07575.pdf,User Embedding based Neighborhood Aggregation Method for Inductive Recommendation,2021
+376,MFBPR;NCF;NGCF;LIGHTGCN;SGL;HCL,https://assets.amazon.science/21/8b/a804e89041f1a83bb1f77fa6aaee/hcl-hybrid-contrastive-learning-for-graph-based-recommendation.pdf,HCL: Hybrid Contrastive Learning for Graph-based Recommendation,2021
+377,MF;NGCF;LIGHTGCN;ULTRAGCN;CAGCN,https://arxiv.org/pdf/2207.06221.pdf,Collaboration-Aware Graph Convolutional Networks for Recommendation Systems,2022
+378,MF;NEUCF;GCMC;NGCF;MULTVAE;DGCF;LIGHTGCN;GTN;LINKPROP,https://arxiv.org/pdf/2203.15789.pdf,Revisiting Neighborhood-based Link Prediction for Collaborative Filtering,2022
+379,MOSTPOP;ITEMKNN;PURESVD;BPRMF;BPRFM;NEUMF;NFM;NGCF;MULTIVAE,https://arxiv.org/pdf/2206.10848.pdf,DaisyRec 2.0: Benchmarking Recommendation for Rigorous Evaluation,2022
+381,ITEMKNN;ITEM2VEC;GRU4REC;NCF;LIGHTGCN;POINCARE,https://www.jstage.jst.go.jp/article/ipsjjip/29/0/29_725/_pdf,Dynamic Hyperbolic Embeddings with Graph-Centralized Regularization for Recommender Systems,2021
+382,MF;NEUMF;MGCCF;LIGHTGCN,https://arxiv.org/pdf/2208.01709.pdf,Adapting Triplet Importance of Implicit Feedback for Personalized Recommendation,2022
+383,GRAPHSAGE;FASTGCN;LADIES;CLUSTERGCN;GRAPHSAINT;SGC;SIGN;SAGN,https://graph-learning-benchmarks.github.io/assets/papers/glb2022/Benchmarking_Large_Scale_Graph_Training_Over_Effectiveness_And_Efficiency.pdf,Benchmarking Large-Scale Graph Training Over Effectiveness And Efficiency,2022
+384,MMR;DPP;NCF;LIGHTGCN;SGL;PDGAN;DGCN;CCT,https://assets.amazon.science/93/4e/e403952247f7882bcb18b493a841/contrastive-so-training-for-diversified-recommendation.pdf,Contrastive Co-training for Diversified Recommendation,2022
+385,MF;NEUCF;BIVAECF;PCD;PERSIC,https://arxiv.org/pdf/2207.12236.pdf,Personality-Driven Social Multimedia Content Recommendation,2022
+386,MF;FPMC;TMCA;STGN;LSTMPM;SGREC;STAN;DRAN,https://web.archive.org/web/20220712023209id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3532012,Learning Graph-based Disentangled Representations for Next POI Recommendation,2022
+387,LR;DSSM;WIDEDEEP;DEEPFM;FIM;DAN;GAT;GERL;GNUD,https://arxiv.org/pdf/2110.12681.pdf,Content Filtering Enriched GNN Framework for News Recommendation,2021
+388,ITEMKNN;MFBPR;GRMF;NEUMF;CML;CMN;HOPREC;ENMF;MFCCL;SLIM;MULTVAE;MACRIDVAE;EASE;YOUTBEDNN;SIMPLEX;DEEPWALK;LINE;NODE2VEC;ITEM2VEC;GCMC;PINSAGE;GAT;NGCF;DISENGCN;LRGCCF;NIAGCN;LIGHTGCN;DGCF;NGAT4REC;SGLED;GFCF;ULTRAGCN,https://arxiv.org/pdf/2205.09626.pdf,BARS: Towards Open Benchmarking for Recommender Systems,2022
+389,POP;BPRMF;NGCF;LIGHTGCN;SGL;GCAREC,https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_650.pdf,Graph Contrastive Learning with Adaptive Augmentation for Recommendation,2022
+390,DSPR;CFA;BPRT;TGCN;LFGCF,https://arxiv.org/pdf/2208.03454.pdf,LFGCF: Light Folksonomy Graph Collaborative Filtering for Tag-Aware Recommendation,2022
+391,TOPPOP;GRAPHSAGE;PINSAGE;IDCF;SIMPLEREC,https://arxiv.org/pdf/2209.04185.pdf,Simple and Powerful Architecture for Inductive Recommendation Using Knowledge Graph Convolutions,2022
+392,ITEMKNN;MF;NGCF;LIGHTGCN;SGL;VBPR;MMGCN;GRCN;MICRO,https://arxiv.org/pdf/2111.00678.pdf,Latent Structure Mining with Contrastive Modality Fusion for Multimedia Recommendation,2021
+393,BPRMF;CKE;RIPLLENET;PER;KGCN;KGATLKGIN;MCCLK,https://arxiv.org/pdf/2204.08807.pdf,Multi-level Cross-view Contrastive Learning for Knowledge-aware Recommender System,2022
+394,BPRMF;NEUMF;SOCIALMF;SOREC;RGCN;HAN;HGT;GRAPHREC;LIGHTGCN;DGREC;DMAN;TRANSREC;SASREC;ASAS;TEA,https://arxiv.org/pdf/2111.07378.pdf,TEA: A Sequential Recommendation Framework via Temporally Evolving Aggregations,2021
+395,PMF;LLORMA;SVD;BIASMF;DMF;NCF;GCMC;NGCF;STGCN;RBM;NADE;CFUICA;ACF;AUTOREC;CDAE;SIMP;INMF;CRANET,https://arxiv.org/pdf/2201.03158.pdf,Collaborative Reflection-Augmented Autoencoder Network for Recommender Systems,2021
+396,BPR;EASE;LCFN;ULTRAGCN;LIGHTGCN;SDLED;SVDGCN,https://arxiv.org/pdf/2208.12689.pdf,SVD-GCN: A Simplified Graph Convolution Paradigm for Recommendation,2022
+397,MFBPR;NEUMF;HHMF;NGCF;NIAGCN;LRGCCF;LIGHTGCN;SGL;UGCN,https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_972.pdf,A U-shaped Hierarchical Recommender by Multi-resolution Collaborative Signal Modeling,2022
+398,MOSTPOP;PROD2VEC;MF;BPR;GRU4REC;CASER;SASREC;LIGHTGCN;SARROS,https://hal.archives-ouvertes.fr/hal-03266139/document,Apprentissage séquentiel de préférence utilisateurs pour les systèmes de recommandation,2021
+399,LINE;HOPREC;MLM;PINSAGE;NGCF;LIGHTGCN;GCC;SGL;SAC,https://arxiv.org/pdf/2205.09489.pdf,Spatial Autoregressive Coding for Graph Neural Recommendation,2022
+400,BPRMF;SVD;NEUMF;GCMC;NGCF;LRGCCF;LIGHTGCN;SGL;JMPGCF,https://www.researchgate.net/profile/Kang-Liu-61/publication/359482566_Joint_Multi-Grained_Popularity-Aware_Graph_Convolution_Collaborative_Filtering_for_Recommendation/links/62a98cab55273755ebee25d7/Joint-Multi-Grained-Popularity-Aware-Graph-Convolution-Collaborative-Filtering-for-Recommendation.pdf,Joint Multi-Grained Popularity-Aware Graph Convolution Collaborative Filtering for Recommendation,2022
+401,SIMPDO;SHARED;DROUPUTNET;ACCM,https://arxiv.org/pdf/2208.14594.pdf,One-class Recommendation Systems with the Hinge Pairwise Distance Loss and Orthogonal Representations,2022
+402,NCF;NGCF;ENMF;LIGHTGCN;NMTR;EHCF;RGCN;MBGMN;SMBREC,http://www.shichuan.org/doc/134.pdf,Self-supervised Graph Neural Networks for Multi-behavior Recommendation,2022
+403,PMF;FUNKSVD;TRUSTMF;NEUMF;DEEPSOR;GCMC;LIGHTGCN;GRAPHREC;DIFFNET;GDSREC,https://arxiv.org/pdf/2205.09948.pdf,GDSRec: Graph-Based Decentralized Collaborative Filtering for Social Recommendation,2015
+404,POP;LIGHTGCN;RGCN;GIN;PINSAGE;GAT;SCGREC,https://arxiv.org/pdf/2202.03392.pdf,Large-scale Personalized Video Game Recommendation via Social-aware Contextualized Graph Neural Network,2022
+405,MF;NGCF;LIGHTGCN;LGCF,https://epubs.siam.org/doi/pdf/10.1137/1.9781611977172.61,Localized Graph Collaborative Filtering,2022
+406,POP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;REPEATNET;SRGNN;GCEGNN;RNMSR,https://arxiv.org/pdf/2012.05422.pdf,Exploiting Group-level Behavior Pattern for Session-based Recommendation,2020
+407,BPR;MULTIVAE;EHCF;BUIR;NGCF;LRGCCF;LIGHTGCN;LAYERGCN,https://arxiv.org/pdf/2207.11088.pdf,Layer-refined Graph Convolutional Networks for Recommendation,2022
+408,NGCF;LIGHTGCN;HYPERML;HVAE;HGCF;KGCN;DGCF;MACRIDVAE;GDCF,http://www.shichuan.org/doc/136.pdf,Geometric Disentangled Collaborative Filtering,2022
+409,BMF;DMF;MLP;NEUMF;EFM;NEFM,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9400401,Neural Explicit Factor Model Based on Item Features for Recommendation Systems,2021
+410,LIGHTGCN;PPGN;PM,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9676663,Refining Graph Representation for Cross-Domain Recommendation Based on Edge Pruning in Latent Space,2022
+412,VBPR;DUIF;CB2CF;NGCF;DISENGCN;MACRIDVAE;MMGCN;HUIGN;GRCN;ULTRAGCN;INVRL,http://staff.ustc.edu.cn/~hexn/papers/mm22-irl-rec.pdf,Invariant Representation Learning for Multimedia Recommendation,2022
+413,LIGHTGCN;FPMC;GRU4REC;CASER;SASREC;HGN;SRGNN;GCSAN;GCEGNN;CL4SREC;S3REC;GCL4SR,https://arxiv.org/pdf/2205.14837.pdf,Enhancing Sequential Recommendation with Graph Contrastive Learning,2022
+415,NGCF;LIGHTGCN;MMGCN;SGL;MMGCL,https://eprints.gla.ac.uk/269019/1/269019.pdf,Multi-modal Graph Contrastive Learning for Micro-video Recommendation,2022
+416,YOUTUBEDNN;LIGHTGCN;KGCN;KGAT;CKGAT,https://assets.amazon.science/00/2b/339f30374931a4852fd010331b3c/contrastive-knowledge-graph-attention-network-for-request-based-recipe-recommendation.pdf,CONTRASTIVE KNOWLEDGE GRAPH ATTENTION NETWORK FOR REQUEST-BASED RECIPE RECOMMENDATION,2022
+417,LSTM;GCN;DCRNN;STGCN;GRAPHWAVENET;PVGCN;GCNSUBLSTM;PBGRU,https://arxiv.org/pdf/2109.00924.pdf,Parallel Multi-Graph Convolution Network For Metro Passenger Volume Prediction,2021
+419,USERKNN;ITEMKNN;HYBRIDKNN;SLIM;BPR;NEUMF;CMN;RP3;NGCF;LIGHTGCN;LECF,http://scis.scichina.com/en/2022/112101.pdf,LECF: recommendation via learnable edge collaborative filtering,2022
+420,BPR;NCF;SML;LIGHTGCN,https://dl.acm.org/doi/fullHtml/10.1145/3485447.3511971,Learning Explicit User Interest Boundary for Recommendation,2022
+422,MOSAN;AGREE;SIGR;GROUPIM;GAME;GCMC;NGCF;LIGHTGCN;HHGR,https://arxiv.org/pdf/2112.02274.pdf,Self-supervised Graph Learning for Occasional Group Recommendation,2021
+423,BPRMF;LIGHTGCN;HEREC;MAGNN;TRUSTSVD;GRAPHREC;DIFFNET;MPIR,https://web.archive.org/web/20220628044727id_/https://dl.acm.org/doi/pdf/10.1145/3512527.3531402,An Effective Two-way Metapath Encoder over Heterogeneous Information Network for Recommendation,2022
+424,GCN;GRAPHSAGE;JKNET;RESGCN;APPNP;APGCN;DAGNN;DGC;SIGN;S2GC;GBP,https://arxiv.org/pdf/2206.04361.pdf,Model Degradation Hinders Deep Graph Neural Networks,2022
+425,BPR;NCF;FCMC;GRAPHREC,https://arxiv.org/pdf/2205.10588.pdf,Micro-video recommendation model based on graph neural network and attention mechanism,2022
+426,MIKGNN;KGIN;AGCN;CKAN;KGAT;KGCNLRIPPLENET;CKE;PER;LIBFM;SVD,https://pure.ulster.ac.uk/ws/files/99994924/MI_KGNN.pdf,Exploring Multi-dimension User-Item Interactions with Attentional Knowledge Graph Neural Networks for Recommendation,2021
+427,MF;BPR;NEUMF;TRUSTMF;GCMC;LRGCCF;NGCF;GFCF,https://www.researchgate.net/profile/Zhuo-Cai-6/publication/359011589_FG-CF_Friends-aware_Graph_Collaborative_Filtering_for_POI_Recommendation/links/622aac5697401151d20eaa7e/FG-CF-Friends-aware-Graph-Collaborative-Filtering-for-POI-Recommendation.pdf,FG-CF: Friends-aware graph collaborative filtering for POI recommendation,2022
+428,BPR;FPMC;GRU4REC;CASER;SASREC;BERT4REC;DHCN;TISASREC;DGCF;PTGCN,https://arxiv.org/pdf/2107.05235.pdf,Position-enhanced and Time-aware Graph Convolutional Network for Sequential Recommendations,2021
+429,MF;PMF;BIASDVD;ATTMC,http://ceur-ws.org/Vol-3206/paper02.pdf,Matrix Completion Recommendation Algorithm Based on Attention Mechanism,2022
+430,FM;NFM;CFM;CSGCNIS,https://projekter.aau.dk/projekter/files/415458076/CSGCN.pdf,CSGCN - Context and Side-Information in GCNs,2021
+431,BPRMF;APRMF;NGCF;LIGHTGCN,https://www.researchgate.net/profile/Huiyuan-Chen-3/publication/360449889_Adversarial_Graph_Perturbations_for_Recommendations_at_Scale/links/6276c2dd2f9ccf58eb358c41/Adversarial-Graph-Perturbations-for-Recommendations-at-Scale.pdf,Adversarial Graph Perturbations for Recommendations at Scale,2022
+432,ITEMPOP;ITEMKNN;BPR;NEUMF;DEEPCF;NEUACF;NNCF;CFFNN;LIGHTGCN;IUGCF,https://assets.researchsquare.com/files/rs-1751704/v1_covered.pdf?c=1655999243,Ideal User Group: A New Perspective on Item Representation for Recommender Systems,2022
+433,GRU4REC;YOUTUBEDNN;MIND;COMIREC;PIMI;GIMIREC,https://arxiv.org/pdf/2112.08717.pdf,GIMIRec: Global Interaction Information Aware Multi-Interest Framework for Sequential Recommendation,2021
+434,VBPR;FISM;NCF;NAIS,https://arxiv.org/pdf/2205.03297.pdf,Implicit semantic-based personalized micro-videos recommendation,2022
+435,POP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;CSRM;SRIEM;SRGNN;TAGNN;GCEGNN;TEGNN,https://jiafengguo.github.io/2022/Knowledge-Based%20Systems%202022%20Time%20enhanced%20graph%20neural%20networks%20for%20session-based%20recommendation.pdf,Time enhanced graph neural networks for session-based recommendation,2022
+436,VAECF;BPRMF;LRML;NGCF;IMPGCN;LIGHTGCN,https://dl.acm.org/doi/fullHtml/10.1145/3485447.3512106,MCL: Mixed-Centric Loss for Collaborative Filtering,2022
+437,MF;GCMC;NGCF;LIGHTGCN;LCFN;LGCN,https://www.aaai.org/AAAI22Papers/AAAI-3643.WenhuiY.pdf,Low-pass Graph Convolutional Network for Recommendation,2022
+438,LEUMF;LIGHTGCN;RIPPLENET;FM;KGAT;LKGCN,https://dl.acm.org/doi/pdf/10.1145/3503252.3531316,Entity-Enhanced Graph Convolutional Network for Accurate and Explainable Recommendation,2022
+439,PMF;NEUMF;SOREC;SOREG;SOCIALMF;TRUSTMF;SASREC;SRGNN;CDGCN;DEEPSOR;DGREC;TRUSTEV;GRAPHREC;HOSR;CONSISREC;MOHCN,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9858144,Multi-Order Hypergraph Convolutional Neural Network for Dynamic Social Recommendation System,2022
+440,SVD;YOUTUBENET;PNN;GRU4REC;ATRANK;CASER;DIEN;UBGRUA;TOPOLSTM;DIB;IBGRUA;TIEN,https://www.researchgate.net/profile/Tao-Zhuang-4/publication/346275897_Deep_Time-Aware_Item_Evolution_Network_for_Click-Through_Rate_Prediction/links/602dc9714585158939b06d09/Deep-Time-Aware-Item-Evolution-Network-for-Click-Through-Rate-Prediction.pdf,Deep Time-Aware Item Evolution Network for Click-Through Rate Prediction,2020
+441,CT;GRU4REC;SSKNN;SKNN;SMF;GRU4REC;ITEMKNN,https://arxiv.org/pdf/1806.03733.pdf,Context Tree for Adaptive Session-based Recommendation,2018
+443,LR;FM;DNN;WIDEDEEP;MADNN,https://arxiv.org/pdf/1907.04667.pdf,Click-Through Rate Prediction with the User Memory Network,2019
+444,POP;SPOP;ITEMKNN;FPMC;BPRMF;GRU4REC;NARM;STAMP;SRGNN;GCSAN;GACOFOREC;AUTOMATE,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9050414,Session-Based Graph Convolutional ARMA Filter Recommendation Model,2020
+445,IMF;CBOIFF;ITEMCF;RNNFF,https://arxiv.org/pdf/1709.07545.pdf,Attention-based Mixture Density Recurrent Networks for History-based Recommendation,2017
+446,MOSTPOP;IIRNNAP;ASLM,https://www.mdpi.com/2076-3417/8/12/2426/pdf,An Attention-Based Recommender System to Predict Contextual Intent Based on Choice Histories across and within Sessions,2018
+447,SREC;TCARS;GRU4REC;RRN;RT,http://scis.scichina.com/en/2019/212105.pdf,Recommendation over time: a probabilistic model of time-aware recommender systems,2019
+448,POP;ITEMKNN;SKNN;FPMC;BPRMF;GRU4REC;NARM;STAMP;SRGNN;KNNRNN;CSRM;I3GN,https://arxiv.org/pdf/1910.13527.pdf,Balancing Multi-level Interactions for Session-based Recommendation,2019
+449,MOSTPOP;GRU4REC;CASER;CASER;NEXTITNET,https://www.researchgate.net/profile/Alexandros-Karatzoglou/publication/327050395_A_Simple_but_Hard-to-Beat_Baseline_for_Session-based_Recommendations/links/5bf473a04585150b2bc4afd6/A-Simple-but-Hard-to-Beat-Baseline-for-Session-based-Recommendations.pdf,A Simple but Hard-to-Beat Baseline for Session-based Recommendations,2018
+450,POP;ITEMKNN;NARM;STAMP;NASR;BINN;MNN,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9130659,A Neighbor-Guided Memory-Based Neural Network for Session-Aware Recommendation,2020
+453,ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;REPEATNET;SRGNN;LINET,https://www.researchgate.net/profile/Tianwen-Chen-9/publication/338948598_Session-Based_Recommendation_with_Local_Invariance/links/604eef0ba6fdcccfee815408/Session-Based-Recommendation-with-Local-Invariance.pdf,Session-based Recommendation with Local Invariance,2019
+454,SPOP;GRU4REC;BPRMF;GRU4RECCON;FPMC;HRNN;ITEMKNN;ATTBNN,https://www.hindawi.com/journals/mpe/2019/7586589/,Recommendation Based on Users’ Long-Term and Short-Term Interests with Attention,2019
+455,SPOP;FPMC;SKNN;STAN;GRU4REC;STAMP;SRGNN;GCSAN;BERT4REC;COSAN;DSAN,https://ojs.aaai.org/index.php/AAAI/article/download/16593/16400,Dual Sparse Attention Network For Session-based Recommendation,2021
+456,POP;SPOP;KNN;BPRMF;GRU4REC;TOPKGAIN;HYBRIDGORU,https://e-space.mmu.ac.uk/625002/1/An_Intelligent_Context_Aware_Recommender_System_For_Real_Estate%20%282%29.pdf,An Intelligent Context Aware Recommender System For Real-Estate,2019
+458,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;REPEATNET;SRGNN;REGNN,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9099800,ReGNN: A Repeat Aware Graph Neural Network for Session-Based Recommendations,2020
+459,POP;ITEMKNN;BPRMF;FPMC;GRU4REC;TIMELSTM;NARM;STAMP;ISLF;PAN,https://arxiv.org/pdf/2006.15346.pdf,Modeling Long-Term and Short-Term Interests with Parallel Attentions for Session-based Recommendation,2020
+460,VAE;BAYES;SKNN;VSKNN;POP;PRNN;IKNN;SSKNN;GRU4REC;BPRMF,https://link.springer.com/article/10.1007/s11257-020-09269-1,Using autoencoders for session-based job recommendations,2020
+461,POP;ITEMKNN;FPMC;BPR;GRU4REC;NARM;STAMP;RELAVAR;CRM;VASERDA,https://www.sciencedirect.com/science/article/am/pii/S0925231220301545,Session-based Recommendation via Flow-based Deep Generative Networks and Bayesian Inference,2020
+462,POP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;CYBERBERT,https://www.researchgate.net/profile/Ehsan-Amjadian/publication/352228939_CyberBERT_A_Deep_Dynamic-State_Session-Based_Recommender_System_for_Cyber_Threat_Recognition/links/60c2c649a6fdcc2e613181c2/CyberBERT-A-Deep-Dynamic-State-Session-Based-Recommender-System-for-Cyber-Threat-Recognition.pdf,CyberBERT: A Deep Dynamic-state Session-based Recommender System for Cyber Threat Recognition,2021
+464,ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;REPEATNET;CSRM;SRGNN;GCSAN;TAGNN;LESSR;SRSAN,https://arxiv.org/ftp/arxiv/papers/2102/2102.01922.pdf,Session-based Recommendation with SelfAttention Networks,2021
+465,DMF;AUTOREC;SVD;NCEDMF,https://www.cgv-conf.org/wp-content/uploads/2020/07/01_202011L017_F060.pdf,A Product Recommendation Model Based on Recurrent Neural Network,2020
+466,DNN;GRU4REC;NARM;SHAN;BINN;SDM;SRU2B,https://www.researchgate.net/profile/Fei-Sun-41/publication/344894750_Unclicked_User_Behaviors_Enhanced_SequentialRecommendation/links/604756814585154e8c87e038/Unclicked-User-Behaviors-Enhanced-SequentialRecommendation.pdf,Unclicked User Behaviors Enhanced Sequential Recommendation,2020
+467,GRU4REC;NARM;SRGNN;LESSR;MGNNSPRED;MBGCN;MKMSR;MGCNET,https://arxiv.org/pdf/2109.11903.pdf,Multi-behavior Graph Contextual Aware Network for Session-based Recommendation,2021
+469,POP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;CSRM;COSAN;SRGNN;GCEGNN;BGNN;SRGIFM;SRGICM,https://arxiv.org/pdf/2011.10173.pdf,Exploring Global Information for Session-based Recommendation,2021
+470,GRU4REC;NARM;SASREC;BERT4REC,https://arxiv.org/pdf/2107.13045.pdf,A Case Study on Sampling Strategies for Evaluating Neural Sequential Item Recommendation Models,2021
+471,POP;ITEMKNN;NARM;I3GN;BINN;APGNN;TAGNN,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9195431,A Time-Aware Graph Neural Network for Session-Based Recommendation,2020
+472,CASER;NEXTITNET;GRU4REC;LSTM4REC;SRMN;TSC,https://arxiv.org/pdf/2004.13401.pdf,CmnRec: Sequential Recommendations with Chunk-accelerated Memory Network,2022
+473,POP;SPOP;ITEMKNN;NARM;STAMP;CB,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9422813,Real Estate Recommendation Approach for Solving the Item Cold-Start Problem,2021
+475,STAMP;NETASTAMP;NARM;CSRM;NETANARM;POP;SPOP;ITEMKNN;GRU4REC,https://arxiv.org/pdf/1909.11252.pdf,NEIGHBORHOOD-ENHANCED AND TIME-AWARE MODEL FOR SESSION BASED RECOMMENDATION,2019
+477,POP;GRU4REC;NARM;SRGNN;AIGNN,http://ksiresearch.org/seke/seke20paper/paper041.pdf,A Session-based Job Recommendation System Combining Area Knowledge and Interest Graph Neural Networks,2020
+478,POP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN,https://arxiv.org/ftp/arxiv/papers/2103/2103.15514.pdf,CONTEXT-AWARE SHORT-TERM INTEREST FIRST MODEL FOR SESSION-BASED RECOMMENDATION,2021
+479,POP;BPR;CDAE;NEUMF;RNN4REC;CNN4REC;KPRN;ABLAH,https://arxiv.org/pdf/2008.04185.pdf,Path-Based Reasoning over Heterogeneous Networks for Recommendation via Bidirectional Modeling,2020
+480,POP;ITEMKNN;SASREC;CASER;NARM,https://arxiv.org/pdf/2103.06138.pdf,Hybrid Model with Time Modeling for Sequential Recommender Systems,2021
+481,MOSTPOP;NFM;GRU4REC;CASER;NEXTITNET;SKIPREC,https://ojs.aaai.org/index.php/AAAI/article/view/16518/16325,A User-Adaptive Layer Selection Framework for Very Deep Sequential Recommender Models,2021
+482,POP;SPOP;ITEMKNN;GRU4REC;NARM;STAMP;SRGNN;MURZIM,https://arxiv.org/pdf/2103.05923.pdf,Improving Sequential Recommendation with Attribute-augmented Graph Neural Networks,2021
+483,POP;SPOP;ITEMKNN;SRKNN;GRU4REC;NARM;STAMP;CSRM;TSCIA,http://staff.ustc.edu.cn/~lszhuang/Doc/2020-ICME-SBR.pdf,TIME-SENSITIVE COLLABORATIVE INTEREST AWARE MODEL FOR SESSION-BASED RECOMMENDATION,2020
+484,GRU4REC;SASREC;MIMN;DIN;DIEN;UBR4CTR;NIIN,https://epubs.siam.org/doi/pdf/10.1137/1.9781611977172.60,A Non-sequential Approach to Deep User Interest Model for CTR Prediction,2022
+485,ITEMKNN;BPRMF;GRU4REC;NARM;SRGNN;CCNSR,https://www.mdpi.com/2227-7390/9/12/1392/pdf,Collaborative Co-Attention Network for Session-Based Recommendation,2021
+487,BPR;HYPERML;CML;NEUMF;TRANSE;TRANSH;DISTMUL;ROTATE;ROTREFEU;ROTREFHYY;MURE;MURP,https://arxiv.org/pdf/2109.09358.pdf,Augmenting the User-Item Graph with Textual Similarity Models,2021
+488,ITEMKNN;FPMC;GRU4REC;NARM;STAMP,https://www.researchgate.net/profile/Ehsan-Amjadian/publication/340721393_SESSNET_A_DEEP_HYBRID-STATE_SESSION-BASED_RECOMMENDER_SYSTEM_A_PREPRINT/links/5e9a360e92851c2f52aa68fb/SESSNET-A-DEEP-HYBRID-STATE-SESSION-BASED-RECOMMENDER-SYSTEM-A-PREPRINT.pdf,SESSNET: A DEEP HYBRID-STATE SESSION-BASED RECOMMENDER SYSTEM,2020
+489,BPR;RIPPLENET;TRANSREC;PGPR;ADAC;BERT4REC;GRU4REC;NEXTITNET;SRGNN;GCSAN;SASREC;TIMELYREC;PGPR,https://arxiv.org/pdf/2108.02634.pdf,Time-aware Path Reasoning on Knowledge Graph for Recommendation,2022
+490,DNN;GRU4REC;NARM;SHAN;BINN;SDM;XDM,https://arxiv.org/pdf/2010.12837.pdf,XDM: Improving Sequential Deep Matching with Unclicked User Behaviors for Recommender System,2022
+491,FPMC;GRU4REC;NARM;STAMP;SRGNN;GCEGNN;S2DHCN;COTREC;MGS,https://scholar.archive.org/work/y6kk4u4rojepdotmvejgc35v4q/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3531935,An Attribute-Driven Mirror Graph Network for Session-based Recommendation,2022
+493,POP;BPRMF;FMC;FPMC;FOSSIL;GRU4REC;CASER;QRREC;ABSGAIN;RELGAIN,https://arxiv.org/pdf/1902.09849.pdf,Multi-Scale Quasi-RNN for Next Item Recommendation,2019
+494,BPR;MLP;FM;FISM;GRU;NAIS;NASR;HRL,https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_229.pdf,Meta Hierarchical Reinforced Learning to Rank for Recommendation: A Comprehensive Study in MOOCs,2022
+495,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN;NARE;NARM,https://sigir-ecom.github.io/ecom2020/ecom20Papers/paper31.pdf,Improved Session based Recommendation using Graph-based Item Embedding,2020
+497,POP;BPRMF;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;SASREC;SRGNN;GCSAN;FGNN;TAGNN;LESSR,https://scholar.archive.org/work/gmeqvnfjmnbsnlq6nudsz62hk4/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3532192,Modeling Cross-session Information with Multi-interest Graph Neural Networks for the Next-item Recommendation,2022
+498,PMF;DEEPCONN;DATT;AHN;DRRLMNC;RRN;DRRBOW;DRRLMC,https://arxiv.org/pdf/2110.14747.pdf,Dynamic Review-based Recommenders,2022
+501,BPRMF;FPMC;GRU4REC;CASER;NEXTITNET;RECCONREC;SGPD,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9866059,Learning Sequential General Pattern and Dependency via Hybrid Neural Model for Session-Based Recommendation,2022
+503,POP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;SRGNN;GCSAN;GHDAN,https://www.itm-conferences.org/articles/itmconf/pdf/2022/07/itmconf_cccar2022_02032.pdf,Graph hierarchical dwell-time attention network for session-based recommendation,2022
+504,POP;ITEMKNN;FPMC;GRU4REC;NARM;SRGNN;FGNN;LESSR,https://arxiv.org/pdf/2201.10782.pdf,CAUSALITY AND CORRELATION GRAPH MODELING FOR EFFECTIVE AND EXPLAINABLE SESSION-BASED RECOMMENDATION,2022
+505,BPRMF;YPUTUBEDNN;WAVENETCNN;GRU4REC;ASASRS,https://arxiv.org/pdf/1909.05414.pdf,Time-weighted Attentional Session-Aware Recommender System,2019
+507,BPR;GMF;NEUMF;CASER;SASREC;AMR;AMASS;AMASR;CAR;HYPERTENET,https://arxiv.org/pdf/2110.01467.pdf,HyperTeNet: Hypergraph and Transformer-based Neural Network for Personalized List Continuation,2021
+508,POP;SPOP;BPRMF;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;SRGNN;TAGNN;DGTN,https://www.hindawi.com/journals/cin/2021/7266960/,Session Recommendation Model Based on Context-Aware and Gated Graph Neural Networks,2021
+509,ITEMKNN;GFPMC;GRU4REC;NARM;STAMP;SRGNN;DPAN4REC;SLIST;NISER;CSRM;STAN,https://www.hindawi.com/journals/misy/2022/1879367/,Session-Based Recommendation with GNN and Time-Aware Memory Network,2022
+510,SPOP;SKNN;GRU4REC;NARM;BERT4REC;SRGNN;LESSR;S2DHCN;COTREC;COHHN,https://arxiv.org/pdf/2205.04181.pdf,Price DOES Matter! Modeling Price and Interest Preferences in Session-based Recommendation,2022
+511,KNN;SKNN;DYNAMICREC;SASREC;SRGNN,https://sigir-ecom.github.io/ecom21DCPapers/paper6.pdf,Utilizing Graph Neural Network to Predict Next Items in Large-sized Session-based Recommendation Data,2021
+512,DEEPMF;FPM;NMF;SVD,https://www.researchgate.net/profile/Ayse-Bener-2/publication/314091819_The_Impact_of_Basic_Matrix_Factorization_Refinements_on_Recommendation_Accuracy/links/6162716dae47db4e57b80db5/The-Impact-of-Basic-Matrix-Factorization-Refinements-on-Recommendation-Accuracy.pdf,The Impact of Basic Matrix Factorization Refinements on Recommendation Accuracy,2020
+513,POP;SPOP;ITEMKNN;BPR;FPMC;GRU45REC;NARM;STAMP;SRGNN;FGNN;GCE;GNN;G2SR,https://arxiv.org/pdf/2203.06467.pdf,G 3SR: Global Graph Guided Session-based Recommendation,2022
+514,LAMBDAMART;ATRKNN;GRU4REC;OPAR,https://www.dsml.etsy.com/s/2021_WWW_bandits.pdf,Interpretable Attribute-based Action-aware Bandits for Within-Session Personalization in E-commerce,2021
+519,POP;SPOP;BPRMF;FPMC;ITEMKNN;GRU4REC;NARM;STAMP;REPEATNET;SRGNN;GCSAN;TAGNN;EMSAGNN,http://www.engineeringletters.com/issues_v30/issue_1/EL_30_1_05.pdf,Enhanced Multi-Head Self-Attention Graph Neural Networks for Session-based Recommendation,2022
+520,POP;ITEMKNN;BPRMF;GRU4REC,https://iopscience.iop.org/article/10.1088/1742-6596/1314/1/012194/pdf,IMPROVED SESSION-BASED RECOMMENDATIONS USING RECURRENT NEURAL NETWORKS FOR MUSIC DISCOVERY,2019
+521,MOSTPOP;YOUTUBEDNN;GRU4REC;MIND;COMIEREC;FAT;EA;MEA;SEA,https://ieeexplore.ieee.org/iel7/6287639/6514899/09802112.pdf,Enhanced Attention Framework for Multi-Interest Sequential Recommendation,2022
+522,POP;ITEMKNN;RNN;BOUCH;RT,https://arxiv.org/pdf/1904.10784.pdf,Latent Variable Session-Based Recommendation,2019
+523,POP;SPOP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;SRGNN;FANM,https://ieeexplore.ieee.org/iel7/6287639/8948470/09144593.pdf,Feature-Level Attentive Neural Model for Session-Based Recommendation,2020
+524,I2ICF;STAMP;NARM;RRCRE,https://arxiv.org/pdf/1908.08284.pdf,Two-Stage Session-based Recommendations with Candidate Rank Embeddings,2019
+526,MLP;BERT4REC;SASREC;GRU;NARM,https://arxiv.org/pdf/2201.08724.pdf,Sequential Item Recommendation in the MOBA Game Dota 2,2022
+527,FPMC;ITEMKNN;GRU4REC;NARM;CSRM;SRGNN;FGNN;STAMP;COSAN;SEGNNRM,https://www.mdpi.com/2076-3417/12/9/4314/pdf?version=1650871050,Session-Enhanced Graph Neural Network Recommendation Model (SE-GNNRM),2022
+529,ITEMKNN;GRU4REC;NARM;SRGNN;GCSAN;NISER;SRGNNHN;LESSR;SHARE;MSGIFSR,https://arxiv.org/pdf/2112.13197.pdf,Learning Multi-granularity Consecutive User Intent Unit for Session-based Recommendation,2022
+531,LSTM;RRN;TIMELSTM;NHP;DUPN;NARM;STAMP;ESMM;ESM2;MMOE;DIN;DIEN;SIM;STAREC,https://arxiv.org/pdf/2202.03097.pdf,"Learn over Past, Evolve for Future: Search-based Time-aware Recommendation with Sequential Behavior Data",2022
+533,POP;SPOP;ITEMKNN;BPRMF;GRU4REC;NARM;STAMP;SRGNN,https://www.mdpi.com/2078-2489/12/4/172/htm,An Academic Text Recommendation Method Based on Graph Neural Network,2021
+535,BPRMF;GRU4REC;CASER;SASREC;BERT4REC;S3REC;CL4SREC;EC4SREC;DUOREC;EC4SREC,https://arxiv.org/pdf/2209.01347.pdf,Explanation Guided Contrastive Learning for Sequential Recommendation,2022
+538,GRU4REC;STAMP;SASREC;BERT4REC;CL4SREC;DUOREC;PDMREC,https://arxiv.org/pdf/2208.05315.pdf,Improving Micro-video Recommendation by Controlling Position Bias,2022
+539,SPOP;SKNN;NARM;STAMP;SRGNN;GCSAN;BERT4REC;SGNNHN;RIB;HUP;MKMSR;EMBSR,https://arxiv.org/pdf/2204.02002.pdf,Micro-Behavior Encoding for Session-based Recommendation,2022
+540,GRU;MARANK;STAMP;SRGNN;GAT;M3REC,https://arxiv.org/pdf/2102.06950.pdf,"Sequential Recommendation in Online Games with Multiple Sequences, Tasks and User Levels",2021
+541,POP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;SGNNHN;HCA;STAR;HICAR,https://ieeexplore.ieee.org/iel7/6287639/9312710/09389732.pdf,Hierarchical Context-Aware Recurrent Network for Session-Based Recommendation,2021
+542,POP;BPR;FMC;FPMC;FOSSIL;GRU4REC;CASER,https://arxiv.org/pdf/1809.07426.pdf,Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding,2018
+546,ITEMKNN;PPOP;RNN;HRNN,https://arxiv.org/pdf/1706.04148,Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks,2017
+547,MARKOV;PMM;RNN;DEEPMOVE,https://dl.acm.org/doi/pdf/10.1145/3178876.3186058,DeepMove: Predicting Human Mobility with Attentional Recurrent Networks,2018
+548,ITEMKNN;MF;SMF;GRU;LUBGRU,https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/p152-donkers.pdf,Sequential User-based Recurrent Neural Network Recommendations,2017
+549,BPRMF;ITEMKNN;SOREG;SBPR;TRANSIV;RNNSESSION;NARM;DGREC,https://arxiv.org/pdf/1902.09362.pdf,Session-based Social Recommendation via Dynamic Graph Attention Networks,2019
+550,KNN;FISM;BPR;SVD;GMF;CDAE;NEUMF;CMN,https://arxiv.org/pdf/1804.10862.pdf,Collaborative Memory Network for Recommendation Systems,2018
+551,FPMC;PRMEG;GE;RNN;LSTM;GRU;STRNN;HSTLSTM;STGN;STGCN,https://dl.acm.org/doi/pdf/10.1609/aaai.v33i01.33015877,Where to Go Next: A Spatio-Temporal Gated Network for Next POI Recommendation,2020
+552,MOSTPOP;SVD;REGSVD;AOBPR;USERKNN;WRMF;PREVDAYCLICK;SDDM;LSTMONLY;LSTMDSSM;TDSSM;MRTDSSM,http://sonyis.me/paperpdf/spr209-song_sigir16.pdf,Multi-Rate Deep Learning for Temporal Recommendation,2016
+553,PBRS;FPMC;PRME;GRU4REC;ATEM;TEM,https://ojs.aaai.org/index.php/AAAI/article/view/11851/11710,Attention-Based Transactional Context Embedding for Next-Item Recommendation,2018
+554,PPOP;BPRMF;ITEMKNN;GRU4REC;HRNN;BINN,https://arxiv.org/pdf/1808.01075,Learning from History and Present: Next-item Recommendation via Discriminatively Exploiting User Behaviors,2018
+555,COVISIT;BAGOFITEMS;GRURNN,https://arxiv.org/pdf/1706.07684.pdf,Contextual Sequence Modeling for Recommendation with Recurrent Neural Networks,2017
+556,YOUTUBENET;DINRNN;WIDEDEEP;DIN;DIEN;DSIN,https://arxiv.org/pdf/1905.06482.pdf,Deep Session Interest Network for Click-Through Rate Prediction,2019
+557,BIASMF;LLORMA;NNMF;IBCB;URMB;IRBM;AUTOREC;NADE,https://www.researchgate.net/profile/Hong-Qu-4/publication/348004474_A_deep_reinforcement_learning_based_long-term_recommender_system/links/6094dc63299bf1ad8d818c68/A-deep-reinforcement-learning-based-long-term-recommender-system.pdf,A Novel Deep Learning-Based Collaborative Filtering Model for Recommendation System,2019
+558,POP;BPR;FPMC;TRANSREC;GRU4REC;CASER;MARANK;TISASREC,https://dl.acm.org/doi/pdf/10.1145/3336191.3371786,Time Interval Aware Self-Attention for Sequential Recommendation,2020
+559,ITEMPOP;BPRMF;WRMF;LOGMF;CONDMF;CONDTF;SLICETF;CHAINREC,https://cseweb.ucsd.edu/~jmcauley/pdfs/recsys18b.pdf,Item Recommendation on Monotonic Behavior Chains,2018
+560,CMF;SVDFEATURE;DEEPMUCIC;CTR;CDL;CRAE,https://proceedings.neurips.cc/paper/2016/file/0266e33d3f546cb5436a10798e657d97-Paper.pdf,Collaborative Recurrent Autoencoder: Recommend while Learning to Fill in the Blanks,2016
+561,POP;BPRMF;USERKNN;MC;FPMC;FOSSIL;RNNCCE,https://www.researchgate.net/profile/Robin-Devooght/publication/318295745_Long_and_Short-Term_Recommendations_with_Recurrent_Neural_Networks/links/5a61b8d04585158bca4a1450/Long-and-Short-Term-Recommendations-with-Recurrent-Neural-Networks.pdf,Long and Short-Term Recommendations with Recurrent Neural Networks,2017
+563,MLP;DIN;GRU4REC;ARNN;RUM;DIEN;MIMN,https://arxiv.org/pdf/1905.09248.pdf,Practice on Long Sequential User Behavior Modeling for Click-Through Rate Prediction,2019
+564,BPR;VNPR;RNPR;GNPR;CNPR,https://dl.acm.org/doi/pdf/10.1145/3159652.3159728,Neural Personalized Ranking for Image Recommendation,2018
+565,PMF;GRU4REC;TIMELSTM;NARRE,https://ojs.aaai.org/index.php/AAAI/article/view/3768/3646,Dynamic Explainable Recommendation Based on Neural Attentive Models,2019
+566,LSTM;STRNN;TIMELSTM;CARA;DRCF;DEEPMOVE;TMCA;STGN;LSTPM,https://ojs.aaai.org/index.php/AAAI/article/download/5353/5209,Where to Go Next: Modeling Long- and Short-Term User Preferences for Point-of-Interest Recommendation,2020
+567,POP;FPMC;PRME;GRU4REC;SWIWO,https://www.ijcai.org/proceedings/2017/0258.pdf,Diversifying Personalized Recommendation with User-session Context,2017
+568,POP;BPRMF;MC;FPMC;HRM;PRME;TRANSREC;CASER;ATTREC,https://arxiv.org/pdf/1808.06414,Next Item Recommendation with Self-Aention,2018
+569,ITEMKNN;FPMC;NEXTITNET;NARM;FGNN;SRGNN;GCSAN;LESSR,https://www.atailab.cn/seminar2021Spring/pdf/KDD_2020_Handling%20Information%20Loss%20of%20Graph%20Neural%20Networks%20for%20Session-based%20Recommendation.pdf,Handling Information Loss of Graph Neural Networks for Session-based Recommendation,2020
+570,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN;TAGNN,https://arxiv.org/pdf/2005.02844,TAGNN: Target Attentive Graph Neural Networks for Session-based Recommendation,2020
+571,VSKNN;SKNN;AR;SR;NARM;GRU4REC;STAMP;CT,https://d-nb.info/1223172252/34#page=215,Advances in Session-Based and Session-Aware Recommendation,2019
+572,BPRMF;GRU4REC;GCSAN;CASER;SASREC;MARANK;MAGNN,https://ojs.aaai.org/index.php/AAAI/article/download/5945/5801,Memory Augmented Graph Neural Networks for Sequential Recommendation,2020
+573,MOSTPOP;YOUTUBEDNN;GRU4REC;MIND;COMIEREC,https://arxiv.org/pdf/2005.09347,Controllable Multi-Interest Framework for Recommendation,2020
+574,DEEPCOEVOLVE;LOWRANKHAWKES;COEVOLVING;POISSONTENSOR;TIMESVD;FIP,https://arxiv.org/pdf/1609.03675.pdf),Deep Coevolutionary Network: Embedding User and Item Features for Recommendation,2017
+575,POPREC;TRANSREC;HPMN;TCN;GRU4REC;BERT4REC;HGN;SASREC;HYPERREC,https://dl.acm.org/doi/pdf/10.1145/3397271.3401133,Next-item Recommendation with Sequential Hypergraphs,2020
+576,BPR;SPTF;NFM;RRN;NARM;CASER;SASREC;GES;AIR,https://drive.google.com/file/d/1iJYLy6DbT03ngJxKj7q1QXZlIw6WzGlE/view,AIR: Attentional Intention-Aware Recommender Systems,2019
+577,ASVD;A2SVD;DIN;LSTM;NARM;RRN;CARNN;TLSTM;DIEN;SLIREC,https://www.ijcai.org/proceedings/2019/0585.pdf,Adaptive User Modeling with Long and Short-Term Preferences for Personalized Recommendation,2019
+578,HIERTCN;IERGRU;HRNN;TCN;GRU;MV;MAXITEM,https://arxiv.org/pdf/1904.04381,Hierarchical Temporal Convolutional Networks for Dynamic Recommender Systems,2019
+580,BPRMF;GRU4REC;NARM;GRU4REC;NARM;ACF;CASER;TRANREC;FPMC;MARANK,https://ojs.aaai.org/index.php/AAAI/article/view/4516/4394,Multi-Order Attentive Ranking Model for Sequential Recommendation,2019
+581,RANDOM;POP;BPR;VBPR;LSTM;PRNN,https://arxiv.org/pdf/1611.06668,MV-RNN: A Multi-View Recurrent Neural Network for Sequential Recommendation,2018
+582,FMC;DEEPBOW;GRU4REC;CASER;M3C;M3R,https://arxiv.org/pdf/1902.08588,Towards Neural Mixture Recommender for Long Range Dependent User Sequences,2019
+583,POP;BPRMF;NCF;FPMC;GRU4REC;CASER;SASREC;BERT4REC,https://www.researchgate.net/profile/Xin-Wang-532/publication/343785856_Disentangled_Self-Supervision_in_Sequential_Recommenders/links/5f4f9dd392851c250b893dbd/Disentangled-Self-Supervision-in-Sequential-Recommenders.pdf,Disentangled Self-Supervision in Sequential Recommenders,2020
+584,GRU4REC;COOCCURENT;SR;ITEMKNN;VSKNN;RECENTLYPOPULAR;CONTENTBASED;CHAMELEON,https://arxiv.org/pdf/1808.00076,News Session-Based Recommendations using Deep Neural Networks,2018
+586,CHAMELEION;SR;ITEMKNN;CO;VSKNN;SRGNN;GRU4REC;RP;CB,https://ieeexplore.ieee.org/iel7/6287639/8600701/08908688.pdf,Contextual Hybrid Session-Based News Recommendation With Recurrent Neural Networks,2019
+587,ITEMBASEDCF;DNN;GRU4REC;NARM;SHAN;BINN;SDMMA;PSDMMA,https://arxiv.org/pdf/1909.00385.pdf,SDM: Sequential Deep Matching Model for Online Large-scale Recommender System,2019
+588,ITEMPOP;BPR;NCF;DMF;JNCF,https://arxiv.org/pdf/1907.03459,Joint Neural Collaborative Filtering for Recommender Systems,2019
+589,MOSTPOP;BPRMF;GMF;SLIM;NEUMF;INEUREC;UNEUREC,https://arxiv.org/pdf/1805.03002,NeuRec: On Nonlinear Transformation for Personalized Ranking,2018
+590,GRU4REC;CASER;DIEN;RUM;DNN;SVD;GRU4REC;CASER;DIEN;RUM;LSTM;SHAN;HPMN,https://arxiv.org/pdf/1905.00758,Lifelong Sequential Modeling with Personalized Memorization for User Response Prediction,2019
+591,GREEDYSVD;GRU4REC;LINEARUCB;HLINEARUCB;DDPGR;DQNR;KGQR;DDPG,https://arxiv.org/pdf/2006.10389,Interactive Recommender System via Knowledge Graph-enhanced Reinforcement Learning,2020
+592,MF;TIMESVD;HIEVH;IARN;BPR;ITEM2VEC;NCF;MP2VEC,https://arxiv.org/pdf/1709.01532,Interacting Attention-gated Recurrent Networks for Recommendation,2017
+593,KNN;LFM;BPR;SRNN;SIE;LISTRANK;POP,https://arxiv.org/pdf/1707.05955,Session-aware Information Embedding for E-commerce Product Recommendation,2017
+594,MC;FPMC;ME;DRNNDP;DRNNSE,https://cel.mie.utoronto.ca/wp-content/uploads/Soh-et-al_Deep-Sequential-Recommendation-for-Personalized-Adaptive-User-Interfaces.pdf,Deep Sequential Recommendation for Personalized Adaptive User Interfaces,2017
+595,FPMC;PRMEG;GRU;STGN;SASREC;GEOSAN,http://staff.ustc.edu.cn/~cheneh/paper_pdf/2020/Defu-Lian-KDD.pdf,Geography-Aware Sequential Location Recommendation,2020
+596,KNN;GRU4REC;MC10;MC50;DQN;CSEALNCN;CNRANDOM;COG;CSEAL,https://arxiv.org/pdf/1905.12470,Exploiting Cognitive Structure for Adaptive Learning,2019
+597,SPOP;FPMC;GRU4REC;NARM;CSRM;STAMP;SRIEM;SRGNN;NISER;SGNNHN,https://irlab.science.uva.nl/wp-content/papercite-data/pdf/pan-2020-star.pdf,Star Graph Neural Networks for Session-based Recommendation,2020
+599,LOWRANKHAWKES;COEVOLVING;POISSONTENSOR;TIMESVD;STIC,https://openreview.net/pdf?id=HyWWpw5ex,RECURRENT COEVOLUTIONARY FEATURE EMBEDDING PROCESSES FOR RECOMMENDATION,2016
+600,UAR;IAR;TSVD;PMF;RRN;RECGAN2,https://homangab.github.io/papers/recgan.pdf,RecGAN: Recurrent Generative Adversarial Networks for Recommendation Systems,2018
+601,POP;BPR;FMC;FPMC;TRANSREC;GRU4REC;STAMP;CASER;SASREC;HGN;SSESASREC;PT;SSEPT,https://dl.acm.org/doi/fullHtml/10.1145/3383313.3412258,SSE-PT: Sequential Recommendation Via Personalized Transformer,2020
+605,WIDEDEEP;DFM;GRU;DDPG;MA;DEEPCHAIN,https://arxiv.org/pdf/1902.03987.pdf,Whole-Chain Recommendations,2020
+606,POP;BPR;FMC;FPMC;GRU4REC;CASER;COSRECBASE;COSREC,https://dl.acm.org/doi/pdf/10.1145/3357384.3358113,CosRec: 2D Convolutional Neural Networks for Sequential Recommendation,2019
+607,BPR;MLP;FM;FISM;NAIS;NASR;METAPATH2VEC;ACKREC,https://dl.acm.org/doi/pdf/10.1145/3397271.3401057,Attentional Graph Convolutional Networks for Knowledge Concept Recommendation in MOOCs in a Heterogeneous View,2020
+608,BPRMF;SVD;STAMP;GRU4REC;NARM;LINN,https://arxiv.org/pdf/2008.09514,Neural Logic Reasoning,2020
+609,FPMCLR;PRMEG;GE;RNN;LSTM;GRU;STRNN,https://arxiv.org/pdf/1806.06671.pdf,Where to Go Next: A Spatio-temporal LSTM model for Next POI Recommendation,2018
+610,GAG;GAG50;FGNN;SSRM;NARM;GRU4REC;BPRMF;SPOP;POP,https://arxiv.org/pdf/2007.02747.pdf,GAG: Global Attributed Graph Neural Network for Streaming Session-based Recommendation,2021
+612,BPRMF;SVD;DMF;NEUMF;GRU4REC;STAMP;NLR;NCR,https://arxiv.org/pdf/2005.08129,Neural Collaborative Reasoning,2021
+613,BPRMF;GRU;M2;M4;RELAVAR,https://arxiv.org/pdf/1706.04026,Recurrent Latent Variable Networks for Session-Based Recommendation,2017
+614,MF;FPMC;STRNN;LSTM;SHAN;DEEPMOVE;MCARNN;PLSPL,http://smiles-xjtu.com/html/Our%20Paper/Personalized%20Long-%20and%20-Short.pdf,Personalized Long- and Short-term Preference Learning for Next POI Recommendation,2020
+615,FPMC;DREAM;GRU4REC;TIPPLENET;KGAT;GRU;KSR;KERL,https://drive.google.com/file/d/1An5YXDvQ1K0A1AwpJG-I4gTbIQ26gUDS/view,KERL: A Knowledge-Guided Reinforcement Learning Model for Sequential Recommendation,2020
+617,POPREC;BPR;FM;IRGAN;FPMC;GRU;SASREC;MFGAN,https://arxiv.org/pdf/2005.10602.pdf,Sequential Recommendation with Self-Attentive Multi-Adversarial Network,2020
+618,GRU4REC;CASER;SASREC;HPMN;MIMN;DIN;DIEN;UBR4CTR,https://arxiv.org/pdf/2005.14171,User Behavior Retrieval for Click-Through Rate Prediction,2020
+619,POP;BPRMF;CML;FPMC;TRANSREC;PACE;MCF;CKE;MOHR,https://arxiv.org/pdf/1808.10031,Recommendation Through Mixtures of Heterogeneous Item Relationships,2018
+620,FPMC;GRU4REC;NARM;STAMP;SRGNN;RIB;KMSR;MKMSR,https://arxiv.org/pdf/2006.06922,Incorporating User Micro-behaviors and Item Knowledge into Multi-task Learning for Session-based Recommendation,2020
+622,POP;MC;MCN;DREAM;BSEQ;TRIPLE2VEC;BEACON,https://eprints.uet.vnu.edu.vn/eprints/id/eprint/3707/1/0389.pdf,Correlation-Sensitive Next-Basket Recommendation,2019
+623,DNN;SVD;GRU4REC;CASER;DIEN;RUM;LSTM;SHAN;HPMN;CLREC;IPW;MULTICLREC,https://arxiv.org/pdf/2005.12964.pdf,Contrastive Learning for Debiased Candidate Generation in Large-Scale Recommender Systems,2021
+624,AWILDA;MF;COLDA;COAWILDA,http://www2.agroparistech.fr/ufr-info/membres/cornuejols/Papers/PUBLIES/2018-RecSys-adaptive-collaborative-topic.pdf,Adaptive Collaborative Topic Modeling for Online Recommendation,2018
+625,LR;WIDEDEEP;PNN;DIN;DIEN;DMR,https://ojs.aaai.org/index.php/AAAI/article/view/5346/5202,Deep Match to Rank Model for Personalized Click-Through Rate Prediction,2020
+626,TOPFREQ;PERSONTOPFREQ;USERKNN;REPEATNET;FPMC;DREAM;SHAN;SETS2SETS;TIFUKNN,https://arxiv.org/pdf/2006.00556,Modeling Personalized Item Frequency Information for Next-basket Recommendation,2020
+627,SR;TKNN;AR;KNN;GRU4REC,https://d-nb.info/1223172252/34#page=151,A Comparison of Frequent Pattern Techniques and a Deep Learning Method for Session-Based Recommendation,2017
+628,CTA;POP;SPOP;MARKOV;GRU4REC;HRNN;LSHP;SASREC;M3R,https://arxiv.org/pdf/2002.00741,Déjà vu: A Contextualized Temporal Attention Mechanism for Sequential Recommendation,2020
+630,PMF;POOLNET;WAVENET;LSTMNET;STRUCTRL;IMUP,https://www.researchgate.net/profile/Kunpeng-Liu-2/publication/343783148_Incremental_Mobile_User_Profiling_Reinforcement_Learning_with_Spatial_Knowledge_Graph_for_Modeling_Event_Streams/links/60c772194585157774d8c95e/Incremental-Mobile-User-Profiling-Reinforcement-Learning-with-Spatial-Knowledge-Graph-for-Modeling-Event-Streams.pdf,Incremental Mobile User Profiling: Reinforcement Learning with Spatial Knowledge Graph for Modeling Event Streams,2020
+632,POPREC;BPRMF;FMC;FPMC;HRM;PRME;TRANSREC,https://www.ijcai.org/Proceedings/2018/0734.pdf,Translation-based Recommendation: A Scalable Method for Modeling Sequential Behavior,2018
+633,NMTR;CMF;MCBPR;MCGMF;MCMLP;MCNEUMF;BPR;GMF;MLP;NEUMF,https://arxiv.org/pdf/1809.08161.pdf,Learning to Recommend with Multiple Cascading Behaviors,2020
+634,BEHAVIOR2VEC;PROD2VEC;CLASSTP;BRANCLASSTP;AR;ARCLASSTP;ICFI2I;ICFS2I;NMF;SRNN;EALS;FPMC,http://in.ncu.edu.tw/~hhchen/academic_works/chen18-tkdd-b2v.pdf,Behavior2Vec: Generating Distributed Representations of Users’ Behaviors on Products for Recommender Systems,2018
+635,BPR;PRFM;LAMBDAFM;RRN;IRGAN;CTR;CDL;CONVMF;LSIC,https://www.researchgate.net/profile/Jianbo-Ye/publication/331138894_Leveraging_Long_and_Short-Term_Information_in_Content-Aware_Movie_Recommendation_via_Adversarial_Training/links/5cf6d3e492851c4dd029eb11/Leveraging-Long-and-Short-Term-Information-in-Content-Aware-Movie-Recommendation-via-Adversarial-Training.pdf,Leveraging Long and Short-term Information in Content-aware Movie Recommendation via Adversarial Training,2019
+636,POP;FPMC;GRU4REC;RUM;CASER;SASREC;RNS,https://arxiv.org/pdf/1907.00590,A Review-Driven Neural Model for Sequential Recommendation,2019
+637,MOSTPOP;BRPMF;NEXTITREC;SASREC;ASLI,https://dl.acm.org/doi/pdf/10.1145/3366423.3380002,Attentive Sequential Models of Latent Intent for Next Item Recommendation,2020
+638,SVD;DELF;GRU4REC;CASER;SASREC;RRN;DEEMS;SCORE,https://arxiv.org/pdf/1911.03883,Sequential Recommendation with Dual Side Neighbor-based Collaborative Relation Modeling,2019
+640,SKNN;STAN;GRU4REC;NARM;STAMP;GNN;NIR;NISER,https://www.researchgate.net/profile/Pankaj-Malhotra-2/publication/335737489_NISER_Normalized_Item_and_Session_Representations_with_Graph_Neural_Networks/links/5dd80e3ea6fdccdb445a1474/NISER-Normalized-Item-and-Session-Representations-with-Graph-Neural-Networks.pdf,NISER: Normalized Item and Session Representations with Graph Neural Networks,2019
+641,FIEXD;DARTS;AUTOEMB;ESAPN,http://www.cse.msu.edu/~zhaoxi35/paper/sigir2020.pdf,Automated Embedding Size Search in Deep Recommender Systems,2020
+642,BPR;LIGHTGCN;SRGNN;GRU4REC;CASER;SSEPT;BERT4REC;SASREC;TISASREC;CDTNE;TGSREC,https://arxiv.org/pdf/2108.06625,Continuous-Time Sequential Recommendation with Temporal Graph Collaborative Transformer,2021
+643,WMF;SLIM;CDAE;MULTVAE;VAMP;MULTVAE;HVAMP,https://arxiv.org/pdf/1911.00936,Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms,2019
+644,BPR;NAIS;FPMC;NARM;SASREC;STAMP,http://yongfeng.me/attach/wang-sigir2021.pdf,Counterfactual Data-Augmented Sequential Recommendation,2021
+646,BPR;CTR;VBPR;GRU;IARN;MLAML;MVRNN;ANTERNN,https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2636934/Manuscript.pdf?sequence=1,Dynamic Attention-based Explainable Recommendation with Textual and Visual Fusion,2020
+647,BPR;PRFM;LAMBDAFM;RRN;IRGAN;PLASTIC,https://www.ijcai.org/Proceedings/2018/0511.pdf,PLASTIC: Prioritize Long and Short-term Information in Top-n Recommendation using Adversarial Training,2018
+648,LINE;DEEPWALK;NODE2VEC;EGES;GRAPHSAGE;GRU4REC;YOUTUBEDNN;M2GRL,https://arxiv.org/pdf/2005.10110.pdf,M2GRL: A Multi-task Multi-view Graph Representation Learning Framework for Web-scale Recommender Systems,2020
+649,BPR;GRU4REC;EMCDE;DCDIR,https://arxiv.org/pdf/2007.13316.pdf,DCDIR: A Deep Cross-Domain Recommendation System for Cold Start Users in Insurance Domain,2020
+650,GRU4REC;NARRE;MCREC;NFM;FMG;TMER,https://arxiv.org/pdf/2101.01433.pdf,Temporal Meta-path Guided Explainable Recommendation,2021
+651,MLP;GMF;JRL;NCF;CCF;QCF,https://arxiv.org/pdf/1906.02594.pdf,Quaternion Collaborative Filtering for Recommendation,2019
+652,BPR;LSTM;CNN;NCF;ATRANK;THACIL;ALPINE;MTIN,https://weiyinwei.github.io/papers/MTIN.pdf,What Aspect Do You Like: Multi-scale Time-aware User Interest Modeling for Micro-video Recommendation,2020
+653,POP;FPMC;GRU4REC;HRNN;FPMC;GRU4REC;HRNN;IDSR,https://arxiv.org/pdf/1908.10171.pdf,Improving End-to-End Sequential Recommendations with Intent-aware Diversification,2019
+654,POP;ITEMKNN;BPRMF;GRU4REC;NARM;HCRNN;ATTREC;SASREC;RKSA,https://ojs.aaai.org/index.php/AAAI/article/download/5854/5710,Sequential Recommendation with Relation-Aware Kernelized Self-Attention,2020
+656,STRNN;DEEPMOVE;STGN;ARNN;LSTPM;TISASREC;GEOSAN;STAN,https://arxiv.org/pdf/2102.04095.pdf,STAN: Spatio-Temporal Attention Network for Next Location Recommendation,2021
+657,LSTM;TIMELSTM;RRN;CTDNE;DEEPCOEVOLVE;JODIE;DGCF,https://arxiv.org/pdf/2101.02844.pdf,Dynamic Graph Collaborative Filtering,2021
+658,FOFLSELF;NNSELF;FCF;FEDGNN;NCF;PRIVREC,https://arxiv.org/pdf/2104.00919.pdf,Fast-adapting and Privacy-preserving Federated Recommender System,2021
+659,BPR;GRU4REC;EMCDERBPR;RGCN;HAN;HCDIR,https://arxiv.org/pdf/2007.15293.pdf,A Heterogeneous Information Network based Cross Domain Insurance Recommendation System for Cold Start Users,2020
+660,DEEPMF;PMF;NMF;SVD,https://www.mdpi.com/2076-3417/10/14/4926/pdf,Deep Matrix Factorization Approach for Collaborative Filtering Recommender Systems,2020
+661,BPRMF;NCF;GRU4REC;STAMP;NLR;NCR,https://arxiv.org/pdf/2102.01868.pdf,Causal Collaborative Filtering,2021
+662,CASER;SASREC;HGN;HAM,https://arxiv.org/pdf/2002.11890,HAM: Hybrid Associations Models for Sequential Recommendation,2021
+664,MULTVAE;MULTDAE;CDAE;SLIM;WMF,https://proceedings.neurips.cc/paper/2019/file/9087b0efc7c7acd1ef7e153678809c77-Paper.pdf,Markov Random Fields for Collaborative Filtering,2019
+665,POP;BPR;GRU4REC;CASER;SASREC;BERT4REC;S3REC;CL4SREC;COSEREC,https://arxiv.org/pdf/2108.06479,Contrastive Self-supervised Sequential Recommendation with Robust Augmentation,2021
+667,TIMEPOP;TBKNN;TDCN;CRGAN;NUBPR,https://arxiv.org/pdf/2008.10845.pdf,CnGAN: Generative Adversarial Networks for Cross-network User Preference Generation for Non-overlapped Users,2020
+668,SKNN;NARMGRU4REC;CAGH,https://arxiv.org/pdf/2008.07226,Exploring Longitudinal Effects of Session-based Recommendations,2020
+669,FPMC;RUMI;GRU4REC;CASER;GRUDIBPEB;MNDIBPEB,https://www.ijcai.org/Proceedings/2019/0190.pdf,Dynamic Item Block and Prediction Enhancing Block for Sequential Recommendation,2019
+670,SVD;LINEARREG;SQRTREG;LOGREG,https://in.ncu.edu.tw/~hhchen/academic_works/chen19_diff_reg_weight.pdf,Differentiating Regularization Weights – A Simple Mechanism to Alleviate Cold Start in Recommender Systems,2019
+672,RANDOM;POP;BPR;ULBPR;ULRMF;CAUSE;DLTO;BLCE;DLCE,https://arxiv.org/pdf/2008.04563.pdf,Unbiased Learning for the Causal Effect of Recommendation,2020
+673,POP;SPOP;ITEMKNN;GRU4REC;NARM;STAMP;SASREC;SRGNN;CSRM;COSAN;MTD,https://ojs.aaai.org/index.php/AAAI/article/view/16534/16341,Graph-Enhanced Multi-Task Learning of Multi-Level Transition Dynamics for Session-based Recommendation,2021
+674,ITEMKNN;SLIM;MFBPR;CML;NEUMF;CMN;PRME;TRANSREC;CASER;SDP;SDMR;SDM,https://arxiv.org/pdf/1905.00453,Signed Distance-based Deep Memory Recommender,2019
+675,FM;WIDEDEEP;CML;DEEPREC;CDL;DMFL,https://ieeexplore.ieee.org/iel7/6287639/8600701/08766091.pdf,An Efficient Hybrid Recommendation Model With Deep Neural Networks,2019
+676,FM;WIDEDEEP;PNN;DCN;AFN;DROPOUTNET;MELU;METAEMB;GRU4REC;DIN;MWUF,https://dl.acm.org/doi/pdf/10.1145/3404835.3462843,Learning to Warm Up Cold Item Embeddings for Cold-start Recommendation with Meta Scaling and Shifting Networks,2021
+677,BPR;NCF;SPECTRALCF;CMF;CDCF;CONET;JSCN,https://arxiv.org/pdf/1910.08219,JSCN: Joint Spectral Convolutional Network for Cross Domain Recommendation,2019
+678,ITEMKNN;GRU4REC;RERANKING;SDIV;SDIVCB,https://www.ijcai.org/proceedings/2019/0380.pdf,Sequential and Diverse Recommendation with Long Tail,2019
+679,POP;DRM;BSEQ;CBSSN;CBSCFN;CBSDFN,https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5072&context=sis_research,Modeling contemporaneous basket sequences with twin networks for next-item recommendation,2018
+680,AR;SR;SKNN;VSKNN;CT;STAN;VSTAN;SMF;GRU4REC;STAMP;NEXTITNET;NARM;CSRM;SRGNN,https://edoliberty.github.io/papers/recsys2020thd.pdf,From the lab to production: A case study of session-based recommendations in the home-improvement domain,2020
+681,POP;FPMC;CASER;GRU4REC;BERT4REC;CGAN;MULTVAE;SVAE;ACVAE,https://arxiv.org/pdf/2103.10693,Adversarial and Contrastive Variational Autoencoder for Sequential Recommendation,2021
+684,LR;FM;YOUTUBENET;XDEEPFM;DUPN;DIEN;DMF;MMSS;NAML;MARN,https://arxiv.org/pdf/2003.07162,Adversarial Multimodal Representation Learning for Click-Through Rate Prediction,2020
+685,NOACE;CNN;GRU;W2VTFIDF;LSA;DOC2VEC;SR;ITEMKNN;CO;RP;CB,https://arxiv.org/pdf/1907.07629,On the Importance of News Content Representation in Hybrid Neural Session-based Recommender Systems,2019
+686,POP;MFAVG;GRU4REC;STAMP;AGREE;MOSN;SRGNN;NGCF;GLSGRL,https://weizhangltt.github.io/paper/SIGIR20-Wang.pdf,Group-Aware Long- and Short-Term Graph Representation Learning for Sequential Group Recommendation,2020
+688,MOSTPOP;MF;BPR;NEUMF;CMN;TRANSREC;GRU4REC;CASER;SASREC,https://dl.acm.org/doi/pdf/10.1145/3336191.3371776,Consistency-Aware Recommendation for User-Generated Item List Continuation,2020
+689,DAS;SHAN;HRM;FPMC;CASER;FOSSIL;BPR;TOP,https://ieeexplore.ieee.org/iel7/6287639/8948470/09123874.pdf,Towards a Deep Attention-Based Sequential Recommender System,2020
+690,BPRMF;BILSTM;CNNPOOLING;ATRANK;DMRAN,http://zheng-kai.com/paper/ijcai_2019_b.pdf,DMRAN: A Hierarchical Fine-Grained Attention-Based Network for Recommendation,2019
+692,BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN;KSR;KVMN,https://www.mdpi.com/2078-2489/11/8/388/pdf,Knowledge-Enhanced Graph Neural Networks for Sequential Recommendation,2020
+693,QR;FTRL;WIDEDEEP;GRU;ATTENTIONGRU;TIMELSTM;ATTENTIONGRU,https://arxiv.org/pdf/1907.01639,Query-based Interactive Recommendation by Meta-Path and Adapted Attention-GRU,2019
+694,ITEMKNN;TRIBEFLOW;SESRNN;IMPROVEDSESRNN;USERSESGRU,https://www.researchgate.net/profile/Tu-Phuong/publication/329014321_Combining_User-Based_and_Session-Based_Recommendations_with_Recurrent_Neural_Networks_25th_International_Conference_ICONIP_2018_Siem_Reap_Cambodia_December_13-16_2018_Proceedings_Part_I/links/5c08d72392851c39ebd62c5b/Combining-User-Based-and-Session-Based-Recommendations-with-Recurrent-Neural-Networks-25th-International-Conference-ICONIP-2018-Siem-Reap-Cambodia-December-13-16-2018-Proceedings-Part-I.pdf,Combining User-based and Session-based Recommendations with Recurrent Neural Networks,2018
+695,SKNN;STAN;GRU4REC;NARM;STAMP;GNN;NIR;NISER,https://arxiv.org/pdf/1909.04276.pdf,NISER: Normalized Item and Session Representations to Handle Popularity Bias,2021
+697,BPR;PRFM;LAMBDAFM;RRN;IRGAN;LSIC,https://arxiv.org/pdf/1712.09059,Leveraging Long and Short-term Information in Content-aware Movie Recommendation,2018
+699,STAN;VSTAN;VSKNN;NARM;SR;GRU4REC;IIRNN;HGRU4REC;NCSF;SHAN;NSAR,sciencedirect.com/science/article/pii/S0020025521005089,Session-aware recommendation: A surprising quest for the state-of-the-art,2021
+700,GRU4REC;CASER;SASREC;SHAN;HPMN;SDM;DMAN,https://ojs.aaai.org/index.php/AAAI/article/view/16564/16371,Dynamic Memory based Attention Network for Sequential Recommendation,2021
+701,ITEMKNN;FPMC;NEXTITNET;NARM;STAMP;SRGNN;SSRM;SNEXTITNET;SNARM;SSTAMP;SSRGNN;SSRM;DGREC;SEREC,https://repository.ust.hk/ir/bitstream/1783.1-108396/1/033414_1.pdf,An Efficient and Effective Framework for Session-based Social Recommendation,2021
+703,POP;BPR;FPMC;HRM;RRN;NARM;LSDM,https://arxiv.org/pdf/1903.00066.pdf,A Long-Short Demands-Aware Model for Next-Item Recommendation,2019
+704,BPR;SBPR;TBPR;IRGAN;CFGAN;TAGREC,https://www.researchgate.net/profile/Honglong-Chen-2/publication/346494244_Trust-aware_generative_adversarial_network_with_recurrent_neural_network_for_recommender_systems/links/620c658a7b05f82592ef731a/Trust-aware-generative-adversarial-network-with-recurrent-neural-network-for-recommender-systems.pdf,Trust-aware Generative Adversarial Network with Recurrent Neural Network for Recommender Systems,2021
+705,GRU4REC;FPMC;CASER,https://arxiv.org/pdf/2006.16977,Learning Post-Hoc Causal Explanations for Recommendation,2021
+706,MARANK;SASREC;TISASREC;BERT4REC;MEANTIME,https://dl.acm.org/doi/pdf/10.1145/3383313.3412216,MEANTIME: Mixture of Attention Mechanisms with Multi-temporal Embeddings for Sequential Recommendation,2020
+707,POP;BPRMF;ORACLE;SSCF;RNN;SBRS,https://www.researchgate.net/profile/Noveen-Sachdeva/publication/323450744_Explicit_Modelling_of_the_Implicit_Short_Term_User_Preferences_for_Music_Recommendation/links/5bbc03c54585159e8d8d21e3/Explicit-Modelling-of-the-Implicit-Short-Term-User-Preferences-for-Music-Recommendation.pdf,Explicit Modelling of the Implicit Short Term User Preferences for Music Recommendation,2018
+708,BPR;SPECTRALCF;FPMC;TRANSREC;GRU4REC;CASER;GSU,https://dl.acm.org/doi/pdf/10.1145/3331184.3331329,Gated Spectral Units: Modeling Co-evolving Patterns for Sequential Recommendation,2019
+709,POP;ITEMKNN;BPRMF;VUIKNN;NCF;CONET;GRU4REC;HGRU4REC;PINET;PSJNET;DAGCN,https://arxiv.org/pdf/2105.03300,DA-GCN: A Domain-aware Attentive Graph Convolution Network for Shared-account Cross-domain Sequential Recommendation,2021
+711,BPR;TRANSE;TRANSFM;GRU4REC;CASER;TRANSREC;SASREC;HIERTRANS,https://people.engr.tamu.edu/caverlee/pubs/zhang20www.pdf,Adaptive Hierarchical Translation-based Sequential Recommendation,2020
+713,WIDEDEEP;NFM;ACCM;CCCC,http://yongfeng.me/attach/shi-cikm2019.pdf,Adaptive Feature Sampling for Recommendation with Missing Content Feature Values,2019
+714,POP;UBCF;BPR;FPMC;SESSIONRNN;PEEPHOLELSTM;TIMELSTM;IDLSTM,https://opus.lib.uts.edu.au/bitstream/10453/149941/2/TDLSTM-applied%20intelligence.pdf,Time-aware Sequence Model for Next Item Recommendation,2021
+715,GRU4REC;YOUTUBEDNN;MIND;COMIREC;FAT,https://arxiv.org/pdf/2011.00422,Future-Aware Diverse Trends Framework for Recommendation,2021
+716,RANDOM;DEEPWALK;LINE;TRANSAE;GRAPHSAGE;GRAPHBERT;GPTGNN;PMGT,https://arxiv.org/pdf/2010.12284.pdf,Pre-training Graph Transformer with Multimodal Side Information for Recommendation,2021
+717,WMF;SLIM;CDAE;MULTVAE;EASE;RECVAE;LLORMA;SGLSVD;LOCAVAE;LOCAEASE,https://arxiv.org/pdf/2103.16103,Local Collaborative Autoencoders,2021
+718,MP;MFBPR;FOSSIL;TCN;GRU4REC;HPMN;SASREC;OAR,http://www.hongliangjie.com/publications/wsdm2020.pdf,Time to Shop for Valentine’s Day: Shopping Occasions and Sequential Recommendation in E-commerce,2020
+719,AASVD;QCF;NEUMF;NAIS;FPMC;AGRU;ALSTM;CASER;SASREC;SLIREC;ALSTMAASVD;QUALE;AQUALE,https://arxiv.org/pdf/2008.13335,Quaternion-Based Self-Attentive Long Short-term User Preference Encoding for Recommendation,2020
+720,PROD;RAND;POP;QL;QEM;LCRM3;LCEM;SCRM3;SCEM;LSCEM,https://arxiv.org/pdf/1909.02065,Leverage Implicit Feedback for Context-aware Product Search,2020
+721,POP;ITEMKNN;USERKNN;BPRMF;FISM;SASREC,https://arxiv.org/pdf/2103.00442,Explore User Neighborhood for Real-time E-commerce Recommendation,2021
+723,POP;BPRMF;NCF;FPMC;GRU4REC;CASER;SASREC;BERT4REC;ISREC,https://drive.google.com/file/d/1dzBXdYQxqufYuZfwGyD_ICO7vZaLGkN6/view,Intention-aware Sequential Recommendation with Structured Intent Transition,2021
+724,POP;APRIORI;MARKOV;HITS;VANILLARNN;LSTM;CAPSRNN;CAPRLSTM,https://arxiv.org/pdf/1803.01245,CAPS: Context Aware Personalized POI Sequence Recommender System,2018
+725,SR;SKNN;STAN;SEASE;GRU4REC;NARM;STAMP;SRGNN;SLIS;SLIT;SLIST,https://arxiv.org/pdf/2103.16104,Session-aware Linear Item-Item Models for Session-based Recommendation,2021
+726,SVD;AUTORECUI;TIMSVD;SGRU;RRN;NSCR;FSVD;FSVD;FIRN,https://dl.acm.org/doi/pdf/10.1145/3357384.3358042,"Instagrammers, Fashionistas, and Me: Recurrent Fashion Recommendation with Implicit Visual Influence",2019
+727,POP;TRANS;TNN;BATCHMF;AMF;SVD,http://eprints.sztaki.hu/9325/1/Frigo_28_3311665_ny.pdf,Online ranking prediction in non-stationary environments,2017
+728,PURESVD;SLIM;EIGENREC;MULTDAE;MULTVAE;APR;RP3B;NAIS;RECWALK,https://dl.acm.org/doi/pdf/10.1145/3406241,Boosting Item-based Collaborative Filtering via Nearly Uncoupled Random Walks,2020
+729,BPRMF;FPMC;GRU4REC;CASER;SASREC;SRGNN;HGN;TISASREC;HYPERREC;DGSR,https://arxiv.org/pdf/2104.07368,Dynamic Graph Neural Networks for Sequential Recommendation,2021
+730,MF;DEEPWALK;LNE;NODE2VEC;GCN;MGCN;DMGE,https://arxiv.org/pdf/1905.10095,Learning Cross-Domain Representation with Multi-Graph Neural Network,2019
+731,FPMC;PRME;STRNN;GRU4REC;SASREC;ATSTLSTM;DGREC;DANSNR,https://arxiv.org/pdf/2004.12161,DAN-SNR: A Deep Attentive Network for Social-Aware Next Point-of-Interest Recommendation,2020
+732,GRU4REC;CASER;SASR,https://arxiv.org/pdf/2010.11401.pdf,Learning Transferrable Parameters for Long-tailed Sequential User Behavior Modeling,2020
+733,POP;PPOP;ITEMKNN;NARM;HRNN;JNN,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9050712,A Joint Neural Network for Session-Aware Recommendation,2020
+734,CRM;EAR;GRU;SASREC,https://arxiv.org/pdf/2008.08247.pdf,Leveraging Historical Interaction Data for Improving Conversational Recommender System,2020
+735,FPMC;GRU4REC;CASER;SASREC;BERT4REC;LSAN,https://arxiv.org/pdf/2108.11333.pdf,Lightweight Self-Attentive Sequential Recommendation,2021
+736,POP;BPR;GRU4REC;STAMP;NARM;CASER;NEXTITNET;SRGNN;BERT4REC;AMEIR,https://arxiv.org/pdf/2006.05933.pdf,"AMEIR: Automatic Behavior Modeling, Interaction Exploration and MLP Investigation in the Recommender System",2022
+737,GRU4REC;SRGNN;CSRM;LESSR;TASREC,https://www4.comp.polyu.edu.hk/~xiaohuang/docs/Huachi_sigir2021.pdf,Temporal Augmented Graph Neural Networks for Session-Based Recommendations,2021
+738,BPRMF;TRANSREC;GRU4REC;TCN;SASREC;BERT4REC;MELU;METACF;METATL,https://arxiv.org/pdf/2107.06427.pdf,Sequential Recommendation for Cold-start Users with Meta Transitional Learning,2021
+739,BPR;CDL;CVAE;IRGAN;VAEAR;CLVAE;CFGAN;MVAE;CAF,https://www.sciencedirect.com/science/article/am/pii/S0893608020300873,Recommendation via Collaborative Autoregressive Flows,2020
+740,FDE;MDE;DPQ;NIS;MGQE;AEMB;RAS;ADS;AUTODIM,https://www.cse.msu.edu/~zhaoxi35/paper/www2021autodim.pdf,AutoDim: Field-aware Embedding Dimension Search in Recommender Systems,2021
+741,GRU4REC;NARM;MCPRN;IDSR;MDSR,https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/chen-2022-multi-interest.pdf,Multi-interest Diversification for End-to-end Sequential Recommendation,2021
+743,LALDA;UCF;SRGNN;BPRMF;TOP;GRU4REC;EMCDR;TRAINOR,https://ojs.aaai.org/index.php/AAAI/article/view/16581/16388,Out-of-Town Recommendation with Travel Intention Modeling,2021
+744,BPRMF;NEUMF;NGCF;NEUACF;HEREC;NARM;SRGNN;SHCF,https://epubs.siam.org/doi/pdf/10.1137/1.9781611976700.8,Sequence-aware Heterogeneous Graph Neural Collaborative Filtering,2021
+745,FPMC;GRU4REC;NARM;CASER,http://ceur-ws.org/Vol-2911/paper3.pdf,Learning Causal Explanations for Recommendation,2021
+746,PBRS;FPMC;PRME;GRU4REC;SWOWI;NCSF;SHAN;HATE;ATE;HTE,https://shlomo-berkovsky.github.io/files/pdf/IntSyst21.pdf,Hierarchical Attentive Transaction Embedding With Intra- and InterTransaction Dependencies for Next-Item Recommendation,2020
+747,GRU4REC;CASER;SASREC;BERT4REC;UPREC,https://arxiv.org/pdf/2102.10989,UPRec: User-Aware Pre-training for Recommender Systems,2021
+748,ITEMPOP;MFBPR;MLP;JRL;NEUCF;CONVNCF;CNNDCF,https://ieeexplore.ieee.org/iel7/6287639/8948470/09086604.pdf,Deep Collaborative Filtering Based on Outer Product,2020
+749,BPR;GRU4REC;CASER;WE3CN;DNA,https://mashuai-ms.github.io/pubs/icdm2019b.pdf,Dynamic News Recommendation with Hierarchical Attention Network,2019
+750,DDTCDR;CML;CCCFNET;CDFM;CMF;CONET;NCF,https://arxiv.org/pdf/2104.08490,Dual Metric Learning for Effective and Efficient Cross-Domain Recommendations,2021
+751,RANDOM;POPULAR;VSM;CB;CF;SVD;BAGOFSIGNALS;TWCF;TIMESVD,https://www.researchgate.net/profile/Fabio-Gasparetti/publication/321067268_Dynamic_Social_Recommendation/links/5f28542f92851cd302d84181/Dynamic-Social-Recommendation.pdf,Dynamic Social Recommendation,2017
+752,POP;BPR;FMC;FPMC;PRME;TRANSREC;SKNN;CASER;SASREC;REBUS,https://arxiv.org/pdf/2008.05587,SEQUENTIAL RECOMMENDATION WITH METRIC MODELS BASED ON FREQUENT SEQUENCES,2020
+753,POP;AUTOREC;BPR;CDAE;NCEPLREC;PURESVD;VAECF;CEVAE;MMSVAE,https://arxiv.org/pdf/2105.00774,Fast Multi-Step Critiquing for VAE-based Recommender Systems,2021
+755,NCF;DNN;GRU4REC;UDIN,https://www.ijcai.org/Proceedings/2020/0357.pdf,Intent Preference Decoupling for User Representation on Online Recommender System,2021
+756,SVD;RNN;RNNSVD;PLRNN,https://dl.acm.org/doi/pdf/10.1145/3298689.3347065,From Preference into Decision Making: Modeling User Interactions in Recommender Systems,2019
+757,DNN;WIDEDEEP;GRU4REC;DIEN;ADVER,https://arxiv.org/pdf/2110.11073.pdf,RL4RS : A Real-World Benchmark for Reinforcement Learning based Recommender System,2022
+758,BPR;SBPR;GRAPHREC;GRU;SASREC;DGREC;DREAM,https://arxiv.org/pdf/2008.04579,DREAM: A Dynamic Relational-Aware Model for Social Recommendation,2020
+759,YOUTUBEDNN;GRU4REC;MIND,https://arxiv.org/pdf/2110.15154.pdf,Cross-Batch Negative Sampling for Training Two-Tower Recommenders,2021
+760,MF;WIDEDEEP;GRU4REC;DQN;DDPG;DEERS;GCQ,https://link.springer.com/chapter/10.1007/978-3-030-47426-3_2,Off-Policy Recommendation System Without Exploration,2020
+761,NEUMF;CUNEBPR;ANSR;BPR;ANSR;SBPR;DMF;APR,https://ieeexplore.ieee.org/iel7/6287639/8948470/09050750.pdf,An Efficient Adaptive Attention Neural Network for Social Recommendation,2020
+762,POP;BBPR;WARP;CBOW;RNN;HMF;HARNN,https://arxiv.org/pdf/1805.11008,A Sequential Embedding Approach for Item Recommendation with Heterogeneous Attributes,2018
+767,NCF;TSVD;SRS;RRN;FPMC;GRU4REC;STAMP;DCRL,https://drive.google.com/file/d/1YNx-BTYbInXjf0teABPMKh2VNkCAWoZF/view,Dynamic Collaborative Recurrent Learning,2019
+768,DNN;PNN;WIDEDEEP;DIN;DIEN,https://ojs.aaai.org/index.php/AAAI/article/view/6028/5884,Deep Time-Stream Framework for Click-through Rate Prediction by Tracking Interest Evolution,2020
+770,POP;ITEMKNN;BPRMF;FPMC;GRU4REC;STAMP;SRGNN;TAGNN,https://www.mdpi.com/2227-7390/8/9/1607/pdf,Attention-Enhanced Graph Neural Networks for Session-Based Recommendation,2020
+771,SVD;TIMESVD;GLOMA;MRMA;IAUTOREC;RRN;NADE;S3PNM,https://arxiv.org/pdf/2204.00752,Modeling Dynamic User Preference via Dictionary Learning for Sequential Recommendation,2022
+772,POP;SPOP;MC;FPMC;PRME;NEXTITNET;SRGNN;TSIS,https://journal.hep.com.cn/fcs/EN/article/downloadArticleFile.do?attachType=PDF&id=25590,Where to go? Predicting next location in IoT environment,2021
+773,GRU4REC;NARM;STAMP;SASREC;REPEATNET;SRGNN;FGNN;CSRM;GREC;GCEGNN;PROXYSR,https://arxiv.org/pdf/2107.03564,Unsupervised Proxy Selection for Session-based Recommender Systems,2021
+774,WIDEDEEP;DEEPFM;NFM;AFM;XDEEPFM;LSTM4FD;LCRNN;M3;DIFM,https://ojs.aaai.org/index.php/AAAI/article/view/17755/17562,Modeling the Field Value Variations and Field Interactions Simultaneously for Fraud Detection,2021
+775,EMDE;VSKNN;SKNN;TAGNN;GRU4REC;NARM;SRGNN;CT;SR,https://arxiv.org/pdf/2006.01894,An efficient manifold density estimator for all recommendation systems,2021
+776,POP;SPOP;ITEMKNN;GRU4REC;NARM;STAMP;SRGNN;LGSR,https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA200137,Joint Modeling of Local and Global Behavior Dynamics for Session-Based Recommendation,2020
+777,BPRMF;GRU4REC;CASER;SASREC;BERT4REC;S3REC;CL4SREC;DUOREC,https://arxiv.org/pdf/2110.05730,Contrastive Learning for Representation Degeneration Problem in Sequential Recommendation,2021
+778,HO;LM;SVM;RF;GBDT;MLP;DISHARD;EERNNA;JMBSNET,https://www.researchgate.net/profile/Haobing-Liu/publication/346276216_Jointly_Modeling_Individual_Student_Behaviors_and_Social_Influence_for_Prediction_Tasks/links/604e210992851c2b23cd36ba/Jointly-Modeling-Individual-Student-Behaviors-and-Social-Influence-for-Prediction-Tasks.pdf,Jointly Modeling Individual Student Behaviors and Social Influence for Prediction Tasks,2020
+779,BPRMF;TRANSREC;YOUTUBEDNN;GRU4REC;CASER;SASREC;HGN,https://arxiv.org/pdf/2011.05742,Learning User Representations with Hypercuboids for Recommender Systems,2020
+780,RNN;STAMP;SRGNN;SKNN;STAN;CSRM;HRNN;IIRNN;SASREC;BERT4REC;INSERT,https://arxiv.org/pdf/2107.07453,Next-item Recommendations in Short Sessions,2021
+781,GAT;SRGNN;GRU4REC;CASER;SASREC;BERT4REC;VTB;MIXUP;EDA;CP4REC;CCL,https://www.atailab.cn/seminar2022Spring/pdf/2021_CIKM_Contrastive%20Curriculum%20Learning%20for%20Sequential%20User%20Behavior%20Modeling%20via%20Data%20Augmentation.pdf,Contrastive Curriculum Learning for Sequential User Behavior Modeling via Data Augmentation,2021
+782,POP;BPRMF;FPMC;FOSSIL;PRME;TR;GRU;SAS;RTN,https://ieeexplore.ieee.org/iel7/6287639/8600701/08835015.pdf,Recurrent Translation-Based Network for Top-N Sparse Sequential Recommendation,2019
+783,TOP;FPMC;HRM;DREAM;SHAN;ANAM;IIAAN,https://ieeexplore.ieee.org/iel7/6287639/8600701/08736740.pdf,Inter-Basket and Intra-Basket Adaptive Attention Network for Next Basket Recommendation,2019
+784,ITEMKNN;GRU4REC;PNN;ARNN,https://arxiv.org/pdf/1805.02983,Augmenting Recurrent Neural Networks with High-Order User-Contextual Preference for Session-Based Recommendation,2018
+785,BPR;FPMC;SOCIALMF;DREAM;SOCIALGCN;PROPOSEDDSRS,http://staff.ustc.edu.cn/~tongxu/Papers/Yang_JCST20.pdf,Exploiting Structural and Temporal Influence for Dynamic Social-Aware Recommendation,2020
+786,TOP;MF;MC;TF;PFMC;PRME;RNN;STRNN,https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPDFInterstitial/11900/11583,Predicting the Next Location: A Recurrent Model with Spatial and Temporal Contexts,2016
+787,PMF;PTF;FPMC;FPMC,https://www.ijcai.org/Proceedings/13/Papers/384.pdf,Where You Like to Go Next: Successive Point-of-Interest Recommendation,2013
+790,WH;KNN;GRU4REC;KNN,https://web-ainf.aau.at/pub/jannach/files/Conference_RecSys_2017.pdf,When Recurrent Neural Networks meet the Neighborhood for Session-Based Recommendation,2017
+794,POP;BPR;FM;CARS2;FPMC;HRM;RNN;CARNN,https://arxiv.org/pdf/1609.05787,Context-aware Sequential Recommendation,2016
+796,STELLAR;LSTM;GRU;STRNN,https://www.ijcai.org/proceedings/2018/0458.pdf,Content-Aware Hierarchical Point-of-Interest Embedding Model for Successive POI Recommendation,2018
+797,POP;FM;VOM;FPMC;PRME;STRNN;LSTM;STLSTM;HSTLSTM,https://www.ijcai.org/proceedings/2018/0324.pdf,HST-LSTM: A Hierarchical Spatial-Temporal Long-Short Term Memory Network for Location Prediction,2018
+798,DEEPWALK;PMF;PTE;TADW;JNTM,https://arxiv.org/pdf/1606.08154,A Neural Network Approach to Joint Modeling Social Networks and Mobile Trajectories,2017
+799,FPM;FPMC;PIMF;WWO,http://www.kdd.org/kdd2016/papers/files/rfp0482-liuA.pdf,Unified Point-of-Interest Recommendation with Temporal Interval Assessment,2016
+800,BPR;FCTMCH;POPRANK;RANDOM,https://web-ainf.aau.at/pub/jannach/files/Conference_RecSys2015.pdf,Adaptation and Evaluation of Recommendations for Short-term Shopping Goals,2015
+801,POP;BPRMF;VBPR;MC;FPMC;VISTA,https://arxiv.org/pdf/1607.04373,"Vista: A Visually, Socially, and Temporally-aware Model for Artistic Recommendation",2016
+805,RANDOM;PERSTOUR;POP;RANK;MARKOV,https://arxiv.org/pdf/1608.07051,Learning Points and Routes to Recommend Trajectories,2016
+806,MF;PMF;FPMC;PRME;LBPRM;LBPRN,https://www.ijcai.org/Proceedings/2017/0255.pdf,Category-aware Next Point-of-Interest Recommendation via Listwise Bayesian Personalized Ranking,2017
+807,ITEMPOP;BPRMF;FPMC;ITEM2VEC;PROD2VEC;M2VEC;TRIPLE2VEC,https://cseweb.ucsd.edu/~jmcauley/pdfs/cikm18a.pdf,"Representing and Recommending Shopping Baskets with Complementarity, Compatibility, and Loyalty",2018
+808,POP;BPRMF;FMC;FPMC;PRME;HRM;TRANSREC;CATCOS;FM;TRANSFM,http://cseweb.ucsd.edu/~jmcauley/pdfs/recsys18a.pdf,Translation-based Factorization Machines for Sequential Recommendation,2018
+809,GRU;CASER;NEXTITNET;SASREC,https://arxiv.org/pdf/2006.05779,Self-Supervised Reinforcement Learning for Recommender Systems,2020
+810,FPMC;HRM;RNN;RLML;TARLBL,https://arxiv.org/pdf/1608.07102,Multi-behavioral Sequential Prediction with Recurrent Log-bilinear Model,2017
+811,BPR;FPMC;GRU4REC;NARM;DQN;DDPG;PDQ,https://tbbaby.github.io/pub/wsdm20.pdf,Pseudo Dyna-Q: A Reinforcement Learning Framework for Interactive Recommendation,2020
+812,MARKOV;PRME;STRNN;BILSTM;POI2VEC;DEEPMOVE;VANEXT,https://kpzhang.github.io/paper/Variational_Attention.pdf,Predicting Human Mobility via Variational Attention,2019
+813,TOP;BIGRAM;CONTEXTONLY;MC;HRM;LSTM;NEMO,https://dl.acm.org/doi/pdf/10.1145/3041021.3054200,Nemo: Next career move prediction with contextual embedding,2017
+815,COFIRANK;WRMF;BPR;GBPR;FISMAUG;MAXMF;PFPWARP;PFPKL,https://cseweb.ucsd.edu/~jmcauley/pdfs/cikm15.pdf,Improving Latent Factor Models via Personalized Feature Projection for One Class Recommendation,2015
+816,PMARKOV;HMM;LSTM;JMARKOV;FPMC;LSTM;DEEPMOVE;PMF,https://vonfeng.github.io/files/UbiComp2020_PMF_Final.pdf,PMF: A Privacy-preserving Human Mobility Prediction Framework via Federated Learning,2020
+818,POP;NMF;FPMC;HRM;DREAM;NAM;ANAM,http://rali.iro.umontreal.ca/rali/sites/default/files/publis/p1201-bai.pdf,An Attribute-aware Neural Attentive Model for Next Basket Recommendation,2018
+820,BPRMF;MC;FPMC;HRM;PRME;TRANSREC;CASER;LSTM;ATTREC,https://recnlp2019.github.io/papers/RecNLP2019_paper_21.pdf,Next Item Recommendation with Self-Attentive Metric Learning,2019
+821,NSM;OF;MC;FPMC,http://archive.thewebconf.org/proceedings/www2014/proceedings/p373.pdf,Mining Novelty-Seeking Trait Across Heterogeneous Domains,2014
+823,FM;WIDEDEEP;DEEPCROSS;NFM;AFM;SASREC;TFM;SEQFM,https://arxiv.org/pdf/1911.02752,Sequence-Aware Factorization Machines for Temporal Predictive Analytics,2019
+825,LSTM;STRNN;STLSTM;CARA;TMCA,https://drive.google.com/file/d/1cE12BkOY9ggsSgOnXNDAmCaD58PJ5rmC/view,Next Point-of-Interest Recommendation on Resource-Constrained Mobile Devices,2020
+827,RANDOM;POP;BPRM;GRU;HCAGRU,https://arxiv.org/pdf/1711.05114,A Hierarchical Contextual Attention-based GRU Network for Sequential Recommendation,2018
+828,PMF;FPMC;WMF;EXPOMF;H4MF,https://proceedings.neurips.cc/paper/2018/file/8d9766a69b764fefc12f56739424d136-Paper.pdf,Modeling Dynamic Missingness of Implicit Feedback for Recommendation,2018
+829,ITEMKNN;BPR;MF;NEUMF;SVDFEATURE;HETERS;FMG;MCREC,http://140.122.184.128/presentation/21-07-19/Leveraging%20Meta-path%20based%20Context%20for%20Top-N%20Recommendation%20with%20A%20Neural%20Co-Attention%20Model.pdf,Leveraging Meta-path based Context for Top-N Recommendation with A Neural Co-Attention Model,2018
+830,PMF;NMF;SVD;HFT;DEEPCONN;NARRE,https://dl.acm.org/doi/pdf/10.1145/3178876.3186070,Neural Aentional Rating Regression with Review-level Explanations,2018
+832,LINE;NODE2VEC;TRIDNR;SNE,https://arxiv.org/pdf/1705.04969.pdf,Attributed Social Network Embedding,2017
+833,ITEMPOP;MFBPR;CDAE;IRGAN;NEUMF;AMF,https://arxiv.org/pdf/1808.03908.pdf,Adversarial Personalized Ranking for Recommendation,2018
+834,BPR;MLP;MF;NEUMF;CML;LRML,https://dl.acm.org/doi/pdf/10.1145/3178876.3186154,Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking,2018
+835,BPR;VBPR;DEEPCONN;CKE,https://dl.acm.org/doi/pdf/10.1145/3132847.3132892,Joint Representation Learning for Top-N Recommendation with Heterogeneous Information Sources,2017
+837,BMF;HFT;CTR;RMR;RBLT;TRANSNET;ALFM,https://dl.acm.org/doi/pdf/10.1145/3178876.3186145,Aspect-Aware Latent Factor Model: Rating Prediction with Ratings and Reviews,2018
+838,MF;FM;MLP;NEUMF;DCON;TNET;DATT;MPCN,https://arxiv.org/pdf/1801.09251.pdf,Multi-Pointer Co-Attention Networks for Recommendation,2018
+839,BPR;BPRHFT;VBPR;TRANSREC;DEEPCONN;CKE;JRL;PGPR,https://arxiv.org/pdf/1906.05237.pdf,Reinforcement Knowledge Graph Reasoning for Explainable Recommendation,2019
+840,BPR;SVD;FM;TRUSTSVD;CONTEXTMF;GCMC;PINSAGE;DIFFNET,https://arxiv.org/pdf/1904.10322.pdf,A Neural Influence Diffusion Model for Social Recommendation,2019
+841,LRMF;PMF;NMF;SVD;URP;CTR;RMR;NRT,https://arxiv.org/pdf/1708.00154.pdf,Neural Rating Regression with Abstractive Tips Generation for Recommendation,2017
+842,ITEMPOP;ITEMKNN;HOSLIM;YOUTUBEREC;MLP;BPR;EALS;FISM;DEEPICF,https://arxiv.org/pdf/1811.04392.pdf,Deep Item-based Collaborative Filtering for Top-N Recommendation,2018
+843,BPR;RMR;HFT;RBLT;TRANSNET;A3NCF,https://www.ijcai.org/proceedings/2018/0521.pdf,A 3NCF: An Adaptive Aspect Attention Model for Rating Prediction,2018
+844,BMF;HFT;CTR;RMR;RBLT;EFM;TRANSNET;TALFM;MMALFM,https://arxiv.org/pdf/1811.05318.pdf,MMALFM: Explainable Recommendation by Leveraging Reviews and Images,2018
+845,VBPR;ACF;GRAPHSAGE;NGCF;MMGCN,https://weiyinwei.github.io/papers/mmgcn.pdf,MMGCN: Multi-modal Graph Convolution Network for Personalized Recommendation of Micro-video,2019
+846,BPRMF;CMF;CDCF;MLP;CSN;CONET;SCONET,https://arxiv.org/pdf/1804.06769.pdf,CoNet: Collaborative Cross Networks for Cross-Domain Recommendation,2018
+847,NEUMF;LR;LRDW;LRMP;DNN;GBDT;MEIREC,http://www.shichuan.org/doc/67.pdf,Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation,2019
+848,LIBFM;CNN;DSSM;WIDEDEEP;DEEPFM;DFM;DKN;NPA,https://arxiv.org/pdf/1907.05559.pdf,NPA: Neural News Recommendation with Personalized Attention,2019
+850,BPR;RANKALS;FISMAUC;DEEPWALK;LINE;NODE2VEC;METAPATH2VEC,http://staff.ustc.edu.cn/~hexn/papers/sigir18-bipartiteNE.pdf,BiNE: Bipartite Network Embedding,2018
+851,FM;BPRMF;ITEMCF;YOUTUBEDNN;TDMDNN,https://arxiv.org/pdf/1801.02294.pdf,Learning Tree-based Deep Model for Recommender Systems,2018
+852,DKN;LIBFM;KPCNN;DSSM;DEEPWIDE;DEEPFM;YOUTUBENET;DMF,https://dl.acm.org/doi/pdf/10.1145/3178876.3186175,DKN: Deep Knowledge-Aware Network for News Recommendation,2018
+853,PMF;SOREC;SOREG;SOCIALMF;TRUSTMF;NEUMF;DEEPSOR;GCMCSN;GRAPHREC,https://arxiv.org/pdf/1902.07243.pdf,Graph Neural Networks for Social Recommendation,2019
+855,SVD;DELF;TRUSTPRO;TRUSTMF;TRUSTSVD;NSCR;SPERS;DANSER,https://arxiv.org/pdf/1903.10433.pdf,Dual Graph Aention Networks for Deep Latent Representation of Multifaceted Social Eects in Recommender Systems,2019
+857,BPRMF;GMF;MLP;NCF;HEC;RIPPLENET,https://arxiv.org/pdf/1903.03714.pdf,Jointly Learning Explainable Rules for Recommendation with Knowledge Graph,2019
+859,PMF;CDL;RBLT;CMLE;CONVMF;DEEPCONN;TRANSNETS;DAATN;CARL,https://arxiv.org/pdf/1712.02342.pdf,A Context-Aware User-Item Representation Learning for Item Recommendation,2017
+861,BPRMF;FPMC;SBPR;GBPR;SPMC,https://arxiv.org/pdf/1708.04497,SPMC: Socially-Aware Personalized Markov Chains for Sparse Sequential Recommendation,2017
+862,BPRMF;TENSOR;NCF;FPMC;UTILITYSVD;HCM;TSRHAWKES;NEUHAWKES;LSHAWKES;SLRC,http://www.thuir.cn/group/~YQLiu/publications/WWW2019Wang.pdf,Modeling Item-Specific Temporal Dynamics of Repeat Consumption for Recommender Systems,2019
+863,POP;BPRMF;SSCF;RNN;SBRS;SABR;STABR,https://arxiv.org/pdf/1811.08203,Attentive Neural Architecture Incorporating Song Features For Music Recommendation,2018
+864,MCF;PF;CTPF;COCTPF;RLPF;PCRL,https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5243&context=sis_research,Probabilistic Collaborative Representation Learning for Personalized Item Recommendation,2018
+865,FPMC;SHAN;DEEPMOVE;LSPL,https://www.researchgate.net/profile/Guoshuai-Zhao/publication/337015042_Long-_and_Short-term_Preference_Learning_for_Next_POI_Recommendation/links/5dcecb5aa6fdcc7e1383f281/Long-and-Short-term-Preference-Learning-for-Next-POI-Recommendation.pdf,Long- and Short-term Preference Learning for Next POI Recommendation,2019
+866,CE;PMF;BPMF;TIMESVD,https://www.ijcai.org/Proceedings/16/Papers/535.pdf,Collaborative Evolution for User Profiling in Recommender Systems,2016
+867,RANDOM;POP;IB;UB;LDA;MF;PURECB;CBCF,https://repositorio.uam.es/bitstream/handle/10486/694243/building_sanchez_ipm_2019_ps.pdf?sequence=4,Building user profiles based on sequences for content and collaborative filtering,2019
+868,ABITEMKNN;BPRFM;MOSTPOPULAR;ITEMKNN;USERKNN;VSM;KAHFM,https://arxiv.org/pdf/1909.05038,How to make latent factors interpretable by feeding Factorization machines with knowledge graphs,2019
+869,PRME;TAPRME;FPMC;HRM;RANKGEOFM;TACF;TATEM,https://www.researchgate.net/profile/Aixin-Sun/publication/320214134_A_time-aware_trajectory_embedding_model_for_next-location_recommendation/links/5a0aef32458515e482740481/A-time-aware-trajectory-embedding-model-for-next-location-recommendation.pdf,A Time-Aware Trajectory Embedding Model for Next-Location Recommendation,2018
+871,GARG;GTHAN;UCFG;STLSTM;TMCA;GEOMF;GEOIE;RANKGEOFM;SAENAD;NEXT;MGMPFM,https://link.springer.com/article/10.1007/s41019-020-00135-z,GARG: Anonymous Recommendation of Point-of-Interest in Mobile Networks by Graph Convolution Network,2020
+872,POPRANK;RANDOMWALK;MEMORYBASEDCF;PURESVD;SIZAN;SLIM;BPR;GBPR,http://csse.szu.edu.cn/staff/panwk/publications/Journal-Neurocomputing-16-GBPRplus.pdf,Group Bayesian personalized ranking with rich interactions for one-class collaborative filtering,2016
+874,SOGBMF;CBPF;MCLRE;PIER;PIERT,https://www.cs.cmu.edu/~lbing/pub/TOIS2018_Yi.pdf,Joint Modeling of Participant Influence and Latent Topics for Recommendation in Event-based Social Networks,2018
+875,MFBPR;CML;NEUMF;FISM;CMN;PRME;TRANSREC;CASER;MDR;MASS;MASR;AMDR;AMASS;AMASR;MASR;AMASR,https://dl.acm.org/doi/pdf/10.1145/3331184.3331234,Adversarial Mahalanobis Distance-based Attentive Song Recommender for Automatic Playlist Continuation,2019
+876,ATTF;TTFH;TTFW;TTFM;FPMC;LRT;WRMF;BPRMF,https://www.researchgate.net/profile/Shenglin-Zhao/publication/319086997_Aggregated_Temporal_Tensor_Factorization_Model_for_Point-of-Interest_Recommendation/links/5b96737ca6fdccfd543a6fb9/Aggregated-Temporal-Tensor-Factorization-Model-for-Point-of-Interest-Recommendation.pdf,Aggregated Temporal Tensor Factorization Model for Point-of-interest Recommendation,2018
+877,MFCF;FPMC;RNN;MCIDNN;MC;FPME;CARNN,https://ieeexplore.ieee.org/iel7/6287639/6514899/08340154.pdf,Multi-Context Integrated Deep Neural Network Model for Next Location Prediction,2018
+878,TBP;FPMC;HRM;DERAM;NAM;BEACON;MCPRN;INTNET,https://ojs.aaai.org/index.php/AAAI/article/view/6093/5949,Intention Nets: Psychology-Inspired User Choice Behavior Modeling for Next-Basket Prediction,2020
+879,UCF;FPMC;LSTM;STRNN;SERM;CASER;ARNN,https://ojs.aaai.org/index.php/AAAI/article/view/5337/5193,An Attentional Recurrent Neural Network for Personalized Next Location Recommendation,2020
+880,BPR;FPMC;RRN;NARM;STAMP;RMTPP;TIMELSTM;CTREC,https://www.researchgate.net/profile/Ting-Bai-2/publication/334579722_CTRec_A_Long-Short_Demands_Evolution_Model_for_Continuous-Time_Recommendation/links/5d4160cda6fdcc370a6f3fd1/CTRec-A-Long-Short-Demands-Evolution-Model-for-Continuous-Time-Recommendation.pdf,CTRec: A Long-Short Demands Evolution Model for Continuous-Time Recommendation,2019
+881,TOPKFREQ;PERSONTOPKFREQ;PERSONKNN;FPMC;DREAM;SETS2SETS,https://dl.acm.org/doi/pdf/10.1145/3292500.3330979,Sets2Sets: Learning from Sequential Sets with Neural Networks,2019
+885,FPMC;FM;CDL;PRME;RNN;DCPR,https://www.researchgate.net/profile/Chun-Ta-Lu/publication/321820937_Deep_and_Broad_Learning_on_Content-Aware_POI_Recommendation/links/5aa70cd9aca272326825f815/Deep-and-Broad-Learning-on-Content-Aware-POI-Recommendation.pdf,Deep and Broad Learning on Content-aware POI Recommendation,2017
+886,TBP;MC;CLF;NMF;FPM;HRM;DRM,https://ieeexplore.ieee.org/iel7/69/4358933/08477157.pdf,Personalized Market Basket Prediction with Temporal Annotated Recurring Sequences,2019
+887,TOP;UTOP;MF;RNN;HSTLSTM;STGN;LSTPM;PPDGATSKIP;STPDGAT;STPUDGAT,https://arxiv.org/pdf/2010.07024,STP-UDGAT: Spatial-Temporal-Preference User Dimensional Graph Attention Network for Next POI Recommendation,2020
+888,MF;MC;FLATLSTM;HCRNN;HCARNN,http://tongzhang-ml.org/papers/tkde17.pdf,Hierarchical Contextual Attention Recurrent Neural Network for Map Query Suggestion,2017
+890,CF;BPRMF;MPUM,https://dl.acm.org/doi/pdf/10.1145/3018661.3018674,Multi-Product Utility Maximization for Economic Recommendation,2017
+891,TRANSE;DISTMULT;CONVE;CONVTRANSE;RGCN;KBGAN;COFM;KTUP;KGAT;UPGAN,https://arxiv.org/pdf/2003.12718,Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning,2020
+892,NMF;BPR;VAECF;NEUMF;VBCAR;NGCF;TRIPLE2VEC,https://arxiv.org/pdf/2007.13237,Exploring Data Splitting Strategies for the Evaluation of Recommendation Models,2020
+894,FREQ;HMM;SEQT;SEQE,https://link.springer.com/chapter/10.1007/978-3-319-46227-1_10,Modeling Sequential Preferences with Dynamic User and Context Factors,2016
+895,POP;BPR;SBPR;FMC;FPMC;SPMC;JPMC,https://shizhenkun.cn/attachements/20_zhang_jointm.pdf,Joint Personalized Markov Chains with social network embedding for cold-start recommendation,2020
+896,FPMC;BPR;GRU;STRNN;SERM;DEEPMOVE;STAGRU,https://repository.kaust.edu.sa/bitstream/handle/10754/631709/STRNN_NextLocationPrediction.pdf?sequence=1&isAllowed=y,Spatio-Temporal Attention based Recurrent Neural Network for Next Location Prediction,2018
+897,SL;DQN;PG;SLDQN;SLPG;SDAC;SC;SR;PC;DC;RE,https://ojs.aaai.org/index.php/AAAI/article/view/16579/16386,A General Offline Reinforcement Learning Framework for Interactive Recommendation,2021
+898,MOSTPOP;BPR;FPMC;MSMHP;SHP,http://proceedings.mlr.press/v84/xu18c/xu18c.pdf,Benefits from Superposed Hawkes Processes,2018
+899,CF;TUCKER;BPTF;CKF;BTMF;PUREETF;BASICETF;ETF,http://staff.ustc.edu.cn/~tongxu/Papers/Le_WWW19.pdf,Large-Scale Talent Flow Forecast with Dynamic Latent Factor Model,2019
+900,SPOP;ITEMKNN;FPMC;GRU4REC;NARM;STAMP;SRGNN;RNNKNN;CSRM;ICMSRNARM,https://irlab.science.uva.nl/wp-content/papercite-data/pdf/pan-2020-intent-guided.pdf,An Intent-guided Collaborative Machine for Session-based Recommendation,2020
+902,BPRMF;GBDT;DNN,http://ofey.me/papers/mcbd_cimk2018.pdf,Modeling Consumer Buying Decision for Recommendation Based on Multi-Task Deep Learning,2018
+903,SEQSET;BAYES;NB;IBCF;WRMF,https://bia.unibz.it/esploro/fulltext/conferenceProceeding/Action-Prediction-Models-for-Recommender-Systems/991005772984601241?repId=12235400410001241&mId=13235400400001241&institution=39UBZ_INST,Action Prediction Models for Recommender Systems Based on Collaborative Filtering and Sequence Mining Hybridization,2017
+904,PMF;TIMESVD;TAM;BPTF;PCCF;PCMF,https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5863&context=sis_research,PCCF: Periodic and continual temporal co-factorization for recommender systems,2018
+905,FORWARD;BACKWARD;TOP1;TOP2;PRME;PRMEG;RNN;LSTM;GRU;STRNN;PACE;BISTDDP,https://ojs.aaai.org/index.php/AAAI/article/download/4486/4364,Modelling of Bi-Directional Spatio-Temporal Dependence and Users’ Dynamic Preferences for Missing POI Check-In Identification,2019
+907,RANDOM;MOSTPOP;USERKNN;ITEMKNN;VAE;BPRMF;FCF;FEDERANK,https://sisinflab.poliba.it/publications/2021/ADDFN21a/ECIR_2021___FedeRank__User_Controlled_Feedbackwith_Federated_Recommender_Systems.pdf,FedeRank: User Controlled Feedback with Federated Recommender Systems,2021
+908,ITEMPOP;KNN;TD;FMC;FPMC;FOSSIL;BFUCF;BFWCF,http://ceur-ws.org/Vol-1922/paper8.pdf,Revisiting Neighbourhood-Based Recommenders For Temporal Scenarios,2017
+909,POP;CDAE;MULTIVAE;NGCF;CBPR;CVAE;CNGCF;DICER,https://dl.acm.org/doi/pdf/10.1145/3383313.3412239,Content-Collaborative Disentanglement Representation Learning for Enhanced Recommendation,2020
+910,BPR;FPMC;FMC;ITEMKNN,https://www.researchgate.net/profile/Shiping-Chen-2/publication/319637592_ProductRec_Product_Bundle_Recommendation_Based_on_User's_Sequential_Patterns_in_Social_Networking_Service_Environment/links/5d7211a2299bf1cb808ad2b4/ProductRec-Product-Bundle-Recommendation-Based-on-Users-Sequential-Patterns-in-Social-Networking-Service-Environment.pdf,ProductRec: Product Bundle Recommendation Based on User’s Sequential Patterns in Social Networking Service Environment,2017
+911,MF;PMF;FPMC;PRME;LBP,http://www.ecmlpkdd2018.org/wp-content/uploads/2018/09/73.pdf,Inferring Continuous Latent Preference on Transition Intervals for Next Point-of-Interest Recommendation,2018
+912,BPR;GRU;FPMCLR;PRMEG;RANKGEOFM;STRNN;STGRU;DEEPMOVE;ATSTGRU,https://www.mdpi.com/2220-9964/8/8/355/pdf,An Attention-Based Spatiotemporal Gated Recurrent Unit Network for Point-of-Interest Recommendation,2019
+913,FPMCLR;PRMEG;RNN;LSTM;STCLSTM,https://arxiv.org/pdf/2106.15984,Context-aware Attention-based Data Augmentation for POI Recommendation,2021
+914,CF;GCF;PMF;RNN;STRNN;FPMC;GTSARRNN;RANKGEOFM;NEXT,https://dl.acm.org/doi/pdf/10.1145/3343037,Group-Based Recurrent Neural Networks for POI Recommendation,2020
+915,FM;VBPR;AMR;ACF;DVBPR,https://yasdel.github.io/files/SIGIR2021b.pdf,A Study of Defensive Methods to Protect Visual Recommendation Against Adversarial Manipulation of Images,2021
+916,LASSO;CRF;LR;LRP;SVM;SVMP;GRULR;GRUCRF;DEEPST;NEUROFIRE,http://iris.kangry.net/pdf/CityGuard.pdf,CityGuard: Citywide Fire Risk Forecasting Using A Machine Learning Approach,2019
+917,GPOP;UWPOP;IBCF;UBCF;FPMC;T2VADA;UWPOP;IPCF;UPCF,https://www.researchgate.net/profile/Guglielmo-Faggioli/publication/342909535_Recency_Aware_Collaborative_Filtering_for_Next_Basket_Recommendation/links/60531647458515e83452180d/Recency-Aware-Collaborative-Filtering-for-Next-Basket-Recommendation.pdf,Recency Aware Collaborative Filtering for Next Basket Recommendation,2020
+918,MF;PMF;FPMF;CD;TD;TAFPMC;TADFPMC;SPRIDO;PRIDO,https://www.hindawi.com/journals/sp/2018/3907804/,Improving POI Recommendation via Dynamic Tensor Completion,2018
+923,LST;TOP;MC;CLF;NMF;FMC;HRM;DRM,https://arxiv.org/pdf/1702.07158,Next Basket Prediction using Recurring Sequential Patterns,2017
+924,ABITEMKNN;BPRFM;MOSTPOP;ITEMKNN;USERKNN;VSM;KAHFM;VAECF;BPRSSLIM,https://sisinflab.poliba.it/publications/2020/ADDRT20/Semantic_Interpretation_of_Top_N_Recommendations___Minor_Revision_TKDE.pdf,Semantic Interpretation of Top-N Recommendations,2020
+925,TOP;MC;LRTL;FPMC;PRME;RNN;STRNN;ASTEN,https://dmkd.cs.vt.edu/papers/PAKDD19a.pdf,An Attentive Spatio-Temporal Neural Model for Successive Point Of Interest Recommendation,2019
+926,MF;NAIS;TRANDATTN;TRANALFM;TRANANR;TRANCARP;CLBABELFY;CLJAS;TRANATLSTM;TRANCAN,https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2772852/Manuscript_finalVersion.pdf?sequence=1,Multilingual Review-Aware Deep Recommender System via Aspect-based Sentiment Analysis,2021
+927,TOP;RANDOM;MC;FPMC;RF;STRNN,https://jcst.ict.ac.cn/fileup/1000-9000/PDF/2020-3-10-9107.pdf,Next POI Recommendation Based on Location Interest Mining with Recurrent Neural Networks,2020
+928,COFIRANK;LISTRANK;IMF;BPR;HSR1;HSR2,https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/download/10760/10916,"Recommendation Algorithms for Optimizing Hit Rate, User Satisfaction and Website Revenue",2015
+929,MF;AE;MC;CE;MCE,http://www.ec.tuwien.ac.at/~dimitris/publications/LocalRec19.pdf,Defining and Measuring Fairness in Location Recommendations,2019
+931,MIXTURETW;MIXTURE;FPMC;NMF;HPF;LDA;GLOBAL;PERSONAL,https://arxiv.org/pdf/1909.07683,Characterizing and Predicting Repeat Food Consumption Behavior for Just-in-Time Interventions,2019
+933,BPRMF;TRANREC;GRU4REC;FPMC;MARANK;JDRL,https://link.springer.com/chapter/10.1007/978-3-030-47426-3_14,Joint Relational Dependency Learning for Sequential Recommendation,2020
+934,CF;FPMC;BPR;NODE2VEC;PROD2VEC,https://arxiv.org/pdf/1904.12574,Knowledge-aware Complementary Product Representation Learning,2019
+935,FM;NFM;PRFM;NPRFM,http://nrl.northumbria.ac.uk/id/eprint/44866/1/2020PRL.pdf,Enhanced Factorization Machine via Neural Pairwise Ranking and Attention Networks,2020
+936,BPR;NEUREC;GCMC;NGCF;LRGCCF;GCMC;HRGCCF,https://arxiv.org/pdf/2004.14734,A Robust Hierarchical Graph Convolutional Network Model for Collaborative Filtering,2020
+937,FORWARD;BACKWARD;TOP1;TOP2;PRME;PRMEG;RNN;LSTM;GRU;STRNN;PACE;BISTDDP,https://arxiv.org/pdf/2201.00014,Exploiting Bi-directional Global Transition Patterns and Personal Preferences for Missing POI Category Identification,2021
+938,DIRRNN;SHERLOCK;HIEVH;RNN;RANDOM,https://arxiv.org/pdf/2008.07178,Disentangled Item Representation for Recommender Systems,2021
+939,TOP;NMF;FPMC;HRM;DREAM;ANAM;IERT,https://arxiv.org/pdf/1904.12604,Pre-training of Context-aware Item Representation for Next Basket Recommendation,2019
+940,PP;MHP;GBDT;RF;LR;CRF;CTMC;HCPNN;NEMO;TACTP,https://bigdata.ustc.edu.cn/paper_pdf/2021/Chao-Wang-WWW.pdf,Variable Interval Time Sequence Modeling for Career Trajectory Prediction: Deep Collaborative Perspective,2021
+941,FPMC;STRNN;DRCF;CASER;CAPRF;CAPE,https://epubs.siam.org/doi/pdf/10.1137/1.9781611976236.12,Content-Aware Successive Point-of-Interest Recommendation,2020
+942,AUTOENCODER;BPRMF;WRMF;SEMAUTO,https://sisinflab.poliba.it/publications/2020/ABDD20/2020_Anelli_KG4XAI2020.pdf,Knowledge-aware Interpretable Recommender Systems,2020
+943,KFREQUENT;KNEAREST;MLP;CC;SGM;LEAP;GAMENET;COMPNET,https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/wang-2019-order-free.pdf,Order-free Medicine Combination Prediction with Graph Convolutional Reinforcement Learning,2019
+944,POP;NRT;DVBPR;SETRNN;IBR;BPRDAE;NOR,https://arxiv.org/pdf/1806.08977,Explainable Outfit Recommendation with Joint Outfit Matching and Comment Generation,2019
+945,POPREC;BPR;GRU4REC;SASREC;GCSAN;CASER;BERT4REC;IRGAN;RECGAN;AOS3RECR;AOS4RECT,https://www.ijcai.org/Proceedings/2020/0264.pdf,Adversarial Oracular Seq2seq Learning for Sequential Recommendation,2021
+946,EALS;BPR;SLIM;CLIMF;PMF;GRU4REC;INFPUSH;P3STOP,https://arxiv.org/pdf/1706.06716,Click-aware Purchase Prediction with Push at the Top,2020
+947,POPREC;GRU4REC;CASER;HGN;REPEATNET;CLEA;SASREC;SRGNN;GCSAN;PMLPREC,https://arxiv.org/pdf/2202.13556,Filter-enhanced MLP is All You Need for Sequential Recommendation,2022
+949,POP;BPRMF;ITEMKNN;SASREC;SSEPT;FISSA;BERT4REC;S3REC;MRTRANSFORMER,https://arxiv.org/pdf/2106.12120,Improving Transformer-based Sequential Recommenders through Preference Editing,2021
+950,ITEMKNN;FPMC;NEXTITNET;NARM;FGNN;SRGNN;GCSAN;GCEGNN;LESSR;DGLSR,https://www.mdpi.com/2227-7390/9/12/1420/pdf,Dynamic Graph Learning for Session-Based Recommendation,2021
+952,BPR;SASREC;IMPROVEDGRU4REC;GRU4REC;NARM;HARM,https://www.hindawi.com/journals/sp/2022/7763726/,Design of a Music Recommendation Model on the Basis of Multilayer Attention Representation,2022
+953,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;REPEATNET;SRGNN;GCSAN;KSTT,https://arxiv.org/pdf/2112.08745,Knowledge-enhanced Session-based Recommendation with Temporal Transformer,2021
+954,USERITEMPOP;BILSTM;TRANSFORMER;REPEATNET;TRANSV,https://dl.acm.org/doi/pdf/10.1145/3397271.3401164,Web-to-Voice Transfer for Product Recommendation on Voice,2020
+955,GRU4REC;NARM;REPEATNET;CSRM;SRGNN;GCSAN;TAGNN;LESSR,https://arxiv.org/pdf/2107.01516,Introducing Self-Attention to Target Attentive Graph Neural Networks,2022
+956,LSTM;TISASREC;JODIE;LATENTCROSS,https://arxiv.org/pdf/2201.12686,Rank List Sensitivity of Recommender Systems to Interaction Perturbations,2022
+957,AUTOINT;GRU4REC;CASER;SASREC;BERT4REC;HGN;FDSA;S3REC;REFRS,https://arxiv.org/pdf/2207.13897,ReFRS: Resource-efficient Federated Recommender System for Dynamic and Diversified User Preferences,2022
+958,POPREC;CASER;GRU4REC;BERT4REC;SASREC;SMREC;RETR,https://arxiv.org/pdf/2206.06804,Recommender Transformers with Behavior Pathways,2022
+959,BERT4LOC;MULTVAE;BERT4REC;REPEATNET;SASRECF;ENMF,https://arxiv.org/pdf/2208.01375,BERT4Loc: BERT for Location - POI Recommender System,2022
+960,AR;SR;SKNN;VSKNN;STAN;VSTAN;NARM;GRU4REC;REPEATNET;SLIST;PROXYSR;RECENTNOVEL;NOVELNET,https://arxiv.org/pdf/2209.01963,Modeling User Repeat Consumption Behavior for Online Novel Recommendation,2022
+961,NARM;SRGNN;NISER;SGNNHN;LESSR;GCEGNN;DATMDI;TISASREC;TGSREC;TMIGNN;GNGODE,https://arxiv.org/pdf/2206.12779,Evolutionary Preference Learning via Graph Nested GRU ODE for Session-based Recommendation,2022
+962,TIMELSTM;RRN;CTDNE;JODIE;DGNN;MRATE,https://arxiv.org/pdf/2110.04503,Multi-Relation Aware Temporal Interaction Network Embedding,2021
+963,PPOP;GPPOP;TIFUKNN;UPCFR;DNNTSP;RECANET,https://irlab.science.uva.nl/wp-content/papercite-data/pdf/ariannezhad-2022-recanet.pdf,ReCANet: A Repeat Consumption-Aware Neural Network for Next Basket Recommendation in Grocery Shopping,2022
+964,TRANSE;DISTMULT;COMPLEX;CONVE;ROTATE;RGCN;COMPGCN;TTRANSE;HYTE;TADISTMULT;RENET;CYGNET;SEDYTCONV;HIPNETWORK;HYPERVC,https://arxiv.org/pdf/2209.05635,Bending the Future: Autoregressive Modeling of Temporal Knowledge Graphs in Curvature-Variable Hyperbolic Spaces,2022
+965,POP;SPOP;BPRMF;FPMC;ITEMKNN;GRU4REC;NARM;STAMP;CSRM;SRGNN;GCSAN;PEN4REC,https://arxiv.org/pdf/2106.09306,PEN4Rec: Preference Evolution Networks for Session-based Recommendation,2021
+966,TREC;MUTREC;TREC;METREC;M2TREC;STAMP;GRU4REC;NARM,https://arxiv.org/pdf/2209.11824,M2TRec: Metadata-aware Multi-task Transformer for Large-scale and Cold-start free Session-based Recommendations,2022
+967,GRU4REC;NARM;SRGNN;LESSR;STARGNN;DAGCN,https://arxiv.org/pdf/2112.15352,Intention Adaptive Graph Neural Network for Category-aware Session-based Recommendation,2022
+968,RANDOM;GLOBAL;PERSONAL;MIXTURE;MIXTURETW;ADALOYAL;NMF;BPRMF;WRMF;LDA;FPMC;SASREC,https://www.researchsquare.com/article/rs-1839468/latest.pdf,Non-binary Evaluation of Next-basket Food Recommendation,2022
+969,ITEMKNN;FPMC;SKNN;VSKNN;GRU4REC;NARM;STAMP;CSRM;EMDE;SRGNN;TAGNN;GCEGNN;SGNNHN;S2DHCN;CGL,https://scholar.archive.org/work/cnv6ylj4pjfaff63kffjvvpv5e/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3490479,Collaborative Graph Learning for Session-based Recommendation,2022
+970,TOPPOPULAR;TOPPERSONAL;NMF;PURESVD;IALS;SLIM;EASE;ITEMKNN,https://arxiv.org/pdf/2205.05393,CVTT: Cross-Validation Through Time,2022
+971,BPR;NCF;RUM;GRU4REC;NARM;SASREC;DETAIN,https://scholar.archive.org/work/fx7iwgcdrfccrkf74pvesxhhte/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3485447.3512101,Sequential Recommendation with Decomposed Item Feature Routing,2022
+973,POP;BPRMF;FMC;FPMC;HRM;DREAM;CASER;SHAN;LSAMN;ACENET,http://www.global-optimization.com/boyuan/Mypaper/SPL-2021.pdf,Next-item Recommendation with Deep Adaptable Co-Embedding Neural Networks,2021
+974,DSSM;DEEPCONN;YOUTUBE;ICAN;SASREC;COMIREC;COUPLE,https://arxiv.org/pdf/2112.03667,Cross-domain User Preference Learning for Cold-start Recommendation,2021
+975,TOPPOP;PERSONALTOPPOP;SETS2SETS;DNNTSP;GLOIE;VAECF,https://arxiv.org/pdf/2109.02074,Global-Local Item Embedding for Temporal Set Prediction,2021
+976,GTOPFREQ;PTOPFREQ;GPTOPFREQ;UPCFR;TIFUKNN;DREAM;BEACON;CLEA;SETS2SETS;DNNTSP,https://arxiv.org/pdf/2109.14233,A Next Basket Recommendation Reality Check,2021
+977,POP;BSEQ;MCNET;SASREC;COSEREC;BEACON;BPCL,https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_843.pdf,Basket Booster for Prototype-based Contrastive Learning in Next Basket Recommendation,2022
+978,ANAM;IIAAN;SETS2SETS;TIFUKNN;MIBS;GATTRANSBNR,https://iopscience.iop.org/article/10.1088/1742-6596/2303/1/012023/pdf,Next basket recommendation based on graph attention network and transformer,2022
+979,POP;MC;MCN;BEACON;MIBS,https://iisi.siit.tu.ac.th/KSE2021/uploads_final/89__792a7e909844720c55b372c29051164d/2021222115.pdf,Modeling Multi-Intent Basket Sequences for Next-Basket Recommendation,2021
+980,MFBPR;LIGHTGCN;SGL;DAM;BUNDLENET;BGCN;CROSSCBR,https://arxiv.org/pdf/2206.00242,CrossCBR: Cross-view Contrastive Learning for Bundle Recommendation,2022
+981,GPTOPFREQ;RUPM;MONBR;UPCF;IPCF;MONBRCF,https://ieeexplore.ieee.org/iel7/6287639/9668973/09832906.pdf,An Efficient Approach for Rational Next-Basket Recommendation,2022
+982,TOP;FPMC;DREAM;BEACON;SETS2SETS;UPCFR;TIFUKNN;CLEA,https://arxiv.org/pdf/2209.02892,A Systematical Evaluation for Next-Basket Recommendation Algorithms,2022
+983,DEEPMOVE;STGN;LSTPM;TISASREC;GEOSAN;STAN;CARAN,http://www.injoit.org/index.php/j1/article/download/1354/1264,CARAN: A Context-Aware Recency-Based Attention Network for Point-of-Interest Recommendation,2022
+985,BPR;LSTM;GCN;GRAPHSAGE;CASER;SASREC;NACTSEER,https://people.cs.vt.edu/ramakris/papers/nactseer-cikm2019.pdf,NActSeer: Predicting User Actions in Social Network using Graph Augmented Neural Network,2019
+986,TOP;FPMC;NMF;TIMESVD;HRM;DREAM;DRM,http://jcst.ict.ac.cn/fileup/1000-9000/PDF/2019-6-5-9284.pdf,Modeling Temporal Dynamics of Users’ Purchase Behaviors for Next Basket Prediction,2019
+987,MF;PMF;FPMCLR;PRMEG;GPDM;PPDM,https://arxiv.org/pdf/1805.06316,Personalized Next Point-of-Interest Recommendation via Latent Behavior Patterns Inference,2018
+988,BPR;NCF;FPMC;GRU4REC;CASER;NARM;SASREC;HRL;SASREC;BERT4REC;RAP,https://www.ijcai.org/proceedings/2021/0220.pdf,Pattern-enhanced Contrastive Policy Learning Network for Sequential Recommendation,2021
+989,POP;BPRMF;FMC;FPMC;HRM;DREAMSHAN;LSAMN,http://www.global-optimization.com/boyuan/Mypaper/MDM-2019.pdf,Sequence-Aware Recommendation with Long-Term and Short-Term Attention Memory Networks,2019
+990,GRU4REC;CASER;SASREC,https://www.mdpi.com/2076-3417/11/4/1585/pdf,Sequential Recommendations on GitHub Repository,2021
+991,POP;ITEMCF;USERCF;BPR;GRU;CASER;AUGRU;CSRN,https://arxiv.org/pdf/2004.04816,CSRN: Collaborative Sequential Recommendation Networks for News Retrieval,2020
+992,POP;FM;NFM;RRN;CASER;SASREC;SITAR;SRNN;TMP;TIF;TNT;TARN,https://www.researchgate.net/profile/Qi-Zhang-339/publication/350883201_Neural_Time-Aware_Sequential_Recommendation_by_Jointly_Modeling_Preference_Dynamics_and_Explicit_Feature_Couplings/links/6220790519d1945aced1529a/Neural-Time-Aware-Sequential-Recommendation-by-Jointly-Modeling-Preference-Dynamics-and-Explicit-Feature-Couplings.pdf,Neural Time-Aware Sequential Recommendation by Jointly Modeling Preference Dynamics and Explicit Feature Couplings,2021
+993,POPREC;BPRMF;SASREC;BERT4REC;SSEPT,https://dl.acm.org/doi/pdf/10.1145/3459637.3482136,Locker: Locally Constrained Self-Attentive Sequential Recommendation,2021
+994,ATRANK;BPRMF;CNN;CSAN;LSPM;PACA;BILSTM;SHAN;TLSAN,https://arxiv.org/pdf/2103.08971,TLSAN: Time-aware Long- and Short-term Attention Network for Next-item Recommendation,2021
+995,BPR;GRU4REC;CASER;SASREC;DSSREC;BERT4REC;S3REC;CL4SREC;ICLREC,https://arxiv.org/pdf/2202.02519,Intent Contrastive Learning for Sequential Recommendation,2022
+996,MOSTPOP;MM;RNN;LSTM;GRU;SPLSTM,https://ieeexplore.ieee.org/iel7/6287639/8600701/08889510.pdf,Passenger Behavior Prediction With Semantic and Multi-Pattern LSTM Model,2019
+997,POP;REP;MFBPR;FPMC;SASREC;BERT4REC;LIVEREC,https://cseweb.ucsd.edu/~jmcauley/pdfs/recsys21b.pdf,Recommendation on Live-Streaming Platforms: Dynamic Availability and Repeat Consumption,2021
+999,POP;POEP;DREAM;FPMC;SETS2SETS;M2P2,https://arxiv.org/pdf/2004.01646,"M 2 : Mixed Models with Preferences, Popularities and Transitions for Next-Basket Recommendation",2022
+1000,GLOBALPOP;SEQPOP;FOT;GRU4REC;SASREC;HIERNN;M3R;RNNMTL;GATEDLONGREC,https://arxiv.org/pdf/2001.11369,Learning to Structure Long-term Dependence for Sequential Recommendation,2020
+1001,HAFMRANK;FM;COLDROUTET;RMNL;EXPERT2VEC;LDA,https://ieeexplore.ieee.org/iel7/6287639/8948470/09001106.pdf,Hierarchical Attentional Factorization Machines for Expert Recommendation in Community Question Answering,2020
+1002,BPRMF;NEUMF;NAIS;SEREC;TBPR;DIFFNET;GRAPHREC;SASREC;SRGNN;SPMC;ARSE;DGREC;USERTEMPORAL;USERSOCIAL;ITEMSIMILARITY;FUSEREC,http://sundaram.cs.illinois.edu/pubs/2021/2021_narang_fuserec.pdf,FuseRec: fusing user and item homophily modeling with temporal recommender systems,2021
+1003,FPMC;POI2VEC;PRMEG;SASREC;LSTPM;SANS;SANT;SANST,https://arxiv.org/pdf/2001.10379,SANST: A Self-Attentive Network for Next Point-of-Interest Recommendation,2020
+1004,FMC;FPMC;POPREC;CTA;SETS2SETS;DREAM;CEACON;FDSA;ANDA,https://arxiv.org/pdf/2109.11654,Modeling Dynamic Attributes for Next Basket Recommendation,2021
+1005,FOSSIL;FPMC;BPRMF;VBPR;CIGAR,https://www.mdpi.com/2073-8994/12/6/873/htm,Learning Context-Aware Outfit Recommendation,2020
+1006,PBRS;FPMC;PRME;GRU4REC;SWOWI;NCSF;SHAN;HATE;ATE;HTE,https://arxiv.org/pdf/2006.04530,Jointly Modeling Intra- and Inter-transaction Depend -encies with Hierarchical Attentive Transaction Embeddings for Next-item Recommendation,2020
+1007,HGN;HAM;TPTCF;PTN;CPHCMH;HCFMH,https://www.sciencedirect.com/science/article/pii/S153204642030263X,Hybrid collaborative filtering methods for recommending search terms to clinicians,2021
+1008,JOINTE;JOINTEN;FPMC;LSTM;MLP;STELLAR,http://splab.sdu.edu.cn/download/paper/FINAL-CIKM2019_lp0859.pdf,Exploring The Interaction Effects for Temporal Spatial Behavior Prediction,2019
+1009,POP;SPOP;ITEMKNN;BPRMF;FPMC;GRU4REC;NARM;STAMP;SRGNN;PIAGNN,https://www.mdpi.com/1099-4300/23/11/1500/htm,Personal Interest Attention Graph Neural Networks for Session-Based Recommendation,2021
+1010,BPRMF;FISM;FPMC;FOSSIL;SAS;TRN;U2CMS,https://ieeexplore.ieee.org/iel7/6287639/8948470/09207880.pdf,A Hybrid Recommender System for Sequential Recommendation: Combining Similarity Models With Markov Chains,2020
+1011,CASER;SASREC;HGN;STAR;STARC;ANAM;CBS;TSTM;STSTM,https://arxiv.org/pdf/1912.07274,Seq2seq Translation Model for Sequential Recommendation,2020
+1012,TOP;NMF;BPR;FPMC;FCSP;FSP,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203191,CFSH: Factorizing sequential and historical purchase data for basket recommendation,2018
+1013,NARM;SASREC;BERT4REC,https://dl.acm.org/doi/fullHtml/10.1145/3460231.3474275,Black-Box Attacks on Sequential Recommenders via Data-Free Model Extraction,2021
+1014,FMC;FPMC;FPMCLR;LORE;TTR1;TTRN;TTRG,https://ieeexplore.ieee.org/iel7/6287639/8600701/08776588.pdf,Loc2Vec-Based Cluster-Level Transition Behavior Mining for Successive POI Recommendation,2019
+1016,FMC;ME;NS;HS;POI2VEC;FPMC;PRME;CWARP,https://personal.ntu.edu.sg/boan/papers/AAAI17_Visitor.pdf,POI2Vec: Geographical Latent Representation for Predicting Future Visitors,2017
+1017,USERKNN;LSTM;BILSTM;BERT;PLANBERT,https://ojs.aaai.org/index.php/AAAI/article/view/17751/17558,Degree Planning with PLAN-BERT: Multi-Semester Recommendation Using Future Courses of Interest,2021
+1018,POPRANK;MC;BPR;GRU;FOSSIL;NMF;SMFS2,https://www.aaai.org/ocs/index.php/FLAIRS/FLAIRS19/paper/viewPDFInterstitial/18201/17321,Modeling the Dynamics of User Preferences for Sequence-Aware Recommendation Using Hidden Markov Models,2019
+1019,BPR;FPMC;STELLAR;RNN;TLSTM;ASLSTM;SASREC;TIMESAN,https://people.eng.unimelb.edu.au/jianzhongq/papers/IJCNN2020_TimeSAN.pdf,TimeSAN: A Time-Modulated Self-Attentive Network for Next Point-of-Interest Recommendation,2020
+1020,POP;MFBPR;SASREC;BERT4REC,https://arxiv.org/pdf/2207.02643,Effective and Efficient Training for Sequential Recommendation using Recency Sampling,2022
+1021,GRU4REC;NARM;STAMP;SRGNN,https://arxiv.org/pdf/2204.11091,On-Device Next-Item Recommendation with Self-Supervised Knowledge Distillation,2022
+1022,POP;NCF;GRU4REC;HPMN;BERT4REC;GMLP;MLPMIXER;MOIMIXER,https://arxiv.org/pdf/2108.07505,MOI-Mixer: Improving MLP-Mixer with Multi Order Interactions in Sequential Recommendation,2021
+1023,GRU;SASREC;BERT;KATREC,https://arxiv.org/pdf/2012.03323,KATRec: Knowledge Aware aTtentive Sequential Recommendations,2021
+1024,MOSTPOP;S3REC;GREC;BERT4REC;GRU4REC;HGN;SSI,https://arxiv.org/pdf/2106.14031,Improving Sequential Recommendation Consistency with Self-Supervised Imitation,2021
+1025,BASIC;MATE;TIMELSTM,https://nos.netease.com/mg-file/mg/neteasegamecampus/art_works/20200812/202008122020238606.pdf,Deep Behavior Tracing with Multi-level Temporality Preserved Embedding,2020
+1026,BPR;LSTM;CSAN;MELU;METACSL;METACSDNN;SML;METACF;METACSR,https://arxiv.org/pdf/2110.09083,Learning to Learn a Cold-start Sequential Recommender,2021
+1027,MF;FPMC;PRME;LBPRN;CASER;WIME,https://arxiv.org/pdf/1909.12756,On-device User Intent Prediction for Context and Sequence Aware Recommendation,2019
+1028,POP;SPOP;FOMC;BERT4REC;GRU4REC,https://arxiv.org/pdf/2105.10868,CITIES: Contextual Inference of Tail-item Embeddings for Sequential Recommendation,2021
+1029,GRU4REC;CASER;SASREC;SRGNN;HGN;FPMC;FOSSIL;CSRM;ISSR,https://arxiv.org/pdf/2004.12118,Inter-sequence Enhanced Framework for Personalized Sequential Recommendation,2020
+1033,POP;BPR;FMC;FPMC;TRANSREC;GRU4REC;STAMP;GRU4REC;CASER;SASREC;SSEPT,https://arxiv.org/pdf/1908.05435,Temporal Collaborative Ranking Via Personalized Transformer,2019
+1034,NCF;COUPLEDCF;FPMC;RUM;GRU4EC;CASER;MCN,https://ieeexplore.ieee.org/iel7/6287639/8600701/08937546.pdf,Multi-Level Coupling Network for Non-IID Sequential Recommendation,2019
+1035,BPR;DEEPFM;GRU4REC;SRGNN;UBERGNN,https://arxiv.org/pdf/2008.02546,UBER-GNN: A User-Based Embeddings Recommendation based on Graph Neural Networks,2020
+1036,TOP;UTOP;TAXI;MF;RNN;GRU;LSTM;HSTLSTM;STGN;STGCN;LSTPM;STODPPA,https://dl.acm.org/doi/pdf/10.1145/3437963.3441797,Origin-Aware Next Destination Recommendation with Personalized Preference Attention,2021
+1037,POP;ITEMKNN;BPRMF;FPMC;GRU4REC;STAMP;ATEM;NEXTITNET;SRGNN;HMGL;HL,https://www.researchgate.net/profile/Shoujin-Wang/publication/353750700_Exploiting_intra-_and_inter-session_dependencies_for_session-based_recommendations/links/620f3474eb735c508add7806/Exploiting-intra-and-inter-session-dependencies-for-session-based-recommendations.pdf,Exploiting intra- and inter-session dependencies for session-based recommendations,2022
+1038,BPR;ROTOR;FPMC;FOSSIL;TRANSREC,https://csse.szu.edu.cn/staff/panwk/publications/Journal-FCS-22-TransRecPlusPlus-SupplementaryMaterials.pdf,TransRec++: Translation-based Sequential Recommendation with Heterogeneous Feedback,2022
+1039,BPRMF;FPMC;GRU4EC;CASER;SASREC;BERT4REC;GCSAN;HGN;BERD,https://www.ijcai.org/proceedings/2021/0218.pdf,Does Every Data Instance Matter? Enhancing Sequential Recommendation by Eliminating Unreliable Data,2021
+1040,MFT;MM;MFC;SHM;NLPMM;TSB;UDR,https://ieeexplore.ieee.org/iel7/6287639/8600701/08737940.pdf,Personalized Check-In Prediction Model Based On User’s Dissimilarity and Regression,2019
+1041,MOSTPOP;GRU4REC;CASER;COSREC;SASREC;NEXTITNET;MIAR,https://www.researchgate.net/profile/Yixin-Zhang-27/publication/352142357_Multi-interest_Aware_Recommendation_in_CrowdIntell_Network/links/61c18ae3fd2cbd7200b69f4c/Multi-interest-Aware-Recommendation-in-CrowdIntell-Network.pdf,Multi-interest Aware Recommendation in CrowdIntell Network,2020
+1042,POP;GRU4REC;SASREC;METAPATH2VEC;DGREC;SOCIALGAT;SOCIALTRANS,https://arxiv.org/pdf/2005.04361,SocialTrans: A Deep Sequential Model with Social Information for Web-Scale Recommendation Systems,2020
+1044,BPR;BPRKNN;GRU4REC;PCOFACTOR;PGRAPHAE;CAASR,https://arxiv.org/pdf/1910.07792,Cascading: Association Augmented Sequential Recommendation,2019
+1045,TOP;BPR;FOSSIL;CASER;FPMC;HRM;GRU4REC;NARM;SHAN;MEANS;CAN,https://dro.deakin.edu.au/ndownloader/files/36848148,A Convolutional Attention Network for Unifying General and Sequential Recommenders,2022
+1046,AR;SR;STAN;SLIST;NARM;STAMP;SRGNN;NISER;GCEGNN;SWALK,https://arxiv.org/pdf/2201.01091,S-Walk: Accurate and Scalable Session-based Recommendation with Random Walks,2022
+1047,LR;GBDT;FM;FFM;AFM;FNN;DEEPFM;IPNN;PIN;XDEEPFM;FGCNN;RIM,https://arxiv.org/pdf/2108.05252,Retrieval & Interaction Machine for Tabular Data Prediction,2021
+1048,PRO2VEC;FPMC;GRU4REC;HGRU4REC;AKOM;POP,https://www.sciencedirect.com/science/article/pii/S0957417421001068,A sequence-based and context modelling framework for recommendation,2021
+1049,BPR;MC;ITEMKNN;MOSTPOP;SSEPT;BERT4REC,https://arxiv.org/pdf/2205.05209,Bayesian Prior Learning via Neural Networks for Next-item Recommendation,2022
+1050,POP;ITEMKNN;PROD2VEC;DOC2VEC;BASTEXT,https://arxiv.org/pdf/1811.01166,Learning Representations from Product Titles for Modeling Shopping Transactions,2021
+1051,SPOP;SKNN;GRU4REC;NARM;STAMP;BERT4REC;SRGNN;GCEGNN;DHCN;RIGNN,https://arxiv.org/pdf/2201.12532,Modeling Complex Dependencies for Session-based Recommendations via Graph Neural Networks,2022
+1052,RNN;ATRNN;LSTM;ATSTLTM;PDPNN,https://link.springer.com/chapter/10.1007/978-3-030-50433-5_4,PDPNN: Modeling User Personal Dynamic Preference for Next Point-of-Interest Recommendation,2020
+1053,GRU4REC;CASER;SASREC;BERT4REC;S3REC;CL4SREC;COSREC;SRMA,https://openreview.net/pdf?id=4YOOO4ZNKM,SELF-SUPERVISED LEARNING FOR SEQUENTIAL RECOMMENDATION WITH MODEL AUGMENTATION,2021
+1054,FM;DFM;QR;DHE;MD;LIGHTFM;XLIGHTFM,http://staff.ustc.edu.cn/~cheneh/paper_pdf/2021/Gangwei-Jiang-SIGIR.pdf,xLightFM: Extremely Memory-Efficient Factorization Machine,2021
+1055,KTTRANSFORMERS;POP;BPR;ITEMCF;USERCF;FPMC;DNN;ATT4REC;DKN;GRU4REC;LSTM4REC,https://link.springer.com/article/10.1007/s10660-022-09541-z,Profiling temporal learning interests with time-aware transformers and knowledge graph for online course recommendation,2022
+1056,VSKNN;SML;GRU4REC;SKNN;POP;MC,https://arxiv.org/pdf/2101.02655,METRIC LEARNING FOR SESSION-BASED RECOMMENDATIONS,2021
+1057,BERT4REC;VSTAN;VSKNN,https://www.sciencedirect.com/science/article/pii/S002002552200768X,"Sequential recommendation: A study on transformers, nearest neighbors and sampled metrics",2022
+1058,MFLM;GRU4REC;TIMELSTM;STRNN;STGN;STAN;SASREC;SSEPT;TISASREC;GEOSAN;STARHIT,https://arxiv.org/pdf/2209.01559,Hierarchical Transformer with Spatio-Temporal Context Aggregation for Next Point-of-Interest Recommendation,2022
+1059,MF;FPMC;LSTM;STRNN;DEEPMOVE;GCDAN,https://dl.acm.org/doi/pdf/10.1145/3488560.3498400,Predicting Human Mobility via Graph Convolutional Dual-attentive Networks,2022
+1060,NEUMF;BPRMF;FPMC;GRU4REC;CASER;STAMP;SASREC;BERT4REC;HGN;AM2E,https://www.emerald.com/insight/content/doi/10.1108/IJCS-03-2021-0011/full/html,Behavioral data assists decisions: exploring the mental representation of digital-self,2021
+1061,POP;BPR;FISM;FPMC;FOSSIL;SFMSM,https://csse.szu.edu.cn/staff/panwk/publications/Conference-BigComp-20-S-FMSM.pdf,Sequence-Aware Factored Mixed Similarity Model for Next-Item Recommendation,2020
+1062,POP;NCF;FPMC;GRU4REC;CASER;SASREC;BERT4REC;MATCH4REC,https://arxiv.org/pdf/2008.13345,Match4Rec: A Novel Recommendation Algorithm Based on Bidirectional Encoder Representation with the Matching Task,2020
+1063,FOSSIL;BASEICGRU;SESSIONRNN;TIMELSTM;SV1;SV3;ALIGRU,https://www.hindawi.com/journals/complexity/2020/6136095/,Attention with Long-Term Interval-Based Deep Sequential Learning for Recommendation,2020
+1064,TRANSFM;GRU4REC;SASREC;BERT4REC;EXTENDEDFM,https://ieeexplore.ieee.org/iel7/6287639/8948470/09018047.pdf,Extended Factorization Machines for Sequential Recommendation,2020
+1066,POP;BPRMF;FPMC;NCF;GRU4REC;CASER;RCNN;SASREC;LSTEM,https://link.springer.com/article/10.1007/s11280-022-01056-9,Long short-term enhanced memory for sequential recommendation,2022
+1067,LIBFM;PER;WIDEDEEP;CAFSE;AKUPM;CKE;DKN;RIPLLENET;MKR;KGCN;DISL,https://www.researchgate.net/profile/Qunwei-Li/publication/351026425_Learning_Dynamic_User_Interest_Sequence_in_Knowledge_Graphs_for_Click-Through_Rate_Prediction/links/6094f5ce299bf1ad8d81d472/Learning-Dynamic-User-Interest-Sequence-in-Knowledge-Graphs-for-Click-Through-Rate-Prediction.pdf,Learning Dynamic User Interest Sequence in Knowledge Graphs for Click-Through Rate Prediction,2021
+1068,POP;BPR;FMC;FPMC;GRU4REC;HIRNN,https://ieeexplore.ieee.org/iel7/6287639/9312710/09430555.pdf,Recommendation System With Hierarchical Recurrent Neural Network for Long-Term Time Series,2021
+1070,GCEGNN;TAGNN;NARM;EOPA;NISER;SRGNN;SRSAN,https://www.mdpi.com/2076-3417/12/9/4256/htm,Logit Averaging: Capturing Global Relation for Session-Based Recommendation,2022
+1071,BPRMF;TRANSREC;FPMC;GRU4REC;NARM;SASREC;LINN;NLRE;BECR;BECR4P,https://web.archive.org/web/20220419060204id_/https://dl.acm.org/doi/pdf/10.1145/3486622.3493927,Probabilistic Embedding for Collaborative Reasoning,2021
+1073,POP;FMC;TRANSREC;CASER;SASREC;BERT4REC;CARNN;SLAR;SMARTSENSE,https://arxiv.org/pdf/2208.06089.pdf,Accurate Action Recommendation for Smart Home via Two-Level Encoders and Commonsense Knowledge,2022
+1074,POP;ITEMKNN;GRU4REC;NARM;STAMP;SRGNN;HGNNA,https://iopscience.iop.org/article/10.1088/1742-6596/2082/1/012007/pdf,Hypergraph Neural Networks with Attention Mechanism for Session-based Recommendation,2021
+1075,BPRMF;FPMC;GRU4REC;SRGNN;SRHETGNN,https://arxiv.org/pdf/2108.05641.pdf,Session-based Recommendation with Heterogeneous Graph Neural Network,2021
+1076,BPR;CDAE;CDASR;GRU4REC;NARM;STAMP;SASREC,https://dl.acm.org/doi/pdf/10.1145/3485447.3512095,Generative Session-based Recommendation,2022
+1078,POP;NCF;GRU4REC;SASREC;BERT4REC;GAT4REC,https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9869668,A Self-Attention Mask Learning-Based Recommendation System,2022
+1079,GRU;CASER;NITNET;SASREC,https://arxiv.org/pdf/2111.03474.pdf,Supervised Advantage Actor-Critic for Recommender Systems,2021
+1080,HPF;NMF;GEOSAGE;LCARS;NEUMF;PACE;DEEPCONN;TCENR,https://www.hindawi.com/journals/complexity/2019/2926749/,A Joint Deep Recommendation Framework for Location-Based Social Networks,2019
+1081,CTDNE;LSTM;TIMELSTM;RRN;LATENTCROSS;DEEPCOEVOLVE;JODIE;DGCF;DSPP,https://arxiv.org/pdf/2107.03573,Deep Structural Point Process for Learning Temporal Interaction Networks,2021
+1082,HRNN;GRU4REC;TCN;POP;EMBKNN;RANDOM;ZESREC,https://arxiv.org/pdf/2105.08318,ZERO-SHOT RECOMMENDER SYSTEMS,2021
+1083,GRU4REC;SASREC;BERT4REC;SRGNN;HGN;HYPERREC;H2SEQREC,https://arxiv.org/pdf/2108.08134,Hyperbolic Hypergraphs for Sequential Recommendation,2021
+1084,GRU4REC;CASER;SASREC;BERT4REC;HGN;FDSA;S3REC;MMINFOREC,https://arxiv.org/pdf/2109.00368,Memory Augmented Multi-Instance Contrastive Predictive Coding for Sequential Recommendation,2021
+1085,LSTUR;DAN;NRMS,https://arxiv.org/pdf/2108.08984,Is News Recommendation a Sequential Recommendation Task?,2021
+1086,HA;LSTM;BRR;SVR;RF;GBDT;MLP;APAMT;DAPAMT,https://arxiv.org/pdf/2103.13565,Jointly Modeling Heterogeneous Student Behaviors and Interactions Among Multiple Prediction Tasks,2021
+1087,WIDEDEEP;PNN;DEEPFM;DIN;DIEN;DSIN;AUTOINT;DFN;DMT;DUMN,https://arxiv.org/pdf/2107.05474,Denoising User-aware Memory Network for Recommendation,2012
+1088,POP;BPR;NCF;DIN;GRU4REC;LSTM4REC;CASER;SASREC;MRIF,https://arxiv.org/pdf/2007.07084,MRIF: Multi-resolution Interest Fusion for Recommendation,2020
+1089,SKNN;VSKNN;STAN;VSTAN,https://arxiv.org/pdf/2102.03265,Diversification in Session-based News Recommender Systems,2021
+1090,MOSTPOP;PROD2VEC;MF;BPR;GRU4REC;SARDS,https://arxiv.org/pdf/1902.08495,Sequential Learning over Implicit Feedback for Robust Large-Scale Recommender Systems,2019
+1091,VSKNN;SKNN;GRU;NARM;ABO;STAMP;AR;SR,https://ssc.io/pdf/bol-reco.pdf,Learnings from a Retail Recommendation System on Billions of Interactions at bol.com,2021
+1092,DMFP;SHAN;CASER;ATRANK;CNNPOOLING,https://zheng-kai.com/paper/icdm_2019_a.pdf,DMFP: A Dynamic Multi-Faceted Fine-Grained Preference Model for Recommendation,2019
+1093,POP;ITEMKNN;HRAM;NPA;PGT,https://link.springer.com/chapter/10.1007/978-3-030-47426-3_7,Accurate News Recommendation Coalescing Personal and Global Temporal Preferences,2020
+1094,DNN;DDPG;HRL,https://arxiv.org/pdf/1903.09374,Deep Hierarchical Reinforcement Learning Based Recommendations via Multi-goals Abstraction,2019
+1095,ATTMERGE;GRU;SGRU;HRNN;MCPRN;NTM;RUM;MIMN;HPMN;SUM,https://arxiv.org/pdf/2102.09211,Multi-Interest-Aware User Modeling for Large-Scale Sequential Recommendations,2021
+1096,NFM;DEEPFM;CLUEZERO;PETERREC;CLUE,https://xinxin-me.github.io/papers/ICDM2021.pdf,Learning Transferable User Representations with Sequential Behaviors via Contrastive Pre-training,2021
+1097,FM;WIDEDEEP;AUTOREC;GRU4REC;RRN;IRGAN;SSRM;USERSIM,https://www.cse.msu.edu/~zhaoxi35/paper/www2021usersim.pdf,UserSim: User Simulation via Supervised Generative Adversarial Network,2021
+1098,NMF;BPRMF;FISM;CML;LRML;NEUMF;REDA,https://arxiv.org/pdf/1911.04099,Beyond Similarity: Relation Embedding with Dual Attentions for Item-based Recommendation,2019
+1099,CASER;HGN;GRU4REC;BERT4REC;FDSA;SASREC;S3REC;P5S,https://arxiv.org/pdf/2203.13366,"Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5)",2022
+1103,GRU4REC;CASER;NFM;YOUTUBEDNN,https://bigdata.ustc.edu.cn/paper_pdf/2021/Mingyue-Cheng-SIGIR.pdf,Learning Recommender Systems with Implicit Feedback via Soft Target Enhancement,2021
+1104,LSTM;RRN;HTNE;GRAPREC;DEEPCOEVOLVE;JODIE;IACN,https://arxiv.org/pdf/2103.02866,IACN: Influence-aware and Attention-based Co-evolutionary Network for Recommendation,2021
+1106,CASER;NEXTITNET;SASREC,https://arxiv.org/pdf/2110.07923,Value Penalized Q-Learning for Recommender Systems,2022
+1108,NPA;NAML;LSTUR;NRMS;UNILM;SPEED,https://arxiv.org/pdf/2102.09268,Training Large-Scale News Recommenders with Pretrained Language Models in the Loop,2021
+1109,BBCF;HMM;NN;LSTM,https://www.researchgate.net/profile/Dusan-Sovilj/publication/326217979_Collaborative_Filtering_with_Behavioral_Models/links/5bca16e992851cae21b42a83/Collaborative-Filtering-with-Behavioral-Models.pdf,Collaborative Filtering with Behavioral Models,2018
+1110,BPRMF;GRU4REC;NFM;WIDEDEEP;ACCM;NPA;NRHUB;GNEWSREC;WG4REC,https://air.tsinghua.edu.cn/pdf/WG4Rec-Modeling-Textual-Content-with-Word-Graph-for-News-Recommendation.pdf,WG4Rec: Modeling Textual Content with Word Graph for News Recommendation,2021
+1111,GRU4REC;TLGRU;DIEN;CIN,https://drive.google.com/file/d/1tjKmqSGw7D1F45OgQYeGS4gqFKPnhepJ/view,Core Interest Network for Click-Through Rate Prediction,2021
+1112,MLP;CNN;RNN;BERT;XLNET,https://www.researchgate.net/profile/Xing-Fang-4/publication/348852803_Making_recommendations_using_transfer_learning/links/621ce510b1bace0083a2f8f3/Making-recommendations-using-transfer-learning.pdf,Making recommendations using transfer learning,2021
+1114,ITEMKNN;RP3BETA;SLIM;EASE;ITEMKNNCBF,https://link.springer.com/article/10.1007/s11257-021-09303-w,NFC: a deep and hybrid item-based model for item cold-start recommendation,2021
+1115,POP;MFBPR;GMF;NGCF;IRGAN;AGMF;DAGMFR;DAGMF,https://ecai2020.eu/papers/300_paper.pdf,Directional Adversarial Training for Recommender Systems,2020
+1117,POP;SPOP;GRU4REC;SRGNN;NARM;SESSODENET,https://www.hindawi.com/journals/mpe/2020/9290576/,Nonindependent Session Recommendation Based on Ordinary Differential Equation,2021
+1118,DKN;LSTUR;DMF;CDAE;GRU4REC;SASREC;SRGNN;BERT4REC;D2NN,https://arxiv.org/pdf/2103.08458,Deep Dynamic Neural Network to trade-off between Accuracy and Diversity in a News Recommender System,2021
+1119,BASEDMODEL;IPS;ESAM;MACR;DICE;PDA;CD2AN,https://scholar.archive.org/work/s62ljwheinccznjwi6dwwopnxa/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3531952,Co-training Disentangled Domain Adaptation Network for Leveraging Popularity Bias in Recommenders,2022
+1120,GRU4REC;DDPG;DQN;DDQN;MCPE;DYNAQ;MBCAL,https://arxiv.org/pdf/1911.02248,MBCAL: Sample Efficient and Variance Reduced Reinforcement Learning for Recommender Systems,2020
+1121,SASREC;GRU4REC;CASER,https://www.aaai.org/AAAI22Papers/AAAI-8695.XiaoT.pdf?ref=https://githubhelp.com,Towards Off-Policy Learning for Ranking Policies with Logged Feedback,2022
+1122,YOUTUBEDNN;DIN;DIEN;SASREC;MIMN;UBR4CTR;SAM3P,https://arxiv.org/pdf/2208.04022,Sparse Attentive Memory Network for Click-through Rate Prediction with Long Sequences,2022
+1123,GRU4REC;HRMN;REN;TCN;ORACLE;RANDOM,https://www.aaai.org/AAAI22Papers/AAAI-4855.WangH.pdf,Context Uncertainty in Contextual Bandits with Applications to Recommender Systems,2022
+1124,PMF;CONVMF;ISFMF;BIISFMF,https://arxiv.org/pdf/2105.01541,Apparel Recommender System based on Bilateral image shape features,2021
+1125,FM;NEUMF;GRU4REC;DIN;MMC2SF,https://arxiv.org/pdf/2109.12314,MC2 -SF: Slow-Fast Learning for Mobile-Cloud Collaborative Recommendation,2021
+1126,PMF;CONVMF;ISFMF;DDFMF,https://core.ac.uk/download/pdf/286030597.pdf,Double Deep Features for Apparel Recommendation System,2020
+1127,GRU4REC;CASER;SASREC;HPMN;MIMN;DEEPFM;IPNN;DCN;XDEEPFM;DCNM;DIN;DIEN;AUTOINT,https://ieeexplore.ieee.org/iel7/6287639/9668973/09676597.pdf,PeerRank: Robust Learning to Rank With Peer Loss Over Noisy Labels,2022
+1128,POP;AR;CS;ITEMKNN;SKNN;VSKNN;VAECF;GRU4REC;BERT4REC;PANAP;LSTM;PLSTM,https://arxiv.org/pdf/2111.11296,Improving Next-Application Prediction with Deep Personalized-Attention Neural Network,2021
+1129,WDL;DEEPFM;DIN;DIEN;MIAN;DINH,https://arxiv.org/pdf/2202.08959,Deep Interest Highlight Network for Click-Through Rate Prediction in Trigger-Induced Recommendation,2022
+1130,DASL;PINET;MINET;DDTCDR;ONET;DIN;WIDEDEEP,https://arxiv.org/pdf/2106.02768,Dual Attentive Sequential Learning for Cross-Domain Click-Through Rate Prediction,2021
+1131,BPR;GRU4REC;CASER;GRU4REC;WE3CN;DNA;DHAN,https://arxiv.org/pdf/2112.10085,D-HAN: Dynamic News Recommendation with Hierarchical Attention Network,2021
+1132,PMF;WAVENET;LSTMNET;POOLNET;STRUCTRL;IMUP,https://arxiv.org/pdf/2203.06550,Reinforced Imitative Graph Learning for Mobile User Profiling,2022
+1133,NPA;NRMS;LSTUR;NAML,https://arxiv.org/pdf/2112.14370.pdf,On the Overlooked Significance of Underutilized Contextual Features in Recent News Recommendation Models,2021
+1134,NCF;GRU4REC;SASREC;TISASREC;BERT4EC;RESET,https://scholar.archive.org/work/pxpofmkxkrd5zojcwp2ssayhge/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3532054,RESETBERT4Rec: A Pre-training Model Integrating Time And User Historical Behavior for Sequential Recommendation,2022
+1136,BPR;NCF;REPOLIKE;RNN;DGREC;SSDREC,https://arxiv.org/pdf/2103.06109,Session-based Social and Dependency-aware Software Recommendation,2022
+1137,LR;FM;WIDEDEEP;DCN;YOUTUBEDNN;AFM;DEEPFM;AUTOINT;PNN;GRUNET;LSTMNET;DIN;DIEN;DSIN;KAST,https://arxiv.org/pdf/2210.03624,KAST: Knowledge Aware Adaptive Session Multi-Topic Network for Click-Through Rate Prediction,2022
+1138,GRU4REC;BERT4REC;PINTEXT2;TISASREC;COMIREC;MIP,https://openreview.net/pdf?id=usa87QW3_r9,EVERYONE’S PREFERENCE CHANGES DIFFERENTLY: WEIGHTED MULTI-INTEREST RETRIEVAL MODEL,2022
+1139,GRU4REC;NARM;STAMP;SRGNN;TEACHER;ODREC,https://arxiv.org/pdf/2209.13422,Efficient On-Device Session-Based Recommendation,2022
+1140,GRU4REC;CASER;SASREC;SHAN;SDM;DMAN;SRLIN,https://www.hindawi.com/journals/wcmc/2022/4612169/,Toward Sequential Recommendation Model for Long-Term Interest Memory and Nearest Neighbor Influence,2022
+1141,MOSTPOP;TMF;FUP;FPMC;GRU4REC;ITOURSPOT,https://www.tandfonline.com/doi/pdf/10.1080/17538947.2022.2122611,iTourSPOT: a context-aware framework for next POI recommendation in location-based social networks,2022
+1142,FPMC;GRU4REC;NARM;STAMP;SRGNN;CSRM;FGNN;GCSAN;GCEGNN;TASREC;S2DHCN;RESTC,https://arxiv.org/pdf/2209.11461,Spatio-Temporal Contrastive Learning Enhanced GNNs for Session-based Recommendation,2022
+1143,GRU4REC;CSRM;SRIEM;SRGNN;NISER;SGNNHN;SRGCL,https://arxiv.org/pdf/2209.10807,SR-GCL: Session-Based Recommendation with Global Context Enhanced Augmentation in Contrastive Learning,2022
+1144,POP;ITEMKNN;SVD;BPR;NEUMF;GCMC;DEEPFM;PDRS,https://arxiv.org/pdf/2209.11471,Modeling and Leveraging Prerequisite Context in Recommendation,2022
+1145,POP;BPRMF;ITEMKNN;GRU4REC;SRGNN;BERT4REC;CL4SREC;NCF;CONET;DDTCDR;DAREC;DATMDI;PINET;PSJNET;DASL;DAGCN;DDGHM,https://arxiv.org/pdf/2209.10163,DDGHM: Dual Dynamic Graph with Hybrid Metric Training for Cross-Domain Sequential Recommendation,2022
+1146,NCF;DIN;CASER;GRU4REC;DIEN;SASREC;SLIREC;DCN,https://arxiv.org/pdf/2209.08446,Dual Contrastive Network for Sequential Recommendation with User and Item-Centric Perspectives,2022
+1147,BPR;GRU4REC;CASER;MARANK;SASREC;HGN;TISASREC;SATRAC,https://downloads.hindawi.com/journals/cin/2022/9288902.pdf,Self-Attention Based Time-Rating-Aware Context Recommender System,2022
+1148,CASER;HAM;NARM;HGN;SASREC;RAM,https://arxiv.org/pdf/2209.07997,Recursive Attentive Methods with Reused Item Representations for Sequential Recommendation,2022
+1149,DIN;SASREC;GRU4REC,https://arxiv.org/pdf/2209.05227,MetaNetwork: A Task-agnostic Network Parameters Generation Framework for Improving Device Model Generalization,2022
+1150,BPRMF;ITEMKNN;GRU4REC;SASREC;BERT4REC;SKNN;STAN;NNGPRNN;OVERREC,https://arxiv.org/pdf/2209.03735,Beyond Double Ascent via Recurrent Neural Tangent Kernel in Sequential Recommendation,2022
+1151,KNN;LSTM;GRU4REC,https://link.springer.com/article/10.1007/s12652-022-04375-x,Remembering past and predicting future: a hybrid recurrent neural network based recommender system,2022
+1152,BPRMF;CASER;SASREC;BERT4REC;S3REC;COMIREC;CL4SREC;ICLREC;DUOREC;MMREC,https://peerj.com/articles/cs-1088/,A multi-intent based multi-policy relay contrastive learning for sequential recommendation,2022
+1153,EASE;GRU4REC;ITEMKNN;POP;SR;ITEMKNN,http://ceur-ws.org/Vol-3228/paper1.pdf,Are We Forgetting Something? Correctly Evaluate a Recommender System With an Optimal Training Window,2022
+1154,BPRMF;SVD;DMF;NCF;GRU4REC;STAMP;NCR;TISANCR,https://arxiv.org/pdf/2208.13330,Time-aware Self-Attention Meets Logic Reasoning in Recommender Systems,2022
+1155,FPMC;TRANSREC;GRU4REC;CASER;STGN;AUM;BERT4REC;SASREC;TISASREC;REVAMP,https://arxiv.org/pdf/2208.13775,Modeling Spatial Trajectories using Coarse-Grained Smartphone Logs,2022
+1156,ATTREC;RCF;TISASREC;LSSA;FISM;NAIS;MF;ATTR,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272319,Individualized tourism recommendation based on self-attention,2022
+1157,FPMC;BPR;RNN;GRU;STRNN;SASREC;FPMC;PRME;UTSR,https://ieeexplore.ieee.org/iel7/6287639/9668973/09866057.pdf,Fusing User Preferences and Spatiotemporal Information for Sequential Recommendation,2022
+1158,GRU4REC;STAMP;NCR,https://arxiv.org/pdf/2208.11094,Dynamic Causal Collaborative Filtering,2022
+1159,WIDEDEEP;NEUCF;AFN;MELU;MAMO;S2META;CMML;HML4REC,https://www.sciencedirect.com/science/article/pii/S0950705122008462,HML4Rec: Hierarchical meta-learning for cold-start recommendation in flash sale e-commerce,2022
+1160,PMF;GRAPHREC;GCMC,https://www.researchsquare.com/article/rs-1971133/latest.pdf,Collaborative Filtering Recommendation model Based on Graph Neural Network and Attention Mechanism,2022
+1161,DIN;AGRRANK;GRADTRANSFER;PCGRAD,https://arxiv.org/pdf/2208.09130,Personalizing Intervened Network for Long-tailed Sequential User Behavior Modeling,2022
+1163,BPR;LSTM;CNN;NCF;ATRANK;THACIL;ALPINE;MTIN;CCL4REC,https://arxiv.org/pdf/2208.08024,CCL4Rec: Contrast over Contrastive Learning for Micro-video Recommendation,2022
+1165,POP;SVD;FM;COX;DEEPHIT;CNN;DSSM;GRU4EC;DKN;LSTUR;MFF,https://scholar.archive.org/work/kzlqbty7lzdoppl2qdblaggqu4/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3555373,Personal or General? A Hybrid Strategy with Multi-factors for News Recommendation,2022
+1166,CASER;NEXTITNET;GRU4REC;SASREC;GREC;MELU;METATL;IDNP,https://arxiv.org/pdf/2208.04600,IDNP: Interest Dynamics Modeling using Generative Neural Processes for Sequential Recommendation,2022
+1167,DREAM;IIRNN;NARM;ANAM;SHAN;SASREC;BERT4REC;TISASREC;SURGE;DHCN;TLSREC,https://arxiv.org/pdf/2208.04760,Time Lag Aware Sequential Recommendation,2022
+1168,GRU4REC;CASER;SASREC;CL4SREC;COSEREC;DUOREC;BERT4REC;COSEBERT;CBIT,https://arxiv.org/pdf/2208.03895,Contrastive Learning with Bidirectional Transformers for Sequential Recommendation,2022
+1169,GRU4REC;CASER;SASREC;S3REC;DSSREC;CL4SREC;MMINFOREC;GENISA,https://arxiv.org/pdf/2208.03645,Generating Negative Samples for Sequential Recommendation,2022
+1170,NGCF;LIGHTGCN;SASREC;TISASREC;JODIE;DYREP;TGSREC;LSTSR,https://arxiv.org/pdf/2208.00593,Long Short-Term Preference Modeling for Continuous-Time Sequential Recommendation,2022
+1173,HO;LM;SVM;RF;GBDT;MLP;EERNNA;ATRANK;APAMT;DAPAMT;JMBS;HUBS,https://arxiv.org/pdf/2207.11776,Incorporating Heterogeneous User Behaviors and Social Influences for Predictive Analysis,2022
+1174,DDTCDR;DML;DASL;CCFNET;CDFM;CONET;CMF;EMCDR;SSCDR;CROSSSITCH;MMOE;MMOEWD;DAREC;RECSYSDAN;PDGAN;RECGAN;IPGAN;DAAN;DSAPAL;CDRHA,https://scholar.archive.org/work/6aev536fsvcnvdgr3fhu6c3mlu/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3548776,Adversarial Learning for Cross Domain Recommendations,2022
+1175,FPMC;GRU4REC;SASREC;SRGNN;GCSAN;FGNN;RETAGNN;HGNN,https://arxiv.org/pdf/2207.13262,FACTORIAL USER MODELING WITH HIERARCHICAL GRAPH NEURAL NETWORK FOR ENHANCED SEQUENTIAL RECOMMENDATION,2022
+1176,POP;KSS;GRU4REC;CASER;BERT4REC;PAL,https://arxiv.org/pdf/2208.04708,Towards a General Pre-training Framework for Adaptive Learning in MOOCs,2022
+1177,GRU4REC;GRUSQN;GRUCDARL;CASER;NEXTITNET;SASREC;CP4REC,https://www.researchgate.net/profile/Liu-Zhuang/publication/362028632_CDARL_a_contrastive_discriminator-augmented_reinforcement_learning_framework_for_sequential_recommendations/links/62d53fefa6abd57c6aef56cd/CDARL-a-contrastive-discriminator-augmented-reinforcement-learning-framework-for-sequential-recommendations.pdf,CDARL: a contrastive discriminator-augmented reinforcement learning framework for sequential recommendations,2022
+1178,GRU4REC;BERT4REC;PINTEXT2;TISASREC;COMIREC;MIP,https://arxiv.org/pdf/2207.06652,Every Preference Changes Differently: Neural Multi-Interest Preference Model with Temporal Dynamics for Recommendation,2022
+1179,POP;BPR;STA;TEMN;STLDA;SRGNN;GRU4REC;TRAINOR;STAN;CAPTOR,https://scholar.archive.org/work/5kyofambibgjziun3ipsyk4ujq/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3531949,CAPTOR: A Crowd-Aware Pre-Travel Recommender System for Out-of-Town Users,2022
+1180,DSSM.YOUTUBEDNN;MIND;COMIREC;UMI,https://scholar.archive.org/work/nrh2yqdxnfdg5gq3u7rktqvdne/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3532073,User-Aware Multi-Interest Learning for Candidate Matching in Recommenders,2022
+1181,SVD;WIDEDEEP;DIN;DIEN;DMIN;TIEN;DUMN;DRINK,https://scholar.archive.org/work/omh5w3vutzgzhenq7fjigyjiee/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3531845,Deep Multi-Representational Item Network for CTR Prediction,2022
+1182,GRU4REC;CASER;HPMN;DIN;DIEN;UBR4CTR;IPNN;AUTOINT;XDEEPFM;FGCNN,https://scholar.archive.org/work/d62jrqnmn5ctlpxmyxyacgwksa/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3531762,Neural Statistics for Click-Through Rate Prediction,2022
+1183,GRU4REC;SASREC;DISN;SINS;STRNN;STGN;GEOSAN;STAN;OOPIN,https://chenannie45.github.io/SIGIR22.pdf,When Online Meets Offline: Exploring Periodicity for Travel Destination Prediction,2022
+1184,FPMC;GRU4REC;NARM;SASREC;BERT4REC;LINFORMER;PERFORMER;LINTRANS;SYNTHESIZER;LIGHTSAN;PAUP,https://scholar.archive.org/work/b2eo45jxn5cmhg263ilwps4o7m/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3531800,Progressive Self-Attention Network with Unsymmetrical Positional Encoding for Sequential Recommendation,2022
+1185,GRU4REC;ATRANK;CASER;DIEN;TIEN,https://scholar.archive.org/work/462hk7dbhncnriywsanpdtovae/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3477495.3531846,A New Sequential Prediction Framework with Spatial-temporal Embedding,2022
+1186,POP;ANN;TTIR;GRU4REC;SASREC;HT4REC,https://scholar.archive.org/work/2ajzqeucwjctpi4vggzjigek3a/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3511047.3537667,Hierarchical Transformers for Group-Aware Sequential Recommendation: Application in MOBA Games,2022
+1187,NEXTITNET;NARM;SRGNN;GCSAN;SGNNHN;LESSR;NISER;DHCN;DSAN,https://arxiv.org/pdf/2206.12781.pdf,Efficiently Leveraging Multi-level User Intent for Session-based Recommendation via Atten-Mixer Network,2022
+1188,POP;BPRMFPMC;LIGHTGCN;SRGNN;SASREC;BERT4REC;SATORI,https://scholar.archive.org/work/nfl5dvukdzfvji2oophyj5efga/access/wayback/https://dl.acm.org/doi/pdf/10.1145/3512527.3531390,Sequential Intention-aware Recommender based on User Interaction Graph,2022
+1190,ITEMKNN;BPRMF;NCF;LIGHTGCN;VUIKNN;NCF;CONET;GRU4REC;HGRU4REC;NAIS;TIMELSTM;TGSREC;PINET;PSJNET;DAGCN;TIDAGCN,https://arxiv.org/pdf/2206.08050,Time Interval-enhanced Graph Neural Network for Shared-account Cross-domain Sequential Recommendation,2022
+1191,GRU;CASER;NEXTITNET;SASREC,https://dl.acm.org/doi/pdf/10.1145/3477495.3531714,Rethinking Reinforcement Learning for Recommendation: A Prompt Perspective,2022
+1192,SASREC;BERT4REC;FDSA;S3REC;CCDR;RECGURU;ZESREC;UNISREC,https://arxiv.org/pdf/2206.05941,Towards Universal Sequence Representation Learning for Recommender Systems,2022
+1193,IDREC;IDGRU;IDNEXT;TRANSREC,https://arxiv.org/pdf/2206.06190,TransRec: Learning Transferable Recommendation from Mixture-of-Modality Feedback,2022
+1194,POP;FPMC;GRU4REC;SASREC;BERT4REC;FDSA;ZESREC;S3REC;IDASR,https://arxiv.org/pdf/2206.02323,ID-Agnostic User Behavior Pre-training for Sequential Recommendation,2022
+1195,SRGNN;NARM;GRU4REC,https://www.researchsquare.com/article/rs-1715647/latest.pdf,Disentangling Interest and Conformity for Eliminating Popularity Bias in Session-Based Recommendation,2022
+1196,SSL;SSLPOP;MNS;GTOWER;BIR;XIR,https://arxiv.org/pdf/2205.14859,Cache-Augmented Inbatch Importance Resampling for Training Recommender Retriever,2022
+1198,CASER;GRU4REC;SASREC;BERT4REC;HYBRIDBERT4REC,https://ieeexplore.ieee.org/iel7/6287639/9668973/09780356.pdf,HybridBERT4Rec: A Hybrid (Content-Based Filtering and Collaborative Filtering) Recommender System Based on BERT,2022
+1199,BERT4REC;CL4REC;PPR,https://arxiv.org/pdf/2205.09666,Personalized Prompts for Sequential Recommendation,2022
+1200,FPMC;FOSSIL;GRU4REC;NARM;HGN;SASREC;LIGHTSAN;HME;SRGNN;GCSAN;LESSR;PHGR,https://arxiv.org/pdf/2205.11233,Poincaré Heterogeneous Graph Neural Networks for Sequential Recommendation,2022

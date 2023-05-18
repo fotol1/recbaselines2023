@@ -1,0 +1,106 @@
+experiment:
+  dataset: recbaselines
+  data_config:
+    strategy: dataset
+    strategy: fixed
+    train_path: ../data/recbaselines/train.tsv
+    validation_path: ../data/recbaselines/valid.tsv
+    test_path: ../data/recbaselines/test.tsv
+  top_k: 20
+  evaluation:
+    simple_metrics: [Recall, nDCG, MAP]
+    cutoffs: [10, 20]
+#  gpu: -1
+  models:
+    Random:
+      meta:
+        save_recs: True
+    MostPop: 
+      meta:
+        verbose: True
+        save_recs: True
+    EASER: # from TOIS
+      meta:
+        verbose: True
+        save_recs: True
+        hyper_max_evals: 30
+        hyper_opt_alg: tpe
+      l2_norm: [uniform, 10, 10e7]
+    Slim: #from TOIS
+      meta:
+        hyper_max_evals: 30
+        hyper_opt_alg: tpe
+        verbose: True
+        save_recs: True
+      l1_ratio: [loguniform, -11.512925464970229, 0]
+      alpha: [uniform, 10e-3, 1]
+      neighborhood: [uniform, 5, 1000]
+    RP3beta: #from TOIS
+      meta:
+        hyper_max_evals: 30
+        hyper_opt_alg: tpe
+        verbose: True
+        save_recs: True
+        save_weights: True
+      neighborhood: [uniform, 5, 1000]
+      alpha: [uniform, 0, 2]
+      beta: [uniform, 0, 2]
+      normalize_similarity: [True, False]
+    MultiVAE: # from original paper
+      meta:
+        hyper_max_evals: 30
+        hyper_opt_alg: tpe
+        save_recs: True
+        verbose: True
+        save_weights: True
+      lr: [loguniform, -11.512925464970229, 0] # exploration taken from TOIS
+      epochs: 200
+      batch_size: [64, 128, 256 ]
+      intermediate_dim: 600
+      latent_dim: 200
+      dropout_pkeep: 0.5
+      reg_lambda: [loguniform, -11.512925464970229, 0] # exploration taken from TOIS
+    MF2020: # from original paper
+      meta:
+        hyper_max_evals: 30
+        hyper_opt_alg: tpe
+        verbose: True
+        save_recs: True
+      epochs: 50 # 256 original paper but 50 comes from NeuMF paper
+      factors: [8, 16, 32, 64, 128, 256]
+      lr: [0.001, 0.003, 0.01]
+      reg: [0.001, 0.003, 0.01]
+      m: [4,6,8]
+    NeuMF: #from the original paper + Rendle
+      meta:
+        hyper_max_evals: 30
+        hyper_opt_alg: tpe
+        verbose: True
+        save_recs: True
+        validation_rate: 1
+      mf_factors:  [8, 16, 32, 64, 128, 256]
+      dropout: 0
+      is_mf_train: True
+      is_mlp_train: True
+      batch_size: [64, 128, 256]
+      epochs: 50
+      lr: [0.0001, 0.0005, 0.001, 0.005]
+      m: [4,6,8]
+    BPRMF:
+      meta:
+        hyper_max_evals: 30
+        hyper_opt_alg: tpe
+        save_recs: True
+        save_weights: True
+        verbose: False
+      lr: [0.0005, 0.001, 0.005, 0.01]
+      batch_size: [128, 256, 512]
+      epochs: 50
+      bias_regularization: 0
+      user_regularization: [0.0025, 0.005, 0.01]
+      positive_item_regularization: [0.0025, 0.005, 0.01]
+      negative_item_regularization: [0.00025, 0.0005, 0.001]
+      update_negative_item_factors: True
+      update_users: True
+      update_items: True
+      update_bias: True
